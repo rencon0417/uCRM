@@ -6,8 +6,12 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\InertiaTestController;
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\SeihokozaController;
 
 Route::resource('items', ItemController::class)
+->middleware(['auth', 'verified']);
+
+Route::resource('seihokozas', SeihokozaController::class)
 ->middleware(['auth', 'verified']);
 
 

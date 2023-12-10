@@ -18,6 +18,9 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             ItemSeeder::class,
             SeihokozaSeeder::class,
+
         ]);
+
+        \App\Models\Customer::factory(1000)->create();
     }
 }

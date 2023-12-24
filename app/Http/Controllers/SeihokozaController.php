@@ -20,12 +20,36 @@ class SeihokozaController extends Controller
             'seihokozas' => seihokoza::select('id','subject', 'year', 'form', 'question', 'answer', 'explanation')->get()
         ]);
     }
+    public function souron()
+    {
+        return Inertia::render('Seiho/Souron');
+    }
 
-    /**
+    public function vueTest1()
+    {
+        return Inertia::render('Seiho/VueTest1');
+    }
+
+    public function vueTest2()
+    {
+        return Inertia::render('Seiho/VueTest2');
+    }
+
+    public function vueTest3()
+    {
+        return Inertia::render('Seiho/VueTest3');
+    }
+
+    public function vueTest4()
+    {
+        return Inertia::render('Seiho/VueTest4');
+    }
+
+    /*4
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
-     */
+4    */
     public function create()
     {
         //
@@ -86,4 +110,6 @@ class SeihokozaController extends Controller
     {
         //
     }
+
+
 }

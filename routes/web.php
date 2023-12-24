@@ -25,6 +25,13 @@ Route::resource('purchases', PurchaseController::class)
 Route::resource('seihokozas', SeihokozaController::class)
 ->middleware(['auth', 'verified']);
 
+Route::get('souron', [SeihokozaController::class, 'souron'])->name('souron');
+
+Route::get('vueTest1', [SeihokozaController::class, 'vueTest1'])->name('vueTest1');
+Route::get('vueTest2', [SeihokozaController::class, 'vueTest2'])->name('vueTest2');
+Route::get('vueTest3', [SeihokozaController::class, 'vueTest3'])->name('vueTest3');
+Route::get('vueTest4', [SeihokozaController::class, 'vueTest4'])->name('vueTest4');
+
 
 Route::get('/inertia-test', function () {
     return Inertia::render('InertiaTest');

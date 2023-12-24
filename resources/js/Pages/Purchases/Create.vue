@@ -116,7 +116,7 @@ const setCustomerId = (id) => {
                                                 <td class="border-b-2 border-gray-200 px-4 py-3">{{ item.price }}</td>
                                                 <td class="border-b-2 border-gray-200 px-4 py-3">
                                                     <select name="quantity" v-model="item.quantity">
-                        1                               <option v-for="q in quantity" :value="q">{{ q }}</option>
+                        1                               <option v-for="q in quantity" :value="q" :key="q">{{ q }}</option>
                                                     </select>
                                                 </td>
                                                 <td class="border-b-2 border-gray-200 px-4 py-3">{{ item.price * item.quantity }}</td>

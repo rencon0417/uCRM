@@ -56,25 +56,25 @@ const searchQuestion = () => {
         <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">生命保険総論</h1>
         </div>
         <div class="lg:w-2/3 w-full mx-auto overflow-auto">
-        <table class="w-full text-left whitespace-no-wrap">
+        <table class="w-full text-center whitespace-no-wrap">
             <tbody>
             <tr>
-                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2023年度</th>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <th class="border-2 border-gray-200 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2023年度</th>
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームA</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームB</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームC</Link>
@@ -83,22 +83,22 @@ const searchQuestion = () => {
                 </td>
             </tr>
             <tr>
-                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2022年度</th>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <th class="border-2 border-gray-200 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2022年度</th>
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームA</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームB</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームC</Link>
@@ -107,22 +107,22 @@ const searchQuestion = () => {
                 </td>
             </tr>
             <tr>
-                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2021年度</th>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <th class="border-2 border-gray-200 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2021年度</th>
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームA</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームB</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームC</Link>
@@ -131,22 +131,22 @@ const searchQuestion = () => {
                 </td>
             </tr>
             <tr>
-                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2020年度</th>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <th class="border-2 border-gray-200 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2020年度</th>
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームA</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームB</Link>
                     </button>
                     </button>
                 </td>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 py-3">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームC</Link>
@@ -174,7 +174,7 @@ const searchQuestion = () => {
             <tbody>
             <tr>
                 <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2023年度</th>
-                <td class="border-2 border-gray-200 px-4 py-3">
+                <td class="border-2 border-gray-200 px-2 py-2">
                     <button>
                         <button>
                         <Link :href="route('tests.souron2023a')">フォームA</Link>

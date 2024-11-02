@@ -12,6 +12,10 @@ use App\Http\Controllers\AnalysisController;
 use App\Http\Controllers\SeihokozaController;
 use App\Http\Controllers\SeihoQuizController;
 
+Route::get('/dashboard', function () {
+    return Inertia::render('Dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
 // 生保講座問題部分
 Route::get('seihoquiz', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
 Route::post('seihomondai', [SeihoQuizController::class, 'search'])->name('seihoquiz.search');

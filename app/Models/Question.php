@@ -14,6 +14,9 @@ class Question extends Model
     use HasFactory;
 
     protected $fillable = [
+        'subject_id',
+        'year_id',
+        'form_id',
         'question_number',
         'answer',
         'explanation',
@@ -34,8 +37,4 @@ class Question extends Model
         return $this->belongsTo(Form::class);
     }
 
-    public function choices()
-    {
-        return $this->hasMany(Choice::class);
-    }
 }

@@ -10,7 +10,7 @@ class Year extends Model
     use HasFactory;
 
     protected $fillable = [
-        'academic_year',
+        'year',
     ];
 
     public function quetions()

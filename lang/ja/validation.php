@@ -165,7 +165,10 @@ return [
         'postcode' => '郵便番号',
         'address' => '住所',
         'birthday' => '誕生日',
-        'gender' => '性別'
+        'gender' => '性別',
+        'question_number' => '問題番号',
+        'answer' => '解答',
+        'explanation' => '解説'
     ],
 
 ];

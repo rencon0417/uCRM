@@ -13,7 +13,7 @@ class StoreseihokozaRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,9 @@ class StoreseihokozaRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'question_number' => ['required', 'numeric'],
+            'answer' => ['required'],
+            'explanation' => ['required'],
         ];
     }
 }

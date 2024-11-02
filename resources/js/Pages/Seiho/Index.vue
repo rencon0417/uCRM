@@ -1,5 +1,6 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+
 import { Head, Link } from '@inertiajs/vue3';
 
 defineProps({
@@ -9,196 +10,201 @@ defineProps({
 </script>
 
 <template>
-    <Head title="生命保険講座" />
+    <Head title="テスト" />
     <AuthenticatedLayout>
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                生命保険講座
+                テスト
             </h2>
         </template>
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">生命保険講座 過去問解説</h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">生命保険講座の過去問解説サイトです。</p>
+
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="container px-5 pt-10 mx-auto">
+                    <div class="flex flex-wrap w-full mb-10 flex-col items-center text-center">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">テストコード一覧</h1>
+                    </div>
+                    <div class="flex flex-wrap -m-4 mb-6">
+                    <!-- 生命保険総論 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <Link :href="route('souron')">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">ポートフォリオ</h2>
+                        <p class="leading-relaxed text-base">ポートフォリオの作成</p>
+                        </div>
+                    </Link>
+                    </div>
+
+
+                    <!-- 生命保険計理 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険計理</h2>
+                        <p class="leading-relaxed text-base">生命保険計理の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 危険選択 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">危険選択</h2>
+                        <p class="leading-relaxed text-base">危険選択の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 約款と法律 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">約款と法律</h2>
+                        <p class="leading-relaxed text-base">約款と法律の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 生命保険会計 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険会計</h2>
+                        <p class="leading-relaxed text-base">生命保険会計の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 生命保険と営業 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険と営業</h2>
+                        <p class="leading-relaxed text-base">生命保険と営業の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 生命保険と税法 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険と税法</h2>
+                        <p class="leading-relaxed text-base">生命保険と税法の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 資産運用 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">資産運用</h2>
+                        <p class="leading-relaxed text-base">資産運用の過去問解説</p>
+                        </div>
+                    </div>
+
+                    <!-- 生保講座過去問解説ホーム画面 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <Link :href="route('seihoquiz.index')">
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">ホーム画面</h2>
+                        <p class="leading-relaxed text-base">問題を選択する画面です。</p>
+                        </div>
+                        </Link>
+                    </div>
+
+                    <!-- vueテスト2 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <!-- <Link :href="route('vueTest2')"> -->
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">vueテスト2</h2>
+                        <p class="leading-relaxed text-base">vue.jsの練習ページです。</p>
+                        </div>
+                        <!-- </Link> -->
+                    </div>
+
+                    <!-- vueテスト3 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <!-- <Link :href="route('seihoquiz.search')"> -->
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">問題解答画面</h2>
+                        <p class="leading-relaxed text-base">問題を解答する画面です。</p>
+                        </div>
+                        <!-- </Link> -->
+                    </div>
+
+                    <!-- vueテスト4 -->
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <!-- <Link :href="route('vueTest4')"> -->
+                        <div class="border border-gray-200 p-6 rounded-lg">
+                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">vueテスト4</h2>
+                        <p class="leading-relaxed text-base">vue.jsの練習ページです。</p>
+                        </div>
+                        <!-- </Link> -->
+                    </div>
+                    </div>
+                </div>
+                <!-- 問題追加ボタン -->
+                <div class=" w-full">
+                    <Link as="button" :href="route('seihokozas.create')" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 mb-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">問題追加</Link>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="flex flex-wrap -m-4">
-
-      <!-- 生命保険総論 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <Link :href="route('souron')">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
-
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険総論</h2>
-          <p class="leading-relaxed text-base">生命保険総論の過去問解説</p>
-        </div>
-     </Link>
-      </div>
-
-
-      <!-- 生命保険計理 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険計理</h2>
-          <p class="leading-relaxed text-base">生命保険計理の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- 危険選択 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">危険選択</h2>
-          <p class="leading-relaxed text-base">危険選択の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- 約款と法律 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">約款と法律</h2>
-          <p class="leading-relaxed text-base">約款と法律の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- 生命保険会計 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険会計</h2>
-          <p class="leading-relaxed text-base">生命保険会計の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- 生命保険と営業 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険と営業</h2>
-          <p class="leading-relaxed text-base">生命保険と営業の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- 生命保険と税法 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">生命保険と税法</h2>
-          <p class="leading-relaxed text-base">生命保険と税法の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- 資産運用 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">資産運用</h2>
-          <p class="leading-relaxed text-base">資産運用の過去問解説</p>
-        </div>
-      </div>
-
-      <!-- vueテスト1 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <Link :href="route('vueTest1')">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">vueテスト1</h2>
-          <p class="leading-relaxed text-base">vue.jsの練習ページです。</p>
-        </div>
-        </Link>
-      </div>
-
-      <!-- vueテスト2 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <Link :href="route('vueTest2')">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">vueテスト2</h2>
-          <p class="leading-relaxed text-base">vue.jsの練習ページです。</p>
-        </div>
-        </Link>
-      </div>
-
-      <!-- vueテスト3 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <Link :href="route('vueTest3')">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">vueテスト3</h2>
-          <p class="leading-relaxed text-base">vue.jsの練習ページです。</p>
-        </div>
-        </Link>
-      </div>
-
-      <!-- vueテスト4 -->
-      <div class="xl:w-1/4 md:w-1/2 p-4">
-        <Link :href="route('vueTest4')">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">vueテスト4</h2>
-          <p class="leading-relaxed text-base">vue.jsの練習ページです。</p>
-        </div>
-        </Link>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">

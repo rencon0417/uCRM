@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class YearSeeder extends Seeder
+class FormSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,12 +15,10 @@ class YearSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('years')->insert([
-            ['year' => '2022'],
-            ['year' => '2021'],
-            ['year' => '2020'],
-            ['year' => '2019'],
-            ['year' => '2018'],
+        DB::table('forms')->insert([
+            ['form' => 'A'],
+            ['form' => 'B'],
+            ['form' => 'C'],
         ]);
     }
 }

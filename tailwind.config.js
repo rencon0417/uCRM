@@ -12,7 +12,34 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
+                // poppins: ['Poppins', 'sans-serif'],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                body: "#050505",
+                "selected-text": "#A3A3FF",
+                theme: "#5c318c",
+                secondary: "#9191A4",
+                badge: "#3F3F51",
+                inputBorder: "#565666",
+                input: "#2A2A33",
+                brown: {
+                  50: '#fdf8f6',
+                  100: '#f2e8e5',
+                  200: '#eaddd7',
+                  300: '#e0cec7',
+                  400: '#d2bab0',
+                  500: '#bfa094',
+                  600: '#a18072',
+                  700: '#977669',
+                  800: '#4e0c00',
+                  900: '#43302b',
+                },
+                primary: {
+                    100: '#ebf8ff',
+                    300: '#90cdf4',
+                    500: '#4299e1',
+                },
             },
         },
     },

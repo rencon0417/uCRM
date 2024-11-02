@@ -11,7 +11,7 @@ class Subject extends Model
     use HasFactory;
 
     protected $fillable = [
-        'subject_name',
+        'subject',
     ];
 
     public function quetions()

@@ -10,7 +10,7 @@ class Form extends Model
     use HasFactory;
 
     protected $fillable = [
-        'form_name',
+        'form',
     ];
 
     public function quetions()

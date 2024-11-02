@@ -12,13 +12,14 @@ const searchQuestion = () => {
 </script>
 
 <template>
-<Head title="生命保険講座過去問解説サイト" />
-
+<Head title="生命保険講座過去問解説サイト">
+    <link rel="icon" href="/images/logo.png" />
+</Head>
     <!-- ナビゲーションバー -->
     <header class="py-6">
         <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
             <div class="text-xl font-bold">
-                <Link :href="route('seihoquiz.index')">生命保険講座.com</Link>
+                <Link :href="route('tests.index')">生命保険講座.com</Link>
             </div>
             <div class="space-x-12 hidden md:flex items-center">
                 <a href="#exam8" class="hover:text-selected-text transition-all duration-300">8月試験</a>
@@ -44,13 +45,240 @@ const searchQuestion = () => {
                     過去問解説 <br />
                     サイト
                 </h1>
-                <button class="px-6 py-4 bg-purple-400 font-bold rounded-lg hover:bg-purple-600 transition-all duration-300 mt-10">
-                    <i class="fa-solid fa-rocket mr-1"></i>
-                    <span>もっと見る</span>
-                </button>
             </div>
         </div>
     </div>
+
+    <!-- 生命保険総論 -->
+    <section class="text-gray-600 body-font">
+    <div class="container px-5 py-6 mx-auto">
+        <div class="flex flex-col text-center w-full mb-5">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">生命保険総論</h1>
+        </div>
+        <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+        <table class="w-full text-left whitespace-no-wrap">
+            <tbody>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2023年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2022年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2021年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2020年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+        <a class="flex ml-auto text-indigo-500 border-0 py-2 px-6 focus:outline-none rounded">先頭に戻る</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- 生命保険計理 -->
+    <section class="text-gray-600 body-font">
+    <div class="container px-5 py-6 mx-auto">
+        <div class="flex flex-col text-center w-full mb-5">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">生命保険計理</h1>
+        </div>
+        <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+        <table class="w-full text-left whitespace-no-wrap">
+            <tbody>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2023年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2022年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2021年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th class="border-2 border-gray-200 px-4 py-3 title-font tracking-wider font-medium text-gray-900 bg-indigo-200 rounded-tl rounded-bl">2020年度</th>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームA</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームB</Link>
+                    </button>
+                    </button>
+                </td>
+                <td class="border-2 border-gray-200 px-4 py-3">
+                    <button>
+                        <button>
+                        <Link :href="route('tests.souron2023a')">フォームC</Link>
+                    </button>
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+        <a class="flex ml-auto text-indigo-500 border-0 py-2 px-6 focus:outline-none rounded">先頭に戻る</a>
+        </div>
+    </div>
+    </section>
+
+
+
 
     <form @submit.prevent="searchQuestion">
     <!-- 8月試験セクション -->
@@ -58,14 +286,224 @@ const searchQuestion = () => {
         <section class="w-full">
             <h2 class="secondary-title">生命保険総論／生命保険計理</h2>
             <p class="secondary-paragraph">8月実施の試験</p>
-            <div class="flex items-center justify-center mb-4">
+            <!-- <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4"> -->
+                <div class="bg-white px-3 py-2 rounded">
+                    <h3 class="text-xl font-semibold mb-4">生命保険総論</h3>
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
+
+                        <!-- ２０２２年度・生命保険総論 -->
+                        <div class="w-full">
+                            2022年度
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                                <label for="souron2022A">
+                                    <div class="font-medium text-gray-700">フォームA</div>
+                                </label>
+                                <div class="flex h-10 items-center">
+                                    <input v-model="selectedQuestions" value="souron2022A" type="checkbox" id="souron2022A" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                                <label for="souron2022B">
+                                    <div class="font-medium text-gray-700">フォームB</div>
+                                </label>
+                                <div class="flex h-10 items-center">
+                                    <input v-model="selectedQuestions" value="souron2022B" type="checkbox" id="souron2022B" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                                <label for="souron2022C">
+                                    <div class="font-medium text-gray-700">フォームC</div>
+                                </label>
+                                <div class="flex h-10 items-center">
+                                    <input v-model="selectedQuestions" value="souron2022C" type="checkbox" id="souron2022C" name="question[]" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２１年度・生命保険総論 -->
+                        <div class="w-full">
+                            2021年度
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="souron2021A">
+                                <div class="font-medium text-gray-700">フォームA</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input v-model="selectedQuestions" value="souron2021A" type="checkbox" id="souron2021A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="souron2021B">
+                                <div class="font-medium text-gray-700">フォームB</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input v-model="selectedQuestions" value="souron2021B" type="checkbox" id="souron2021B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="souron2021C">
+                                <div class="font-medium text-gray-700">フォームC</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input v-model="selectedQuestions" value="souron2021C" type="checkbox" id="souron2021C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２０年度・生命保険総論 -->
+                        <div class="w-full">
+                            2020年度
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="souron2020A">
+                                <div class="font-medium text-gray-700">フォームA</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input v-model="selectedQuestions" value="souron2020A" type="checkbox" id="souron2020A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="souron2020B">
+                                <div class="font-medium text-gray-700">フォームB</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input v-model="selectedQuestions" value="souron2020B" type="checkbox" id="souron2020B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="souron2020C">
+                                <div class="font-medium text-gray-700">フォームC</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input v-model="selectedQuestions" value="souron2020C" type="checkbox" id="souron2020C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white px-3 py-6 rounded">
+                    <h3 class="text-xl font-semibold mb-4">生命保険計理</h3>
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
+
+                        <!-- ２０２２年度・生命保険計理 -->
+                        <div class="w-full">
+                            2022年度
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                                <label for="keiri2022A">
+                                    <div class="font-medium text-gray-700">フォームA</div>
+                                </label>
+                                <div class="flex h-10 items-center">
+                                    <input type="checkbox" id="keiri2022A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                                <label for="keiri2022B">
+                                    <div class="font-medium text-gray-700">フォームB</div>
+                                </label>
+                                <div class="flex h-10 items-center">
+                                    <input type="checkbox" id="keiri2022B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                                <label for="keiri2022C">
+                                    <div class="font-medium text-gray-700">フォームC</div>
+                                </label>
+                                <div class="flex h-10 items-center">
+                                    <input type="checkbox" id="keiri2022C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２１年度・生命保険計理 -->
+                        <div class="w-full">
+                            2021年度
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="keiri2021A">
+                                <div class="font-medium text-gray-700">フォームA</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input type="checkbox" id="keiri2021A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="keiri2021B">
+                                <div class="font-medium text-gray-700">フォームB</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input type="checkbox" id="keiri2021B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="keiri2021C">
+                                <div class="font-medium text-gray-700">フォームC</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input type="checkbox" id="keiri2021C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２０年度・生命保険計理 -->
+                        <div class="w-full">
+                            2020年度
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="keiri2020A">
+                                <div class="font-medium text-gray-700">フォームA</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input type="checkbox" id="keiri2020A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="keiri2020B">
+                                <div class="font-medium text-gray-700">フォームB</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input type="checkbox" id="keiri2020B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                            <div class="flex justify-between items-center space-x-2 py-3">
+                            <label for="keiri2020C">
+                                <div class="font-medium text-gray-700">フォームC</div>
+                            </label>
+                            <div class="flex h-10 items-center">
+                                <input type="checkbox" id="keiri2020C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            <!-- </div> -->
+
+        </section>
+    </div>
+
+
+
+    <!-- 8月試験セクション -->
+    <div id="exam8" class="container mt-48 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 class="secondary-title">生命保険総論／生命保険計理</h2>
+            <p class="secondary-paragraph">8月実施の試験</p>
+            <!-- <div class="flex items-center justify-center mb-4">
                 <button class="px-16 py-3 bg-purple-400 font-bold rounded-lg hover:bg-purple-600 transition-all duration-300 mt-10">
-                        <!-- <Link :href="route('vueTest3')">出題開始</Link> -->
                         出題開始
                 </button>
-            </div>
+            </div> -->
             <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
-                <div class="bg-white px-3 py-6 rounded">
+                <div class="bg-white px-3 py-2 rounded">
                     <h3 class="text-xl font-semibold mb-4">生命保険総論</h3>
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 

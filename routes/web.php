@@ -11,10 +11,20 @@ use App\Http\Controllers\PurchaseController;
 use App\Http\Controllers\AnalysisController;
 use App\Http\Controllers\SeihokozaController;
 use App\Http\Controllers\SeihoQuizController;
+use App\Http\Controllers\TestController;
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/', function () {
+    return redirect('tests');
+});
+
+Route::resource('tests', TestController::class);
+
+Route::get('souron2023a', function () {
+    return Inertia::render('Tests/Souron2023a');
+})->name('tests.souron2023a');
+
+
+
 
 // 生保講座問題部分
 Route::get('seihoquiz', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
@@ -37,7 +47,6 @@ Route::resource('purchases', PurchaseController::class)
 ->middleware(['auth', 'verified']);
 
 
-
 Route::get('souron', [SeihokozaController::class, 'souron'])->name('souron');
 Route::get('vueTest', [SeihokozaController::class, 'vueTestIndex'])->name('vueTest1.index');
 Route::post('searchVueTest1', [SeihokozaController::class, 'searchVueTest1'])->name('searchVueTest1');
@@ -57,14 +66,14 @@ Route::post('/inertia',[InertiaTestController::class, 'store'])->name('inertia.s
 Route::get('/inertia/show/{id}',[InertiaTestController::class, 'show'])->name('inertia.show');
 
 
-Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-});
+// Route::get('/', function () {
+//     return Inertia::render('Welcome', [
+//         'canLogin' => Route::has('login'),
+//         'canRegister' => Route::has('register'),
+//         'laravelVersion' => Application::VERSION,
+//         'phpVersion' => PHP_VERSION,
+//     ]);
+// });
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
@@ -75,5 +84,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
 
 require __DIR__.'/auth.php';

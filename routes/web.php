@@ -13,7 +13,8 @@ use App\Http\Controllers\SeihokozaController;
 use App\Http\Controllers\SeihoQuizController;
 
 // 生保講座問題部分
-Route::get('seihoquiz', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
+// Route::get('seihoquiz', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
+Route::get('/', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
 Route::post('seihomondai', [SeihoQuizController::class, 'search'])->name('seihoquiz.search');
 
 // 生保講座問題新規追加

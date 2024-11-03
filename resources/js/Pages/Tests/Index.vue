@@ -3,11 +3,6 @@ import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 
-const selectedQuestions = ref([])
-
-const searchQuestion = () => {
-    Inertia.post(route('seihoquiz.search'),  selectedQuestions)
-}
 
 </script>
 
@@ -19,10 +14,10 @@ const searchQuestion = () => {
     <header class="py-6">
         <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
             <div class="text-xl font-bold">
-                <Link :href="route('tests.index')">生命保険講座.com</Link>
+                <Link :href="route('tests.index')">生命保険講座</Link>
             </div>
             <div class="space-x-12 hidden md:flex items-center">
-                <a href="#exam8" class="hover:text-selected-text transition-all duration-300">8月試験</a>
+                <a href="souron" class="hover:text-selected-text transition-all duration-300">8月試験</a>
                 <a href="#exam10" class="hover:text-selected-text transition-all duration-300">10月試験</a>
                 <a href="#exam12" class="hover:text-selected-text transition-all duration-300">12月試験</a>
                 <a href="#exam2" class="hover:text-selected-text transition-all duration-300">2月試験</a>
@@ -37,16 +32,286 @@ const searchQuestion = () => {
     </header>
 
     <!-- ヒーローセクション -->
-    <div id="home" class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-3/4 md:w-2/3 lg:w-2/3">
-        <div class="flex flex-wrap md:flex-nowrap">
-            <div class="md:my-36 lg:ml-20 flex flex-wrap justify-center md:justify-start  max-w-xl">
-                <h1 class="font-bold text-3xl text-center md:text-left lg:text-7xl md:text-6xl sm:text-5xl mr-10">
+    <div id="index" class="container my-20 py-4 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-1/2">
+        <section class="w-full h-30">
+            <h1 class="font-bold text-3xl lg:text-5xl md:text-3xl sm:text-3xl">
                     生命保険講座 <br />
                     過去問解説
-                </h1>
-            </div>
-        </div>
+            </h1>
+
+        </section>
     </div>
+
+    <!-- 目次 -->
+    <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-1/2">
+        <section class="w-full h-full p-6 border border-gray-300 rounded-sm shadow-md">
+        <h2 class="text-lg font-semibold mb-4">目次</h2>
+        <ul class="list-disc pl-5 space-y-3 text-gray-700">
+            <li><a href="#section1" class="hover:text-purple-500">生命保険総論</a></li>
+            <li><a href="#section2" class="hover:text-purple-500">生命保険計理</a></li>
+            <li><a href="#section3" class="hover:text-purple-500">危険選択</a></li>
+            <li><a href="#section4" class="hover:text-purple-500">約款と法律</a></li>
+            <li><a href="#section5" class="hover:text-purple-500">生命保険会計</a></li>
+            <li><a href="#section5" class="hover:text-purple-500">生命保険と営業</a></li>
+            <li><a href="#section5" class="hover:text-purple-500">生命保険と税法</a></li>
+            <li><a href="#section5" class="hover:text-purple-500">資産運用</a></li>
+        </ul>
+        </section>
+    </div>
+
+
+    <!-- 生命保険総論セクション -->
+    <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-1/2">
+        <section class="w-full">
+            <h2 class="secondary-title">生命保険総論</h2>
+            <p class="secondary-paragraph text-sm">8月実施の試験</p>
+                <div class="bg-white px-6 py-6 rounded">
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
+
+                        <!-- ２０２３年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2023年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- ２０２２年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2022年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２１年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2021年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２０年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2020年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <!-- 生命保険計理セクション -->
+    <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-1/2">
+        <section class="w-full">
+            <h2 class="secondary-title">生命保険計理</h2>
+            <p class="secondary-paragraph text-sm">8月実施の試験</p>
+                <div class="bg-white px-6 py-6 rounded">
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
+
+                        <!-- ２０２３年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2023年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- ２０２２年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2022年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２１年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2021年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- ２０２０年度 -->
+                        <div class="w-full">
+                            <h2 class="secondary-head">2020年度</h2>
+                        <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                            <div class="button">
+                            <Link :href="route('tests.souron2023a')">
+                                <div class="py-3">
+                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
 
     <!-- 生命保険総論 -->
     <!-- <section class="text-gray-600 body-font">
@@ -275,131 +540,6 @@ const searchQuestion = () => {
         </div>
     </div>
     </section> -->
-
-    <!-- 8月試験セクション -->
-    <div id="exam8" class="container mt-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-2/3 lg:w-2/3">
-        <section class="w-full">
-            <h2 class="secondary-title">生命保険総論</h2>
-            <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                <div class="bg-white px-6 py-6 rounded">
-                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
-
-                        <!-- ２０２３年度・生命保険総論 -->
-                        <div class="w-full">
-                            <h2 class="secondary-head">2023年度</h2>
-                        <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                        </div>
-                        </div>
-                        <!-- ２０２２年度・生命保険総論 -->
-                        <div class="w-full">
-                            <h2 class="secondary-head">2022年度</h2>
-                        <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                        </div>
-                        </div>
-
-                        <!-- ２０２１年度・生命保険総論 -->
-                        <div class="w-full">
-                            <h2 class="secondary-head">2021年度</h2>
-                        <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                        </div>
-                        </div>
-
-                        <!-- ２０２０年度・生命保険総論 -->
-                        <div class="w-full">
-                            <h2 class="secondary-head">2020年度</h2>
-                        <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームAの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームBの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                            <div class="button">
-                            <Link :href="route('tests.souron2023a')">
-                                <div class="py-3">
-                                <button class="font-medium text-gray-700 h-10">フォームCの解説</button>
-                                </div>
-                            </Link>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-    </div>
-
-
 
     <!-- 8月試験セクション -->
     <div id="exam8" class="container mt-48 flex justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full">

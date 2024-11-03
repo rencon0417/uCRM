@@ -49,7 +49,7 @@ const searchQuestion = () => {
     </div>
 
     <!-- 生命保険総論 -->
-    <section class="text-gray-600 body-font">
+    <!-- <section class="text-gray-600 body-font">
     <div class="container px-5 py-6 mx-auto">
         <div class="flex flex-col text-center w-full mb-5">
         <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">生命保険総論</h1>
@@ -160,10 +160,10 @@ const searchQuestion = () => {
         <a class="flex ml-auto text-indigo-500 border-0 py-2 px-6 focus:outline-none rounded">先頭に戻る</a>
         </div>
     </div>
-    </section>
+    </section> -->
 
     <!-- 生命保険計理 -->
-    <section class="text-gray-600 body-font">
+    <!-- <section class="text-gray-600 body-font">
     <div class="container px-5 py-6 mx-auto">
         <div class="flex flex-col text-center w-full mb-5">
         <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">生命保険計理</h1>
@@ -274,14 +274,14 @@ const searchQuestion = () => {
         <a class="flex ml-auto text-indigo-500 border-0 py-2 px-6 focus:outline-none rounded">先頭に戻る</a>
         </div>
     </div>
-    </section>
+    </section> -->
 
     <!-- 8月試験セクション -->
     <div id="exam8" class="container mt-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-3/4 md:w-2/3 lg:w-2/3">
         <section class="w-full">
             <h2 class="secondary-title">生命保険総論</h2>
             <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                <div class="px-6 py-2 rounded">
+                <div class="bg-white px-6 py-2 rounded">
                     <!-- <h3 class="text-xl font-semibold mb-4">生命保険総論</h3> -->
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
@@ -291,7 +291,7 @@ const searchQuestion = () => {
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="flex justify-between items-center space-x-2 py-3">
                                 <label for="souron2022A">
-                                    <div class="font-medium text-gray-700">フォームA</div>
+                                    <div class="font-medium text-gray-700">フォームAの解答・解説</div>
                                 </label>
                                 <div class="flex h-10 items-center">
                                     <input v-model="selectedQuestions" value="souron2022A" type="checkbox" id="souron2022A" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -299,7 +299,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                                 <label for="souron2022B">
-                                    <div class="font-medium text-gray-700">フォームB</div>
+                                    <div class="font-medium text-gray-700">フォームBの解答・解説</div>
                                 </label>
                                 <div class="flex h-10 items-center">
                                     <input v-model="selectedQuestions" value="souron2022B" type="checkbox" id="souron2022B" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -307,7 +307,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                                 <label for="souron2022C">
-                                    <div class="font-medium text-gray-700">フォームC</div>
+                                    <div class="font-medium text-gray-700">フォームCの解答・解説</div>
                                 </label>
                                 <div class="flex h-10 items-center">
                                     <input v-model="selectedQuestions" value="souron2022C" type="checkbox" id="souron2022C" name="question[]" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -321,7 +321,7 @@ const searchQuestion = () => {
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="flex justify-between items-center space-x-2 py-3">
                                 <label for="souron2022A">
-                                    <div class="font-medium text-gray-700">フォームA</div>
+                                    <div class="font-medium text-gray-700">フォームAの解答・解説</div>
                                 </label>
                                 <div class="flex h-10 items-center">
                                     <input v-model="selectedQuestions" value="souron2022A" type="checkbox" id="souron2022A" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -329,7 +329,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                                 <label for="souron2022B">
-                                    <div class="font-medium text-gray-700">フォームB</div>
+                                    <div class="font-medium text-gray-700">フォームBの解答・解説</div>
                                 </label>
                                 <div class="flex h-10 items-center">
                                     <input v-model="selectedQuestions" value="souron2022B" type="checkbox" id="souron2022B" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -337,7 +337,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                                 <label for="souron2022C">
-                                    <div class="font-medium text-gray-700">フォームC</div>
+                                    <div class="font-medium text-gray-700">フォームCの解答・解説</div>
                                 </label>
                                 <div class="flex h-10 items-center">
                                     <input v-model="selectedQuestions" value="souron2022C" type="checkbox" id="souron2022C" name="question[]" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -352,7 +352,7 @@ const searchQuestion = () => {
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="flex justify-between items-center space-x-2 py-3">
                             <label for="souron2021A">
-                                <div class="font-medium text-gray-700">フォームA</div>
+                                <div class="font-medium text-gray-700">フォームAの解説</div>
                             </label>
                             <div class="flex h-10 items-center">
                                 <input v-model="selectedQuestions" value="souron2021A" type="checkbox" id="souron2021A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -360,7 +360,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                             <label for="souron2021B">
-                                <div class="font-medium text-gray-700">フォームB</div>
+                                <div class="font-medium text-gray-700">フォームBの解説</div>
                             </label>
                             <div class="flex h-10 items-center">
                                 <input v-model="selectedQuestions" value="souron2021B" type="checkbox" id="souron2021B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -368,7 +368,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                             <label for="souron2021C">
-                                <div class="font-medium text-gray-700">フォームC</div>
+                                <div class="font-medium text-gray-700">フォームCの解説</div>
                             </label>
                             <div class="flex h-10 items-center">
                                 <input v-model="selectedQuestions" value="souron2021C" type="checkbox" id="souron2021C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -383,7 +383,7 @@ const searchQuestion = () => {
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="flex justify-between items-center space-x-2 py-3">
                             <label for="souron2020A">
-                                <div class="font-medium text-gray-700">フォームA</div>
+                                <div class="font-medium text-gray-700">フォームAの解説</div>
                             </label>
                             <div class="flex h-10 items-center">
                                 <input v-model="selectedQuestions" value="souron2020A" type="checkbox" id="souron2020A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -391,7 +391,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                             <label for="souron2020B">
-                                <div class="font-medium text-gray-700">フォームB</div>
+                                <div class="font-medium text-gray-700">フォームBの解説</div>
                             </label>
                             <div class="flex h-10 items-center">
                                 <input v-model="selectedQuestions" value="souron2020B" type="checkbox" id="souron2020B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
@@ -399,7 +399,7 @@ const searchQuestion = () => {
                             </div>
                             <div class="flex justify-between items-center space-x-2 py-3">
                             <label for="souron2020C">
-                                <div class="font-medium text-gray-700">フォームC</div>
+                                <div class="font-medium text-gray-700">フォームCの解説</div>
                             </label>
                             <div class="flex h-10 items-center">
                                 <input v-model="selectedQuestions" value="souron2020C" type="checkbox" id="souron2020C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />

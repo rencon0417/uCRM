@@ -27,3 +27,7 @@ body {
 .secondary-head {
     @apply text-xl font-bold;
 }
+
+.button:hover {
+    @apply text-slate-800 underline;
+}

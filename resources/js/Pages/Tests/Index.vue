@@ -288,29 +288,20 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                                <label for="souron2022A">
-                                    <div class="font-medium text-gray-700">フォームAの解説</div>
-                                </label>
-                                <div class="flex h-10 items-center">
-                                    <input v-model="selectedQuestions" value="souron2022A" type="checkbox" id="souron2022A" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                                </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                </button>
                             </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                                <label for="souron2022B">
-                                    <div class="font-medium text-gray-700">フォームBの解説</div>
-                                </label>
-                                <div class="flex h-10 items-center">
-                                    <input v-model="selectedQuestions" value="souron2022B" type="checkbox" id="souron2022B" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                                </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                </button>
                             </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                                <label for="souron2022C">
-                                    <div class="font-medium text-gray-700">フォームCの解説</div>
-                                </label>
-                                <div class="flex h-10 items-center">
-                                    <input v-model="selectedQuestions" value="souron2022C" type="checkbox" id="souron2022C" name="question[]" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                                </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                </button>
                             </div>
                         </div>
                         </div>
@@ -318,29 +309,20 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                                <label for="souron2022A">
-                                    <div class="font-medium text-gray-700">フォームAの解説</div>
-                                </label>
-                                <div class="flex h-10 items-center">
-                                    <input v-model="selectedQuestions" value="souron2022A" type="checkbox" id="souron2022A" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                                </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                </button>
                             </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                                <label for="souron2022B">
-                                    <div class="font-medium text-gray-700">フォームBの解説</div>
-                                </label>
-                                <div class="flex h-10 items-center">
-                                    <input v-model="selectedQuestions" value="souron2022B" type="checkbox" id="souron2022B" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                                </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                </button>
                             </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                                <label for="souron2022C">
-                                    <div class="font-medium text-gray-700">フォームCの解説</div>
-                                </label>
-                                <div class="flex h-10 items-center">
-                                    <input v-model="selectedQuestions" value="souron2022C" type="checkbox" id="souron2022C" name="question[]" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                                </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                </button>
                             </div>
                         </div>
                         </div>
@@ -349,29 +331,20 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                            <label for="souron2021A">
-                                <div class="font-medium text-gray-700">フォームAの解説</div>
-                            </label>
-                            <div class="flex h-10 items-center">
-                                <input v-model="selectedQuestions" value="souron2021A" type="checkbox" id="souron2021A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                </button>
                             </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                </button>
                             </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                            <label for="souron2021B">
-                                <div class="font-medium text-gray-700">フォームBの解説</div>
-                            </label>
-                            <div class="flex h-10 items-center">
-                                <input v-model="selectedQuestions" value="souron2021B" type="checkbox" id="souron2021B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                            </div>
-                            </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                            <label for="souron2021C">
-                                <div class="font-medium text-gray-700">フォームCの解説</div>
-                            </label>
-                            <div class="flex h-10 items-center">
-                                <input v-model="selectedQuestions" value="souron2021C" type="checkbox" id="souron2021C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                            </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                </button>
                             </div>
                         </div>
                         </div>
@@ -380,29 +353,20 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2020年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                            <label for="souron2020A">
-                                <div class="font-medium text-gray-700">フォームAの解説</div>
-                            </label>
-                            <div class="flex h-10 items-center">
-                                <input v-model="selectedQuestions" value="souron2020A" type="checkbox" id="souron2020A" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                </button>
                             </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                </button>
                             </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                            <label for="souron2020B">
-                                <div class="font-medium text-gray-700">フォームBの解説</div>
-                            </label>
-                            <div class="flex h-10 items-center">
-                                <input v-model="selectedQuestions" value="souron2020B" type="checkbox" id="souron2020B" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                            </div>
-                            </div>
-                            <div class="flex justify-between items-center space-x-2 py-3">
-                            <label for="souron2020C">
-                                <div class="font-medium text-gray-700">フォームCの解説</div>
-                            </label>
-                            <div class="flex h-10 items-center">
-                                <input v-model="selectedQuestions" value="souron2020C" type="checkbox" id="souron2020C" name="checkGroup1" class="h-4 w-4 rounded border-gray-300 text-primary-600 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 focus:ring-offset-0 disabled:cursor-not-allowed disabled:text-gray-400" />
-                            </div>
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-8">
+                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                </button>
                             </div>
                         </div>
                         </div>

@@ -281,8 +281,7 @@ const searchQuestion = () => {
         <section class="w-full">
             <h2 class="secondary-title">生命保険総論</h2>
             <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                <div class="bg-white px-6 py-2 rounded">
-                    <!-- <h3 class="text-xl font-semibold mb-4">生命保険総論</h3> -->
+                <div class="bg-white px-6 py-6 rounded">
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                         <!-- ２０２３年度・生命保険総論 -->

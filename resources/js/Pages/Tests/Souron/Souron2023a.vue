@@ -234,6 +234,11 @@ import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
             </div>
         </div>
 
+        <!-- 戻るボタン -->
+        <div class="text-center mt-8 pt-3">
+            <Link :href="route('tests.index')" class="inline-block w-1/6 bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md mx-auto">戻る</Link>
+        </div>
+
     </div>
     </section>
 

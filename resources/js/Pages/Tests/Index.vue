@@ -289,17 +289,17 @@ const searchQuestion = () => {
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
                                 </button>
                             </div>
@@ -310,17 +310,17 @@ const searchQuestion = () => {
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
                                 </button>
                             </div>
@@ -332,17 +332,17 @@ const searchQuestion = () => {
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
                                 </button>
                             </div>
@@ -354,7 +354,7 @@ const searchQuestion = () => {
                             <h2 class="secondary-head">2020年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
                                 </button>
                             </div>
@@ -364,7 +364,7 @@ const searchQuestion = () => {
                                 </button>
                             </div>
                             <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
+                                <button class="button font-medium text-gray-700 h-10">
                                 <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
                                 </button>
                             </div>

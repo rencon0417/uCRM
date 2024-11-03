@@ -19,6 +19,82 @@ class TestController extends Controller
         return Inertia::render('Tests/Index');
     }
 
+    // 生命保険総論のコントローラ
+    public function souron2023a()
+    {
+        return Inertia::render('Tests/Souron/Souron2023a');
+    }
+    public function souron2023b()
+    {
+        return Inertia::render('Tests/Souron/Souron2023b');
+    }
+    public function souron2023c()
+    {
+        return Inertia::render('Tests/Souron/Souron2023c');
+    }
+    public function souron2022a()
+    {
+        return Inertia::render('Tests/Souron/Souron2022a');
+    }
+    public function souron2022b()
+    {
+        return Inertia::render('Tests/Souron/Souron2022b');
+    }
+    public function souron2022c()
+    {
+        return Inertia::render('Tests/Souron/Souron2022c');
+    }
+    public function souron2021a()
+    {
+        return Inertia::render('Tests/Souron/Souron2021a');
+    }
+    public function souron2021b()
+    {
+        return Inertia::render('Tests/Souron/Souron2021b');
+    }
+    public function souron2021c()
+    {
+        return Inertia::render('Tests/Souron/Souron2021c');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * Show the form for creating a new resource.
      *

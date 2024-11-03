@@ -19,13 +19,20 @@ Route::get('/', function () {
 
 Route::resource('tests', TestController::class);
 
-Route::get('souron2023a', function () {
-    return Inertia::render('Tests/Souron2023a');
-})->name('tests.souron2023a');
+// 生命保険総論のルート定義
+Route::controller(TestController::class)->group(function () {
+    Route::get('souron2023a', 'souron2023a')->name('souron2023a');
+    Route::get('souron2023b', 'souron2023b')->name('souron2023b');
+    Route::get('souron2023c', 'souron2023c')->name('souron2023c');
+    Route::get('souron2022a', 'souron2022a')->name('souron2022a');
+    Route::get('souron2022b', 'souron2022b')->name('souron2022b');
+    Route::get('souron2022c', 'souron2022c')->name('souron2022c');
+    Route::get('souron2021a', 'souron2021a')->name('souron2021a');
+    Route::get('souron2021b', 'souron2021b')->name('souron2021b');
+    Route::get('souron2021c', 'souron2021c')->name('souron2021c');
+});
 
-Route::get('souron2023b', function () {
-    return Inertia::render('Tests/Souron2023b');
-})->name('tests.souron2023b');
+
 
 
 

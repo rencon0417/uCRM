@@ -2,7 +2,7 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
-
+import KaTeXDisplay from '../../Components/KaTeXDisplay.vue';
 
 </script>
 
@@ -19,18 +19,6 @@ import { Inertia } from '@inertiajs/inertia';
                 </div>
                 <Link :href="route('tests.index')">生保講座過去問解説</Link>
             </div>
-            <!-- <div class="space-x-12 hidden md:flex items-center">
-                <a href="souron" class="hover:text-selected-text transition-all duration-300">生命保険総論</a>
-                <a href="#exam10" class="hover:text-selected-text transition-all duration-300">生命保険計理</a>
-                <a href="#exam12" class="hover:text-selected-text transition-all duration-300">危険選択</a>
-                <a href="#exam2" class="hover:text-selected-text transition-all duration-300"></a> -->
-                <!-- <button class="px-6 py-2 bg-purple-400 font-bold rounded-lg hover:bg-purple-600 transition-all duration-300">
-                    <Link :href="route('seihokozas.index')">一覧画面</Link>
-                </button> -->
-            <!-- </div> -->
-            <!-- <div class="md:hidden">
-                <i class="fa-solid fa-bars"></i>
-            </div> -->
         </div>
     </header>
 
@@ -75,21 +63,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023b')">
+                            <Link :href="route('souron2023b')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023c')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -102,21 +90,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2022a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2022b')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2022c')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -130,21 +118,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2021a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2021a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2021a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -170,21 +158,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -197,21 +185,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -225,21 +213,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -265,21 +253,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023b')">
+                            <Link :href="route('souron2023b')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -292,21 +280,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -320,21 +308,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -360,21 +348,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -387,21 +375,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -415,21 +403,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -455,21 +443,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023b')">
+                            <Link :href="route('souron2023b')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -482,21 +470,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -510,21 +498,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -550,21 +538,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -577,21 +565,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -605,21 +593,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -645,21 +633,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023b')">
+                            <Link :href="route('souron2023b')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -672,21 +660,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -700,21 +688,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -740,21 +728,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -767,21 +755,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>
@@ -795,21 +783,21 @@ import { Inertia } from '@inertiajs/inertia';
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                 </div>
                             </Link>
                             </div>
                             <div class="">
-                            <Link :href="route('tests.souron2023a')">
+                            <Link :href="route('souron2023a')">
                                 <div class="py-3">
                                 <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                 </div>

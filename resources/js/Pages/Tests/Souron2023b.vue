@@ -8,14 +8,14 @@ import { Inertia } from '@inertiajs/inertia';
 
 <template>
 <Head title="生命保険講座過去問解説サイト">
-    <link rel="icon" href="/images/logo.png" />
+    <link rel="icon" href="/images/rencon2.png" />
 </Head>
     <!-- ナビゲーションバー -->
     <header class="py-6">
         <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
             <div class="text-xl font-bold flex justify-between items-center">
                 <div class="px-2">
-                    <img src="/images/rencon1.png" alt="れんこん" class="w-10 h-10" />
+                <img src="/images/rencon1.png" alt="れんこん" class="w-10 h-10" />
                 </div>
                 <Link :href="route('tests.index')">生保講座過去問解説</Link>
             </div>
@@ -39,7 +39,7 @@ import { Inertia } from '@inertiajs/inertia';
     <!-- ページタイトル -->
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h1 class="text-2xl font-bold mb-2">生命保険総論</h1>
-        <p class="text-gray-600">2023年度 フォームA</p>
+        <p class="text-gray-600">2023年度 フォームB</p>
     </div>
 
     <!-- 問題リスト -->
@@ -246,9 +246,10 @@ import { Inertia } from '@inertiajs/inertia';
         </div>
 
     </div>
+
     </section>
 
-    <!-- フッターセクション -->
+        <!-- フッターセクション -->
     <footer class="text-gray-600 body-font">
     <div class="container px-5 py-20 mx-auto flex items-center sm:flex-row flex-col">
         <img src="/images/rencon1.png" alt="れんこん" class="w-10 h-10" />

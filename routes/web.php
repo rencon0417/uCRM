@@ -23,6 +23,10 @@ Route::get('souron2023a', function () {
     return Inertia::render('Tests/Souron2023a');
 })->name('tests.souron2023a');
 
+Route::get('souron2023b', function () {
+    return Inertia::render('Tests/Souron2023b');
+})->name('tests.souron2023b');
+
 
 
 

@@ -288,42 +288,54 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2023年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                フォームAの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                フォームBの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                フォームCの解説
                                 </button>
                             </div>
+                            </Link>
                         </div>
                         </div>
                         <!-- ２０２２年度・生命保険総論 -->
                         <div class="w-full">
                             <h2 class="secondary-head">2022年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                フォームAの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                フォームBの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                フォームCの解説
                                 </button>
                             </div>
+                            </Link>
                         </div>
                         </div>
 
@@ -331,21 +343,27 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2021年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                フォームAの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
+                                フォームBの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                フォームCの解説
                                 </button>
                             </div>
+                            </Link>
                         </div>
                         </div>
 
@@ -353,21 +371,27 @@ const searchQuestion = () => {
                         <div class="w-full">
                             <h2 class="secondary-head">2020年度</h2>
                         <div class="divide-y divide-gray-200 border-y border-gray-200">
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームAの解説</Link>
+                                フォームAの解説
                                 </button>
                             </div>
-                            <div class="py-3">
-                                <button class="button font-medium text-gray-700 h-8">
-                                <Link :href="route('tests.souron2023a')">フォームBの解説</Link>
-                                </button>
-                            </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
                             <div class="py-3">
                                 <button class="button font-medium text-gray-700 h-10">
-                                <Link :href="route('tests.souron2023a')">フォームCの解説</Link>
+                                フォームBの解説
                                 </button>
                             </div>
+                            </Link>
+                            <Link :href="route('tests.souron2023a')">
+                            <div class="py-3">
+                                <button class="button font-medium text-gray-700 h-10">
+                                フォームCの解説
+                                </button>
+                            </div>
+                            </Link>
                         </div>
                         </div>
                     </div>

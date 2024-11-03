@@ -38,57 +38,57 @@ Route::controller(TestController::class)->group(function () {
 
 
 // 生保講座問題部分
-Route::get('seihoquiz', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
-Route::post('seihomondai', [SeihoQuizController::class, 'search'])->name('seihoquiz.search');
+// Route::get('seihoquiz', [SeihoQuizController::class, 'index'])->name('seihoquiz.index');
+// Route::post('seihomondai', [SeihoQuizController::class, 'search'])->name('seihoquiz.search');
 
-// 生保講座問題新規追加
-Route::resource('seihokozas', SeihokozaController::class)
-->middleware(['auth', 'verified']);
-
-
-Route::get('analysis', [AnalysisController::class, 'index'])->name('analysis');
-
-Route::resource('items', ItemController::class)
-->middleware(['auth', 'verified']);
-
-Route::resource('customers', CustomerController::class)
-->middleware(['auth', 'verified']);
-
-Route::resource('purchases', PurchaseController::class)
-->middleware(['auth', 'verified']);
+// // 生保講座問題新規追加
+// Route::resource('seihokozas', SeihokozaController::class)
+// ->middleware(['auth', 'verified']);
 
 
-Route::get('souron', [SeihokozaController::class, 'souron'])->name('souron');
-Route::get('vueTest', [SeihokozaController::class, 'vueTestIndex'])->name('vueTest1.index');
-Route::post('searchVueTest1', [SeihokozaController::class, 'searchVueTest1'])->name('searchVueTest1');
-Route::get('vueTest2', [SeihokozaController::class, 'vueTest2'])->name('vueTest2');
-Route::post('vueTest3', [SeihokozaController::class, 'vueTest3'])->name('vueTest3');
-Route::get('vueTest4', [SeihokozaController::class, 'vueTest4'])->name('vueTest4');
+// Route::get('analysis', [AnalysisController::class, 'index'])->name('analysis');
+
+// Route::resource('items', ItemController::class)
+// ->middleware(['auth', 'verified']);
+
+// Route::resource('customers', CustomerController::class)
+// ->middleware(['auth', 'verified']);
+
+// Route::resource('purchases', PurchaseController::class)
+// ->middleware(['auth', 'verified']);
 
 
-Route::get('/inertia-test', function () {
-    return Inertia::render('InertiaTest');
-    }
-);
-
-Route::get('/inertia/index',[InertiaTestController::class, 'index'])->name('inertia.index');
-Route::get('/inertia/create',[InertiaTestController::class, 'create'])->name('inertia.create');
-Route::post('/inertia',[InertiaTestController::class, 'store'])->name('inertia.store');
-Route::get('/inertia/show/{id}',[InertiaTestController::class, 'show'])->name('inertia.show');
+// Route::get('souron', [SeihokozaController::class, 'souron'])->name('souron');
+// Route::get('vueTest', [SeihokozaController::class, 'vueTestIndex'])->name('vueTest1.index');
+// Route::post('searchVueTest1', [SeihokozaController::class, 'searchVueTest1'])->name('searchVueTest1');
+// Route::get('vueTest2', [SeihokozaController::class, 'vueTest2'])->name('vueTest2');
+// Route::post('vueTest3', [SeihokozaController::class, 'vueTest3'])->name('vueTest3');
+// Route::get('vueTest4', [SeihokozaController::class, 'vueTest4'])->name('vueTest4');
 
 
-// Route::get('/', function () {
-//     return Inertia::render('Welcome', [
-//         'canLogin' => Route::has('login'),
-//         'canRegister' => Route::has('register'),
-//         'laravelVersion' => Application::VERSION,
-//         'phpVersion' => PHP_VERSION,
-//     ]);
-// });
+// Route::get('/inertia-test', function () {
+//     return Inertia::render('InertiaTest');
+//     }
+// );
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/inertia/index',[InertiaTestController::class, 'index'])->name('inertia.index');
+// Route::get('/inertia/create',[InertiaTestController::class, 'create'])->name('inertia.create');
+// Route::post('/inertia',[InertiaTestController::class, 'store'])->name('inertia.store');
+// Route::get('/inertia/show/{id}',[InertiaTestController::class, 'show'])->name('inertia.show');
+
+
+// // Route::get('/', function () {
+// //     return Inertia::render('Welcome', [
+// //         'canLogin' => Route::has('login'),
+// //         'canRegister' => Route::has('register'),
+// //         'laravelVersion' => Application::VERSION,
+// //         'phpVersion' => PHP_VERSION,
+// //     ]);
+// // });
+
+// Route::get('/dashboard', function () {
+//     return Inertia::render('Dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

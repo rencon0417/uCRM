@@ -236,7 +236,9 @@ import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 
         <!-- 戻るボタン -->
         <div class="text-center mt-8 pt-3">
-            <Link :href="route('tests.index')" class="inline-block w-1/6 bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md mx-auto">戻る</Link>
+            <Link
+                :href="route('tests.index') + '#souron'"
+                class="inline-block w-1/6 bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md mx-auto scroll-smooth">戻る</Link>
         </div>
 
     </div>

@@ -10,6 +10,7 @@ import KaTeXDisplay from '../../Components/KaTeXDisplay.vue';
 <Head title="生命保険講座過去問解説サイト">
     <link rel="icon" href="/images/rencon3.png" />
 </Head>
+<div class="scroll-smooth">
     <!-- ナビゲーションバー -->
     <header class="py-6">
         <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
@@ -819,5 +820,6 @@ import KaTeXDisplay from '../../Components/KaTeXDisplay.vue';
         <p class="text-gray-600 ml-1 text-sm" rel="noopener noreferrer" target="_blank">@ rencon</p>
     </div>
     </footer>
+</div>
 
 </template>

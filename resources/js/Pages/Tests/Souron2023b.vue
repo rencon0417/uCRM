@@ -2,7 +2,7 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
-
+import KaTeXDisplay from '../../Components/KaTeXDisplay.vue';
 
 </script>
 
@@ -52,6 +52,10 @@ import { Inertia } from '@inertiajs/inertia';
             <div>
                 <h3 class="font-semibold">解説：</h3>
                 <p class="text-gray-700  select-none">この問題の解説内容をここに記載します。ポイントや考え方を説明してください。</p>
+                <div>
+                    <!-- KaTeXDisplayコンポーネントを使って数式を表示 -->
+                    <KaTeXDisplay equation="c = \\pm\\sqrt{a^2 + b^2}" />
+                </div>
             </div>
         </div>
 

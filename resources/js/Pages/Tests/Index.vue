@@ -277,11 +277,11 @@ const searchQuestion = () => {
     </section> -->
 
     <!-- 8月試験セクション -->
-    <div id="exam8" class="container mt-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-5/6 md:w-2/3 lg:w-2/3">
+    <div id="exam8" class="container mt-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-2/3 lg:w-2/3">
         <section class="w-full">
             <h2 class="secondary-title">生命保険総論</h2>
             <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                <div class="px-6 py-2 rounded">
+                <div class="bg-white px-6 py-2 rounded">
                     <!-- <h3 class="text-xl font-semibold mb-4">生命保険総論</h3> -->
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 

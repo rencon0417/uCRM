@@ -18,14 +18,23 @@
   interface Props {
     questionNumber: number | string
     contents: string[]
+    labelin: string
   }
 
   const props = defineProps<Props>()
   const labels = ref(['ア', 'イ', 'ウ'])
 
   const getLabel = (index: number): string => {
-    return props.contents.length === 1 ? '解' : labels.value[index]
-  }
+    const qNum = Number(props.questionNumber)
+
+    if ((qNum >= 1 && qNum <= 20) || (qNum >= 41 && qNum <= 50)) {
+        return props.labelin; // questionNumberが1〜20または41〜50の場合はlabelinを返す
+    } else if (qNum >= 30 && qNum < 40) {
+        return '解'; // questionNumberが30〜40の場合は'解'を返す
+    } else {
+        return labels.value[index]; // その他の場合はlabelsを使用
+    }
+ }
 
   const gridColsClass = computed(() => {
     return props.contents.length === 1

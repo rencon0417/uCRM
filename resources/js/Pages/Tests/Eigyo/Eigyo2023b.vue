@@ -1,8 +1,9 @@
 <script setup>
-import { Head, Link, createInertiaApp} from '@inertiajs/vue3';
-import { reactive, onMounted, ref, computed, watch, createApp, h } from 'vue'
-import { Inertia, usePage } from '@inertiajs/inertia';
-import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
+import { Head, Link} from '@inertiajs/vue3';
+import { reactive, onMounted, ref, computed,createApp, h } from 'vue'
+import { Inertia } from '@inertiajs/inertia';
+import { createInertiaApp } from '@inertiajs/inertia-vue3';
+import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 
 // Google Analyticsにページビューを送信する関数
 function trackPageView(url) {

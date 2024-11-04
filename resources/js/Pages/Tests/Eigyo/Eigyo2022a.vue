@@ -1,4 +1,3 @@
-resources/js/Pages/Tests/Souron/Souron2023a.vue
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'

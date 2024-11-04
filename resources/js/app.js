@@ -22,6 +22,7 @@ function trackPageView(url) {
 
 // Inertiaのナビゲーションイベントにページビュー送信を追加
 Inertia.on('navigate', (event) => {
+    console.log("Tracking page view for:", event.detail.page.url); // 確認用ログ
     trackPageView(event.detail.page.url);
 });
 

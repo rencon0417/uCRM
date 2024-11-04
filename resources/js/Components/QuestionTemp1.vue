@@ -24,12 +24,12 @@
   const labels = ref(['ア', 'イ', 'ウ'])
 
   const getLabel = (index: number): string => {
-    return props.contents.length === 1 ? '解答' : labels.value[index]
+    return props.contents.length === 1 ? '解' : labels.value[index]
   }
 
   const gridColsClass = computed(() => {
     return props.contents.length === 1
-      ? 'grid-cols-[3em_1fr]'  // 解説の場合は幅を広げる
+      ? 'grid-cols-[2em_1fr]'  // 解説の場合は幅を広げる
       : 'grid-cols-[2em_1fr]'  // ア、イ、ウの場合は元のまま
   })
   </script>

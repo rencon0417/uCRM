@@ -37,7 +37,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="21"
             :contents="[
-            '初めてではなく、1985年には発売されている。',
+            '初めてではなく1985年には発売されている。',
             '正しい',
             '3000万円を上限とし、特約保険料は不要（無料）となっている。'
             ]"

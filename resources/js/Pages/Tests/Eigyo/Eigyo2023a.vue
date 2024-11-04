@@ -129,7 +129,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="33"
             :contents="[
-            '被保険者の生存中にかきり、周期的に一定の金額の支払をするもの。'
+            '被保険者の生存中に限り、周期的に一定の金額の支払をするもの。'
             ]"
         />
         <QuestionTemp1

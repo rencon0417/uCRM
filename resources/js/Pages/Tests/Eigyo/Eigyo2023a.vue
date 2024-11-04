@@ -3,6 +3,7 @@ import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
+import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 
 
 </script>
@@ -33,345 +34,151 @@ import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 
     <!-- 問題リスト -->
     <div class="max-w-4xl mx-auto mt-4 space-y-2">
-
-        <!-- 問題21 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題21</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                初めてではなく、1985年には発売されている。
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                3000万円を上限とし、特約保険料は不要（無料）となっている。
-            </p>
-        </div>
-
-        <!-- 問題22 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題22</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                契約時に定めた基本保険金額、特約保険金額は変動しない。
-            </p>
-        </div>
-
-        <!-- 問題23 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題23</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                健康保険組合連合会ではなく、地方公共団体。。
-            </p>
-        </div>
-
-        <!-- 問題24 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題24</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                一定の条件を満たす保険代理店においては、一社専属性の例外が認められ、複数の生命保険会社の商品を取り扱うことができる。
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                保険代理店についても、業務の特性や規模に応じて、体制整備が求められることとなった。
-            </p>
-        </div>
-
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-    <h2 class="text-lg font-semibold mb-4">問題24</h2>
-
-    <div class="grid gap-2">
-        <div class="grid grid-cols-[2em_1fr] gap-2 text-gray-700 select-none">
-            <span class="font-semibold">ア：</span>
-            <p>一定の条件を満たす保険代理店においては、一社専属性の例外が認められ、複数の生命保険会社の商品を取り扱うことができる。</p>
-        </div>
-
-        <div class="grid grid-cols-[2em_1fr] gap-2 text-gray-700 select-none">
-            <span class="font-semibold">イ：</span>
-            <p>正しい</p>
-        </div>
-
-        <div class="grid grid-cols-[2em_1fr] gap-2 text-gray-700 select-none">
-            <span class="font-semibold">ウ：</span>
-            <p>保険代理店についても、業務の特性や規模に応じて、体制整備が求められることとなった。</p>
-        </div>
-    </div>
-</div>
-
-
-        <!-- 問題25 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題25</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                専門課程ではなく応用課程
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                応用課程試験に合格した者が「シニア・ライフ・コンサルタント」の称号を得る。
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題26 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題26</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-        <!-- 問題 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題</h2>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                正しい
-            </p>
-            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
-                正しい
-            </p>
-        </div>
-
-
-
-        <!-- 問題31 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題31</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題32 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題32</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題33 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題33</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題34 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題34</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題35 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題35</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題36 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題36</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題37 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題37</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題38 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題38</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題39 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題39</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
-
-        <!-- 問題40 -->
-        <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
-            <h2 class="text-lg font-semibold mb-4">問題40</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>B</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700 select-none">この問題の解説内容をここに記載します。</p>
-            </div>
-        </div>
+        <QuestionTemp1
+            :questionNumber="21"
+            :contents="[
+            '初めてではなく、1985年には発売されている。',
+            '正しい',
+            '3000万円を上限とし、特約保険料は不要（無料）となっている。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="22"
+            :contents="[
+            '正しい',
+            '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
+            '契約時に定めた基本保険金額、特約保険金額は変動しない。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="23"
+            :contents="[
+            '正しい',
+            '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
+            '健康保険組合連合会ではなく、地方公共団体。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="24"
+            :contents="[
+            '一定の条件を満たす保険代理店においては、一社専属性の例外が認められ、複数の生命保険会社の商品を取り扱うことができる。',
+            '正しい',
+            '保険代理店についても、業務の特性や規模に応じて、体制整備が求められることとなった。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="25"
+            :contents="[
+            '専門課程ではなく応用課程',
+            '応用課程試験に合格した者が「シニア・ライフ・コンサルタント」の称号を得る。',
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="26"
+            :contents="[
+            '生活習慣病罹患率ではなく、乳児死亡率の急速な低下。',
+            '正しい',
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="27"
+            :contents="[
+            '正しい',
+            '第3号ではなく第1号被保険者。',
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="28"
+            :contents="[
+            '正しい',
+            '正しい',
+            '相互会社でも一定の制限のもとで可能となっている。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="29"
+            :contents="[
+            '終身保険等の主契約に充当する方法に加え、定期保険特約部分に充当する方法がある。',
+            '正しい',
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="30"
+            :contents="[
+            '正しい',
+            '正しい',
+            '保険契約者保護の観点から保険仲立人に係る規制を緩和することが適当であるとされており、それを受け、保険業法の改正で保証金の額の引き下げなど一部の規制が和された。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="31"
+            :contents="[
+            'ライフスタイルではなくライフステージ。ライフ・プランニングではなくライフサイクル。',
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="32"
+            :contents="[
+            '2000年の日米保険協議の決着により、2001年にまず子会社による参入が、続いて本体による参入が解禁となった。',
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="33"
+            :contents="[
+            '被保険者の生存中にかきり、周期的に一定の金額の支払をするもの。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="34"
+            :contents="[
+            '生命保険支払専門土ではなく生命保険面接士。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="35"
+            :contents="[
+            '払込保険料を割り引く方式と給付金として割り戻す方式がある。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="36"
+            :contents="[
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="37"
+            :contents="[
+            '勤労者財産形成教育貯蓄契約（財形教育）ではなく、勤労者財産形成住宅貯蓄契約（財形住宅）。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="38"
+            :contents="[
+            'パソコンやスマートフォンで資料請求や申込ができるだけでなく、契約の成立までも完了できる生保会社もある。'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="39"
+            :contents="[
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="40"
+            :contents="[
+            '正しい'
+            ]"
+        />
 
         <!-- 戻るボタン -->
         <div class="text-center mt-8 pt-3">
             <Link
-                :href="route('tests.index') + '#souron'"
+                :href="route('tests.index')"
                 class="inline-block w-1/6 bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md mx-auto scroll-smooth">戻る</Link>
         </div>
 

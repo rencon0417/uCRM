@@ -1,3 +1,4 @@
+resources/js/Pages/Tests/Souron/Souron2023a.vue
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
@@ -29,7 +30,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
     <!-- ページタイトル -->
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
-        <p class="text-gray-600">2023年度 フォームB</p>
+        <p class="text-gray-600">2021年度 フォームC</p>
     </div>
 
     <!-- 問題リスト -->
@@ -37,61 +38,53 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="21"
             :contents="[
-            '契約の解約ではなく、契約を取り消すことができる',
+            '25年ではなく10年。',
             '正しい',
-            '運用方針ではなく勧誘方針。'
+            '3分の2ではなく4分の3。'
             ]"
         />
         <QuestionTemp1
             :questionNumber="22"
             :contents="[
             '正しい',
-            '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
-            '契約時に定めた基本保険金額、特約保険金額は変動しない。'
+            '主契約より短い場合もある。',
+            '相互会社でも認められている。'
             ]"
         />
         <QuestionTemp1
             :questionNumber="23"
             :contents="[
+            '第3号被保険者は含まれない。',
             '正しい',
-            '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
-            '健康保険組合連合会ではなく、地方公共団体。'
+            '基金を契約者および受取人、基金の加入員を被保険者とする保険契約でり、基金の業務の引受も可能である。'
             ]"
         />
         <QuestionTemp1
             :questionNumber="24"
             :contents="[
-            '正しい',
-            '従業員や団体の所属員が保険料を拠出し、加入脱退が任意で（任意加入）、保険料額・年金額の自在性があるのが特徴であり、「B（型）年金」とも称されるのは拠出型企業年金',
-            '元本確保商品としての要件をみたすGICタイプの商品が生命保険商品として主流なのは、確定拠出年金保険。'
+            '保険金額のうち死亡保険金については、基本保険金額を保証されるが、満期保険金については保証されない。',
+            '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
+            '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="25"
             :contents="[
-            '契約者と保険会社との間に立って中立の立場で保険契約の締結の媒介を行う。',
-            '日本固有の制度ではない。',
+            '告知義務や契約始期に係わる問題、モラルリスク等が問題となりやすく、取扱保険商品や加入保険金額を制限しているケースが多い。',
+            '契約の成立まで完了させる生保会社もある。',
             '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="26"
             :contents="[
+            '退職給付ではなく、老齢給付（老齢になった場合）。',
             '正しい',
-            '正しい',
-            '株式・株式投資信託等の有価証券ではなく定期性預貯金。'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="27"
-            :contents="[
-            '正しい',
-            '第3号ではなく第1号被保険者。',
             '正しい'
             ]"
         />
         <QuestionTemp1
-            :questionNumber="28"
+            :questionNumber="27"
             :contents="[
             '正しい',
             '年齢階級別ではなく所得段階別。',
@@ -99,11 +92,19 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             ]"
         />
         <QuestionTemp1
-            :questionNumber="29"
+            :questionNumber="28"
             :contents="[
             '正しい',
+            '被保険者のモラルリスクではなく、被保険者の健康状態が一定の危険の範囲を超えているが危険の度合いに応じて「保険料の割り増し」などの特別の条件を付けて引き受けること。',
+            '正しい'
+            ]"
+        />
+        <QuestionTemp1
+            :questionNumber="29"
+            :contents="[
+            '前納保険料ではなく一時払保険料。',
             '正しい',
-            '個人型確定拠出年金（iDeCo）は対象外。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
@@ -111,7 +112,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             :contents="[
             '正しい',
             '正しい',
-            '企業保険の販売を中心とした活動を行いつつ、個人保険販売の支援のため担当企業やその関連企業の基盤化を推進している法人営業組織もある。'
+            '団体信用生命保険ではなく、消費者情用団体生命保険。'
             ]"
         />
         <QuestionTemp1
@@ -123,25 +124,25 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="32"
             :contents="[
-            '住民票を有するすべての人へ個人番号が割り当てられた。',
+            '生命保険が第一分野、損害保険が第二分野。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="33"
             :contents="[
-            '被保険者の生存中にかぎり、周期的に一定の金額の支払をするもの。',
+            '消費者は契約を取り消すことができる。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="34"
             :contents="[
-            '生命保険支払専門土ではなく生命保険面接士。',
+            '認定生命保険士ではなく生命保険面接士。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="35"
             :contents="[
-            '正しい',
+            '被保険者が受取人の場合非課税扱いとなる。',
             ]"
         />
         <QuestionTemp1
@@ -153,19 +154,19 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="37"
             :contents="[
-            '正しい',
+            '現在のところ、新企業年金保険、厚生年金基金保険、確定給付企業年金保険、国民年金基金保険、団体生存保険に付加する特別勘定特約が販売されている。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="38"
             :contents="[
-            '日本証券業協会ではなく生命保険協会。',
+            '正しい',
             ]"
         />
         <QuestionTemp1
             :questionNumber="39"
             :contents="[
-            'これまで生命保険会社の支社の配置は、管理スパン上の問題や地域社会における店舗サービス機能の発揮ならびにPR効果の観点から、組織がある一定規模までに達すれば支社を分割するのが一般的であったが、近年ではコスト、効率化のため事務面の集約化や規模の大型化に向かう傾向が見られる。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
@@ -181,14 +182,9 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <!-- 上段：前へ・次へボタン -->
         <div class="flex justify-center gap-16">
             <Link
-                :href="route('eigyo2023a')"
+                :href="route('eigyo2021b')"
                 class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 前の試験へ
-            </Link>
-            <Link
-                :href="route('eigyo2023c')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                次の試験へ
             </Link>
         </div>
 

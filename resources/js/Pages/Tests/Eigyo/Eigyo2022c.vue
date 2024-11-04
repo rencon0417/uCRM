@@ -1,3 +1,4 @@
+resources/js/Pages/Tests/Souron/Souron2023a.vue
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
@@ -29,7 +30,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
     <!-- ページタイトル -->
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
-        <p class="text-gray-600">2023年度 フォームB</p>
+        <p class="text-gray-600">2022年度 フォームC</p>
     </div>
 
     <!-- 問題リスト -->
@@ -37,33 +38,33 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="21"
             :contents="[
-            '契約の解約ではなく、契約を取り消すことができる',
+            '住民票を有するすべての人へ個人番号を割り当てている。',
             '正しい',
-            '運用方針ではなく勧誘方針。'
+            '重大個人情報ではなく特定個人情報。'
             ]"
         />
         <QuestionTemp1
             :questionNumber="22"
             :contents="[
             '正しい',
-            '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
-            '契約時に定めた基本保険金額、特約保険金額は変動しない。'
+            '3分の1ではなく2分の1。',
+            '短期労働者に対する厚生年金保険・健康保険の適用拡大が行われた。'
             ]"
         />
         <QuestionTemp1
             :questionNumber="23"
             :contents="[
+            '死差配当ではなく利差配当。',
             '正しい',
-            '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
-            '健康保険組合連合会ではなく、地方公共団体。'
+            '完全生命表ではなく標準生命表。'
             ]"
         />
         <QuestionTemp1
             :questionNumber="24"
             :contents="[
             '正しい',
-            '従業員や団体の所属員が保険料を拠出し、加入脱退が任意で（任意加入）、保険料額・年金額の自在性があるのが特徴であり、「B（型）年金」とも称されるのは拠出型企業年金',
-            '元本確保商品としての要件をみたすGICタイプの商品が生命保険商品として主流なのは、確定拠出年金保険。'
+            '学識経験者で構成され、高齢者の心身の状況調査と主治医意見書等に基づくコンピューター判定（一次判定）と主治医意見書に基づく審査判定（二次判定）を行う。',
+            '施設サービスを利用した場合の食費及び居住費は自己負担。'
             ]"
         />
         <QuestionTemp1
@@ -77,16 +78,16 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="26"
             :contents="[
+            '初めてではなく、1985年には発売されている。',
             '正しい',
-            '正しい',
-            '株式・株式投資信託等の有価証券ではなく定期性預貯金。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="27"
             :contents="[
+            '責任準備金は生存した他の被保険者の保険金の支払に充当する。',
             '正しい',
-            '第3号ではなく第1号被保険者。',
             '正しい'
             ]"
         />
@@ -94,16 +95,16 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             :questionNumber="28"
             :contents="[
             '正しい',
-            '年齢階級別ではなく所得段階別。',
+            '保険期間は1年。',
             '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="29"
             :contents="[
+            '子会社・兄弟会社限定が解除され、生保商品の銀行窓販が実質的に解禁されることとなった。',
             '正しい',
-            '正しい',
-            '個人型確定拠出年金（iDeCo）は対象外。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
@@ -111,7 +112,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             :contents="[
             '正しい',
             '正しい',
-            '企業保険の販売を中心とした活動を行いつつ、個人保険販売の支援のため担当企業やその関連企業の基盤化を推進している法人営業組織もある。'
+            'スーパーバイザーではなくホールセラー。'
             ]"
         />
         <QuestionTemp1
@@ -123,19 +124,19 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="32"
             :contents="[
-            '住民票を有するすべての人へ個人番号が割り当てられた。',
+            '既契約者から本人情報の開示を求められた場合には、個人情報保護法により開示が義務付けられている項目・箇所については開示しなければならない。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="33"
             :contents="[
-            '被保険者の生存中にかぎり、周期的に一定の金額の支払をするもの。',
+            '特別配当の権利は転換後の契約に引き継がれる。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="34"
             :contents="[
-            '生命保険支払専門土ではなく生命保険面接士。',
+            'メリットとしては、海外の比較的高い金利を反映することで、予定利率を高く設定していること。',
             ]"
         />
         <QuestionTemp1
@@ -147,7 +148,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="36"
             :contents="[
-            '正しい'
+            '入院または医師の指示により自宅療養をし、業務に全く従事できない状態（就業不能状態）が所定の期間を超えて継続した場合に就業不能保険金を支払う保険である。'
             ]"
         />
         <QuestionTemp1
@@ -159,19 +160,19 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="38"
             :contents="[
-            '日本証券業協会ではなく生命保険協会。',
+            '生命保険商品の枠を超えたコンサルティングセールスも要求されている。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="39"
             :contents="[
-            'これまで生命保険会社の支社の配置は、管理スパン上の問題や地域社会における店舗サービス機能の発揮ならびにPR効果の観点から、組織がある一定規模までに達すれば支社を分割するのが一般的であったが、近年ではコスト、効率化のため事務面の集約化や規模の大型化に向かう傾向が見られる。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="40"
             :contents="[
-            '正しい'
+            'トータル・ライフ・コンサルタント（TLC）が正しい。'
             ]"
         />
     </div>
@@ -181,12 +182,12 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <!-- 上段：前へ・次へボタン -->
         <div class="flex justify-center gap-16">
             <Link
-                :href="route('eigyo2023a')"
+                :href="route('eigyo2022b')"
                 class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 前の試験へ
             </Link>
             <Link
-                :href="route('eigyo2023c')"
+                :href="route('eigyo2021a')"
                 class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 次の試験へ
             </Link>

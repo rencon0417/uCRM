@@ -1,3 +1,4 @@
+resources/js/Pages/Tests/Souron/Souron2023a.vue
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
@@ -29,7 +30,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
     <!-- ページタイトル -->
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
-        <p class="text-gray-600">2023年度 フォームB</p>
+        <p class="text-gray-600">2023年度 フォームC</p>
     </div>
 
     <!-- 問題リスト -->
@@ -37,9 +38,9 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="21"
             :contents="[
-            '契約の解約ではなく、契約を取り消すことができる',
-            '正しい',
-            '運用方針ではなく勧誘方針。'
+            '主契約より長い場合はない。',
+            '短縮払ではなく短期払。',
+            '正しい'
             ]"
         />
         <QuestionTemp1
@@ -61,17 +62,17 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="24"
             :contents="[
-            '正しい',
-            '従業員や団体の所属員が保険料を拠出し、加入脱退が任意で（任意加入）、保険料額・年金額の自在性があるのが特徴であり、「B（型）年金」とも称されるのは拠出型企業年金',
-            '元本確保商品としての要件をみたすGICタイプの商品が生命保険商品として主流なのは、確定拠出年金保険。'
+            '告知義務や契約始期、モラルリスク等が問題となりやすく、取扱保険商品、加入保険金額を制限しているケースが多い。',
+            'パソコンやスマートフォンで資料請求や申込ができるだけでなく、契約の成立までも完了できる生保会社もある。',
+            '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="25"
             :contents="[
-            '契約者と保険会社との間に立って中立の立場で保険契約の締結の媒介を行う。',
-            '日本固有の制度ではない。',
-            '正しい'
+            '生命保険協会ではなく内閣総理大臣（金融庁長官に委任）の登録を受ける。',
+            '正しい',
+            '一般課程試験合格後に生命保険募集人として登録される。'
             ]"
         />
         <QuestionTemp1
@@ -79,7 +80,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             :contents="[
             '正しい',
             '正しい',
-            '株式・株式投資信託等の有価証券ではなく定期性預貯金。'
+            '説明を怠った場合、業者は元本欠損額の賠償責任を負う。'
             ]"
         />
         <QuestionTemp1
@@ -94,36 +95,36 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             :questionNumber="28"
             :contents="[
             '正しい',
-            '年齢階級別ではなく所得段階別。',
+            'ホールセラーではなく、「法人営業第●部」',
             '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="29"
             :contents="[
+            '再販売等に活用することが一般的となってきている。',
             '正しい',
-            '正しい',
-            '個人型確定拠出年金（iDeCo）は対象外。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="30"
             :contents="[
+            'これまで生命保険会社の支社の配置は、管理スパン上の問題や地域社会における店舗サービス機能の発揮ならびにPR効果の観点から、組織がある一定規模までに達すれば支社を分割するのが一般的であったか近年ではコスト、効率化のため事務面の集約化や規模の大型化に向かう傾向が見られる。',
             '正しい',
-            '正しい',
-            '企業保険の販売を中心とした活動を行いつつ、個人保険販売の支援のため担当企業やその関連企業の基盤化を推進している法人営業組織もある。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
             :questionNumber="31"
             :contents="[
-            '正しい',
+            '企業福祉制度のあり方も、従来のような総合的・恩恵的福祉から、自己責任原則のもと、従業員の自助努力・自立を側面から支援するものに重点が移されつつある。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="32"
             :contents="[
-            '住民票を有するすべての人へ個人番号が割り当てられた。',
+            '生命保険が第一分野、損害保険が第二分野。',
             ]"
         />
         <QuestionTemp1
@@ -153,19 +154,19 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <QuestionTemp1
             :questionNumber="37"
             :contents="[
-            '正しい',
+            '被保険者が受取人となる場合、非課税扱いとなる。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="38"
             :contents="[
-            '日本証券業協会ではなく生命保険協会。',
+            '一般の生命保険料と異なり保険料は生命保険料控除の対象とはならない。',
             ]"
         />
         <QuestionTemp1
             :questionNumber="39"
             :contents="[
-            'これまで生命保険会社の支社の配置は、管理スパン上の問題や地域社会における店舗サービス機能の発揮ならびにPR効果の観点から、組織がある一定規模までに達すれば支社を分割するのが一般的であったが、近年ではコスト、効率化のため事務面の集約化や規模の大型化に向かう傾向が見られる。'
+            '正しい'
             ]"
         />
         <QuestionTemp1
@@ -181,12 +182,12 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <!-- 上段：前へ・次へボタン -->
         <div class="flex justify-center gap-16">
             <Link
-                :href="route('eigyo2023a')"
+                :href="route('eigyo2023b')"
                 class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 前の試験へ
             </Link>
             <Link
-                :href="route('eigyo2023c')"
+                :href="route('eigyo2022a')"
                 class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 次の試験へ
             </Link>

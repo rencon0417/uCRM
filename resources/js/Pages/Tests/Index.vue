@@ -1,27 +1,7 @@
 <script setup>
-import { Head, Link, createInertiaApp} from '@inertiajs/vue3';
-import { reactive, onMounted, ref, computed, watch, createApp, h } from 'vue'
-import { Inertia, usePage } from '@inertiajs/inertia';
-import KaTeXDisplay from '../../Components/KaTeXDisplay.vue';
-
-// Google Analyticsにページビューを送信する関数
-function trackPageView(url) {
-    if (typeof gtag === 'function') {
-        gtag('config', 'G-6TB0WW8SWW', {
-            page_path: url
-        });
-    }
-}
-
-// Inertiaのナビゲーションイベントにページビュー送信を追加
-Inertia.on('navigate', (event) => {
-    trackPageView(event.detail.page.url);
-});
-
-createInertiaApp({
-    // Vueアプリの初期化処理
-});
-
+import { Head, Link} from '@inertiajs/vue3';
+import { reactive, onMounted, ref, computed } from 'vue'
+import { Inertia } from '@inertiajs/inertia';
 </script>
 
 <template>

@@ -1,27 +1,9 @@
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
-import { reactive, onMounted, ref, computed,createApp, h } from 'vue'
+import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
-import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 
-// Google Analyticsにページビューを送信する関数
-function trackPageView(url) {
-    if (typeof gtag === 'function') {
-        gtag('config', 'G-6TB0WW8SWW', {
-            page_path: url
-        });
-    }
-}
-
-// Inertiaのナビゲーションイベントにページビュー送信を追加
-Inertia.on('navigate', (event) => {
-    trackPageView(event.detail.page.url);
-});
-
-createInertiaApp({
-    // Vueアプリの初期化処理
-});
 
 </script>
 

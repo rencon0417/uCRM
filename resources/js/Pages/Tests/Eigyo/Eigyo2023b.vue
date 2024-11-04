@@ -24,7 +24,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         </div>
     </header>
 
-<section class="bg-gray-100 text-gray-800 py-10">
+    <section class="bg-gray-100 text-gray-800 py-10">
 
     <!-- ページタイトル -->
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
@@ -180,11 +180,11 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
     <div class="flex flex-col items-center mt-4 pt-3 gap-4">
         <!-- 上段：前へ・次へボタン -->
         <div class="flex justify-center gap-16">
-            <!-- <Link
+            <Link
                 :href="route('eigyo2023a')"
                 class="inline-block min-w-[100px] bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-8 rounded-lg shadow-md scroll-smooth">
                 前の試験へ
-            </Link> -->
+            </Link>
             <Link
                 :href="route('eigyo2023b')"
                 class="inline-block min-w-[100px] bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-8 rounded-lg shadow-md scroll-smooth">
@@ -199,7 +199,9 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
             一覧画面に戻る
         </Link>
     </div>
+
 </section>
+
 
     <!-- フッターセクション -->
     <footer class="text-gray-600 body-font">

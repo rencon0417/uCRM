@@ -41,16 +41,10 @@ import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
                 初めてではなく、1985年には発売されている
             </p>
             <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
-                初めてではなく、1985年には発売されている
+                正しい
             </p>
-            <p class="mb-2 text-gray-700  select-none">ウ：
-                初めてではなく、1985年には発売されている
-            </p>
-            <p class="mb-2 text-gray-700  select-none">ウ：
-                初めてではなく、1985年には発売されている
-            </p>
-            <p class="mb-2 text-gray-700  select-none">ウ：
-                初めてではなく、1985年には発売されている
+            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ウ：</span>
+                初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている初めてではなく、1985年には発売されている
             </p>
         </div>
 

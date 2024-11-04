@@ -2,6 +2,7 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
+import Pagetitle from '../../../Components/Pagetitle.vue'
 
 </script>
 
@@ -24,10 +25,10 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
     <section class="bg-gray-100 text-gray-800 py-10">
 
     <!-- ページタイトル -->
-    <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
-        <p class="text-gray-600">2023年度 フォームC</p>
-    </div>
+    <Pagetitle
+        title="生命保険商品と営業"
+        description="2023年度 フォームC"
+    />
 
     <!-- 問題リスト -->
     <div class="max-w-4xl mx-auto mt-4 space-y-2">

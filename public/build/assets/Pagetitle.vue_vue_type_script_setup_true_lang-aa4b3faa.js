@@ -1,0 +1,1 @@
+import{d as a,f as n,g as c,k as e,t as s}from"./app-6c6f3b72.js";const r={class:"max-w-4xl mx-auto bg-purple-200 p-6 rounded-lg shadow-lg"},i={class:"text-2xl font-bold mb-2"},l={class:"text-gray-600"},m=a({__name:"Pagetitle",props:{title:{},description:{}},setup(o){const t=o;return(p,d)=>(n(),c("div",r,[e("h1",i,s(t.title),1),e("p",l,s(t.description),1)]))}});export{m as _};

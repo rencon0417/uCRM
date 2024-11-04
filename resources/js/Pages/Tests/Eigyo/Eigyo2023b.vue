@@ -182,12 +182,12 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <div class="flex justify-center gap-16">
             <Link
                 :href="route('eigyo2023a')"
-                class="inline-block min-w-[100px] bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-8 rounded-lg shadow-md scroll-smooth">
+                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 前の試験へ
             </Link>
             <Link
                 :href="route('eigyo2023b')"
-                class="inline-block min-w-[100px] bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-8 rounded-lg shadow-md scroll-smooth">
+                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                 次の試験へ
             </Link>
         </div>
@@ -195,7 +195,7 @@ import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
         <!-- 下段：戻るボタン -->
         <Link
             :href="route('tests.index')"
-            class="inline-block min-w-[100px] bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-8 rounded-lg shadow-md scroll-smooth">
+            class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
             一覧画面に戻る
         </Link>
     </div>

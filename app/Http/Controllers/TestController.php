@@ -19,7 +19,7 @@ class TestController extends Controller
         return Inertia::render('Tests/Index');
     }
 
-    // 生命保険総論のコントローラ
+    // 生命保険総論
     public function souron2023a()
     {
         return Inertia::render('Tests/Souron/Souron2023a');
@@ -55,6 +55,44 @@ class TestController extends Controller
     public function souron2021c()
     {
         return Inertia::render('Tests/Souron/Souron2021c');
+    }
+
+    // 生命保険商品と営業
+    public function eigyo2023a()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2023a');
+    }
+    public function eigyo2023b()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2023b');
+    }
+    public function eigyo2023c()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2023c');
+    }
+    public function eigyo2022a()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2022a');
+    }
+    public function eigyo2022b()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2022b');
+    }
+    public function eigyo2022c()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2022c');
+    }
+    public function eigyo2021a()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2021a');
+    }
+    public function eigyo2021b()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2021b');
+    }
+    public function eigyo2021c()
+    {
+        return Inertia::render('Tests/Eigyo/Eigyo2021c');
     }
 
 

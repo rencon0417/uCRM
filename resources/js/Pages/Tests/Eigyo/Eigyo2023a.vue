@@ -27,7 +27,7 @@ import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 
     <!-- ページタイトル -->
     <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h1 class="text-2xl font-bold mb-2">生命保険総論</h1>
+        <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
         <p class="text-gray-600">2023年度 フォームA</p>
     </div>
 
@@ -37,13 +37,21 @@ import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
         <!-- 問題21 -->
         <div class="bg-white p-6 border border-gray-300 rounded-lg shadow-md">
             <h2 class="text-lg font-semibold mb-4">問題21</h2>
-            <p class="mb-2"><span class="font-semibold">解答：</span>A</p>
-            <div>
-                <h3 class="font-semibold">解説：</h3>
-                <p class="text-gray-700  select-none">
-                    この問題の解説内容をここに記載します。ポイントや考え方を説明してください。
-                </p>
-            </div>
+            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">ア：</span>
+                初めてではなく、1985年には発売されている
+            </p>
+            <p class="mb-2 text-gray-700  select-none"><span class="font-semibold">イ：</span>
+                初めてではなく、1985年には発売されている
+            </p>
+            <p class="mb-2 text-gray-700  select-none">ウ：
+                初めてではなく、1985年には発売されている
+            </p>
+            <p class="mb-2 text-gray-700  select-none">ウ：
+                初めてではなく、1985年には発売されている
+            </p>
+            <p class="mb-2 text-gray-700  select-none">ウ：
+                初めてではなく、1985年には発売されている
+            </p>
         </div>
 
         <!-- 問題22 -->

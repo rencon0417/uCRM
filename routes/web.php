@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 Route::resource('tests', TestController::class);
 
-// 生命保険総論のルート定義
 Route::controller(TestController::class)->group(function () {
+    // 生命保険総論
     Route::get('souron2023a', 'souron2023a')->name('souron2023a');
     Route::get('souron2023b', 'souron2023b')->name('souron2023b');
     Route::get('souron2023c', 'souron2023c')->name('souron2023c');
@@ -30,8 +30,18 @@ Route::controller(TestController::class)->group(function () {
     Route::get('souron2021a', 'souron2021a')->name('souron2021a');
     Route::get('souron2021b', 'souron2021b')->name('souron2021b');
     Route::get('souron2021c', 'souron2021c')->name('souron2021c');
-});
 
+    // 生命保険商品と営業
+    Route::get('eigyo2023a', 'eigyo2023a')->name('eigyo2023a');
+    Route::get('eigyo2023b', 'eigyo2023b')->name('eigyo2023b');
+    Route::get('eigyo2023c', 'eigyo2023c')->name('eigyo2023c');
+    Route::get('eigyo2022a', 'eigyo2022a')->name('eigyo2022a');
+    Route::get('eigyo2022b', 'eigyo2022b')->name('eigyo2022b');
+    Route::get('eigyo2022c', 'eigyo2022c')->name('eigyo2022c');
+    Route::get('eigyo2021a', 'eigyo2021a')->name('eigyo2021a');
+    Route::get('eigyo2021b', 'eigyo2021b')->name('eigyo2021b');
+    Route::get('eigyo2021c', 'eigyo2021c')->name('eigyo2021c');
+});
 
 
 

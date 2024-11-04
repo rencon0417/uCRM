@@ -2,7 +2,6 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
-import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 
 
 </script>

@@ -12,17 +12,27 @@ import { Inertia } from '@inertiajs/inertia';
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
 // Google Analyticsにページビューを送信する関数
+// function trackPageView(url) {
+//     if (typeof gtag === 'function') {
+//         gtag('config', 'G-6TB0WW8SWW', {
+//             page_path: url
+//         });
+//     }
+// }
+
 function trackPageView(url) {
     if (typeof gtag === 'function') {
+        console.log("Sending page view for:", url); // 確認用ログ
         gtag('config', 'G-6TB0WW8SWW', {
             page_path: url
         });
+    } else {
+        console.warn("gtag is not defined");
     }
 }
 
 // Inertiaのナビゲーションイベントにページビュー送信を追加
 Inertia.on('navigate', (event) => {
-    console.log("Tracking page view for:", event.detail.page.url); // 確認用ログ
     trackPageView(event.detail.page.url);
 });
 

@@ -4,18 +4,6 @@ import { reactive, onMounted, ref, computed, watch } from 'vue'
 import { Inertia, usePage } from '@inertiajs/inertia';
 import KaTeXDisplay from '../../Components/KaTeXDisplay.vue';
 
-// ページ遷移を監視してGoogle Analyticsにページビューを送信
-watch(
-    () => usePage().url,
-    (path) => {
-        if (typeof gtag === 'function') {
-            gtag('config', 'G-6TB0WW8SWW', {
-                page_path: path
-            });
-        }
-    }
-);
-
 </script>
 
 <template>

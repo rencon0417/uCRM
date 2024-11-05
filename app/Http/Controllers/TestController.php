@@ -95,6 +95,44 @@ class TestController extends Controller
         return Inertia::render('Tests/Eigyo/Eigyo2021c');
     }
 
+    // 生命保険商品と営業
+    public function kaikei2023a()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2023a');
+    }
+    public function kaikei2023b()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2023b');
+    }
+    public function kaikei2023c()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2023c');
+    }
+    public function kaikei2022a()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2022a');
+    }
+    public function kaikei2022b()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2022b');
+    }
+    public function kaikei2022c()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2022c');
+    }
+    public function kaikei2021a()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2021a');
+    }
+    public function kaikei2021b()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2021b');
+    }
+    public function kaikei2021c()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2021c');
+    }
+
 
 
 

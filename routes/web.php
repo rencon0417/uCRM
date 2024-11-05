@@ -41,6 +41,17 @@ Route::controller(TestController::class)->group(function () {
     Route::get('eigyo2021a', 'eigyo2021a')->name('eigyo2021a');
     Route::get('eigyo2021b', 'eigyo2021b')->name('eigyo2021b');
     Route::get('eigyo2021c', 'eigyo2021c')->name('eigyo2021c');
+
+    // 生命保険会計
+    Route::get('kaikei2023a', 'kaikei2023a')->name('kaikei2023a');
+    Route::get('kaikei2023b', 'kaikei2023b')->name('kaikei2023b');
+    Route::get('kaikei2023c', 'kaikei2023c')->name('kaikei2023c');
+    Route::get('kaikei2022a', 'kaikei2022a')->name('kaikei2022a');
+    Route::get('kaikei2022b', 'kaikei2022b')->name('kaikei2022b');
+    Route::get('kaikei2022c', 'kaikei2022c')->name('kaikei2022c');
+    Route::get('kaikei2021a', 'kaikei2021a')->name('kaikei2021a');
+    Route::get('kaikei2021b', 'kaikei2021b')->name('kaikei2021b');
+    Route::get('kaikei2021c', 'kaikei2021c')->name('kaikei2021c');
 });
 
 

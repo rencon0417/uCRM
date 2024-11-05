@@ -7,103 +7,104 @@ import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
-
 </script>
 
 <template>
-<SeihoTestLayout>
+    <SeihoTestLayout>
     <section class="bg-gray-100 text-gray-800 py-10">
+
         <!-- ページタイトル -->
         <Pagetitle
-            title="生命保険商品と営業"
-            description="2021年度 フォームB"
+            title="生命保険会計"
+            description="2022年度 フォームB"
         />
+
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
             <QuestionTemp2
                 :questionNumber="1"
                 :contents="[
-                '規制緩和', '民法', '住民票', '特定個人情報', '特定保険契約', // 問１〜５
-                '7年間', '商法', '共済契約', '告知', '遺言', //問６〜10
-                '信用生命保険', '競争条件の公平性', '流出防止', '抱き合わせ販売', '商品情報', //問11〜15
-                '個人年金保険（定額・変額）', '事前説明義務', '残債務リスク', '相談窓口', '全面解禁', //問16〜20
+                '洗替方式', '費用', '標準', '除く', '最低額', // 問１〜５
+                '未経過', '危険', '内部留保', '純保険料式', '20%', //問６〜10
+                '現金', '未収保険料', '前納保険料', '費用収益対応', '全額', //問11〜15
+                '売買目的', '発生', '保険金受取人', '評価換え', '内閣総理大臣', //問16〜20
                 ]"
                 :labels="[
-                'イ', 'カ', 'コ', 'オ', 'エ',  //問１〜５
-                'ウ', 'オ', 'キ', 'ク', 'ア',  //問６〜10
-                'キ', 'エ', 'コ', 'ク', 'カ',  //問11〜15
-                'カ', 'ク', 'キ', 'コ', 'ケ',  //問16〜20
+                'エ', 'コ', 'カ', 'ウ', 'ケ',  //問１〜５
+                'オ', 'ウ', 'イ', 'コ', 'キ',  //問６〜10
+                'オ', 'キ', 'エ', 'イ', 'コ',  //問11〜15
+                'キ', 'エ', 'イ', 'ク', 'カ',  //問16〜20
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="21"
                 :contents="[
-                '30～39歳の年齢層の労働力率がいったん低下している。これは、結婚して退職し、子育てに専念している女性が多いことに起因するものと考えられる。',
-                '40～50歳代は老後保障のニーズ、50～60歳は介護保障ニーズが高くなっている。',
-                '正しい'
+                '正しい',
+                '',
+                ''
                 ]"
-            />
+                />
             <QuestionTemp1
                 :questionNumber="22"
                 :contents="[
+                '',
                 '正しい',
-                '主契約より短い場合もある。',
-                '相互会社でも認められている。'
+                ''
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="23"
                 :contents="[
-                '第3号被保険者は含まれない。',
-                '正しい',
-                '基金を契約者および受取人、基金の加入員を被保険者とする保険契約でり、基金の業務の引受も可能である。'
+                '',
+                '',
+                '正しい'
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="24"
                 :contents="[
+                '',
                 '正しい',
-                '一定の条件を満たす保険代理店においては、一社専属性の例外が認められ、複数の生命保険会社の商品を取り扱うことができる。',
-                '諸外国でもみられる。'
+                ''
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="25"
                 :contents="[
                 '正しい',
-                '履修が任意で、業界共通の研修時間が定められていないのは応用課程。',
-                'シニルライフ・コンサルタント（SLC）の称号が与えられる。'
+                '',
+                ''
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="26"
                 :contents="[
-                '生産年齢層の死亡率の急速な低下ではなく、乳児死亡率の急速な低下。',
                 '正しい',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="27"
                 :contents="[
                 '正しい',
-                '年齢級別ではなく所得段階別。',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="28"
                 :contents="[
                 '正しい',
-                '契約者自身の運用方針を反映させることができる。',
+                '',
                 '正しい'
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="29"
                 :contents="[
+                '',
                 '正しい',
-                '企業が「どれだけのサービスを提供してきたか」ではなく、顧客がサービスの質について、「良いサービス」と「悪いサービス」を判断し、企業を選択する時代になった。',
                 '正しい'
                 ]"
             />
@@ -111,8 +112,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 :questionNumber="30"
                 :contents="[
                 '正しい',
-                '正しい',
-                '専業型と兼業型。'
+                '',
+                '正しい'
                 ]"
             />
             <QuestionTemp2
@@ -120,25 +121,25 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 :contents="[
                 // 問31〜35
                 '正しい',
-                '生命保険が第一分野、損害保険が第二分野。',
-                '被保険者の死亡後は、年金の支払は行わない。',
-                '認定生命保険士ではなく生命保険面接土。',
-                '保険料総額ではなく保険金総額。',
+                '正しい',
+                '正しい',
+                '',
+                '正しい',
                 // 問36〜40
-                '正しい',
-                '応用課程ではなく専門課程。',
-                '正しい',
+                '',
+                '',
+                '',
                 '正しい',
                 '正しい',
                  //問41〜50
-                'A-保険業法', 'B-引き下げ', 'B-利差配当', 'C（A・Bともに正しい）', 'A-経験死亡率',
-                'C（A・Bともに正しい）', 'C（A・Bともに正しい）', 'B-自己負担の一部を補填する', 'A-地域', 'C（A・Bともに正しい）',
+                'C（A・Bともに正しい）', 'A-補助記入帳', 'B-のれん（連結調整勘定）', 'A-負債', 'B-固定',
+                'B-相互会社だけに', 'A-団体年金', 'A-期末', 'C（A・Bともに正しい）', 'B-国税通則法',
                 ]"
                 :labels="[
                 '解', '解', '解', '解', '解',  //問31〜35
                 '解', '解', '解', '解', '解',  //問36〜40
-                'ア', 'エ', 'ウ', 'オ', 'ア',  //問41〜45
-                'オ', 'オ', 'エ', 'イ', 'オ',  //問46〜50
+                'オ', 'イ', 'エ', 'ア', 'ウ',  //問41〜45
+                'ウ', 'イ', 'ア', 'オ', 'ウ',  //問46〜50
                 ]"
             />
         </div>
@@ -148,12 +149,12 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <!-- 上段：前へ・次へボタン -->
             <div class="flex justify-center gap-16">
                 <Link
-                    :href="route('eigyo2021a')"
+                    :href="route('kaikei2022a')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     前の試験へ
                 </Link>
                 <Link
-                    :href="route('eigyo2021c')"
+                    :href="route('kaikei2022c')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     次の試験へ
                 </Link>
@@ -167,5 +168,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
         </div>
 
     </section>
-</SeihoTestLayout>
+
+    </SeihoTestLayout>
+
+
 </template>

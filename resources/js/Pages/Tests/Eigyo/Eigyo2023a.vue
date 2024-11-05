@@ -4,6 +4,7 @@ import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
+import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
@@ -21,18 +22,39 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp2
+            <QuestionTemp3
                 :questionNumber="1"
                 :contents="[
                 '規制緩和', '民法', '元本割れリスク', '投資性', '特定保険契約', // 問１〜５
-                '商法', '共済契約', '傷害疾病保険契約', '遺言', '顧客重視・法令等の遵守', //問６〜10
-                '継続的', 'マーケティング', '転換制度', 'エージェント', '不可分化', //問11〜15
-                'face to face', '情報通信機器', '囲い込み', 'CS（customer Satisfaciton）', '選択', //問16〜20
                 ]"
                 :labels="[
                 'イ', 'コ', 'ア', 'キ', 'ク',  //問１〜５
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="2"
+                :contents="[
+                '商法', '共済契約', '傷害疾病保険契約', '遺言', '顧客重視・法令等の遵守', //問６〜10
+                ]"
+                :labels="[
                 'ク', 'ウ', 'カ', 'ア', 'オ',  //問６〜10
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="3"
+                :contents="[
+                '継続的', 'マーケティング', '転換制度', 'エージェント', '不可分化', //問11〜15
+                ]"
+                :labels="[
                 'ウ', 'コ', 'キ', 'イ', 'ケ',  //問11〜15
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="4"
+                :contents="[
+                'face to face', '情報通信機器', '囲い込み', 'CS（customer Satisfaciton）', '選択', //問16〜20
+                ]"
+                :labels="[
                 'ケ', 'エ', 'ア', 'ク', 'オ',  //問16〜20
                 ]"
             />

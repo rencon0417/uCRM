@@ -1,217 +1,399 @@
-resources/js/Pages/Tests/Souron/Souron2023a.vue
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
+import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 
 </script>
 
 <template>
-<Head title="生保講座過去問解説">
-    <link rel="icon" href="/images/rencon3.png" />
-</Head>
-    <!-- ナビゲーションバー -->
-    <header class="py-6">
-        <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
-            <div class="text-xl font-bold flex justify-between items-center">
-                <div class="px-2">
-                    <img src="/images/rencon3.png" alt="れんこん" class="w-10 h-10" />
-                </div>
-                <Link :href="route('tests.index')">生保講座過去問解説</Link>
-            </div>
-        </div>
-    </header>
-
+<SeihoTestLayout>
     <section class="bg-gray-100 text-gray-800 py-10">
+        <!-- ページタイトル -->
+        <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
+            <p class="text-gray-600">2023年度 フォームB</p>
+        </div>
 
-    <!-- ページタイトル -->
-    <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h1 class="text-2xl font-bold mb-2">生命保険商品と営業</h1>
-        <p class="text-gray-600">2023年度 フォームB</p>
-    </div>
-
-    <!-- 問題リスト -->
-    <div class="max-w-4xl mx-auto mt-4 space-y-2">
-        <QuestionTemp1
+        <!-- 問題リスト -->
+        <div class="max-w-4xl mx-auto mt-4 space-y-2">
+            <QuestionTemp1
+                :questionNumber="1"
+                :contents="[
+                '',
+                ]"
+                labelin="イ"
+            />
+            <QuestionTemp1
+                :questionNumber="2"
+                :contents="[
+                '',
+                ]"
+                labelin="コ"
+            />
+            <QuestionTemp1
+                :questionNumber="3"
+                :contents="[
+                '',
+                ]"
+                labelin="ア"
+            />
+            <QuestionTemp1
+                :questionNumber="4"
+                :contents="[
+                '',
+                ]"
+                labelin="キ"
+            />
+            <QuestionTemp1
+                :questionNumber="5"
+                :contents="[
+                '',
+                ]"
+                labelin="ク"
+            />
+            <QuestionTemp1
+                :questionNumber="6"
+                :contents="[
+                '',
+                ]"
+                labelin="ク"
+            />
+            <QuestionTemp1
+                :questionNumber="7"
+                :contents="[
+                '',
+                ]"
+                labelin="ウ"
+            />
+            <QuestionTemp1
+                :questionNumber="8"
+                :contents="[
+                '傷害疾病保険契約',
+                ]"
+                labelin="カ"
+            />
+            <QuestionTemp1
+                :questionNumber="9"
+                :contents="[
+                '遺言',
+                ]"
+                labelin="ア"
+            />
+            <QuestionTemp1
+                :questionNumber="10"
+                :contents="[
+                '顧客重視・法令等の遵守',
+                ]"
+                labelin="オ"
+            />
+            <QuestionTemp1
+                :questionNumber="11"
+                :contents="[
+                '継続的',
+                ]"
+                labelin="ウ"
+            />
+            <QuestionTemp1
+                :questionNumber="12"
+                :contents="[
+                'マーケティング',
+                ]"
+                labelin="コ"
+            />
+            <QuestionTemp1
+                :questionNumber="13"
+                :contents="[
+                '転換制度',
+                ]"
+                labelin="キ"
+            />
+            <QuestionTemp1
+                :questionNumber="14"
+                :contents="[
+                'エージェント',
+                ]"
+                labelin="イ"
+            />
+            <QuestionTemp1
+                :questionNumber="15"
+                :contents="[
+                '不可分化',
+                ]"
+                labelin="ケ"
+            />
+            <QuestionTemp1
+                :questionNumber="16"
+                :contents="[
+                'face to face',
+                ]"
+                labelin="ケ"
+            />
+            <QuestionTemp1
+                :questionNumber="17"
+                :contents="[
+                '情報通信機器',
+                ]"
+                labelin="エ"
+            />
+            <QuestionTemp1
+                :questionNumber="18"
+                :contents="[
+                '囲い込み',
+                ]"
+                labelin="ア"
+            />
+            <QuestionTemp1
+                :questionNumber="19"
+                :contents="[
+                'CS（customer Satisfaciton）',
+                ]"
+                labelin="ク"
+            />
+            <QuestionTemp1
+                :questionNumber="20"
+                :contents="[
+                '選択',
+                ]"
+                labelin="オ"
+            />
+            <QuestionTemp1
             :questionNumber="21"
             :contents="[
             '正しい',
             '正しい',
             '正しい'
             ]"
-        />
-        <QuestionTemp1
-            :questionNumber="22"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="23"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="24"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="25"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="26"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="27"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="28"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="29"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="30"
-            :contents="[
-            '正しい',
-            '正しい',
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="31"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="32"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="33"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="34"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="35"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="36"
-            :contents="[
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="37"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="38"
-            :contents="[
-            '正しい',
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="39"
-            :contents="[
-            '正しい'
-            ]"
-        />
-        <QuestionTemp1
-            :questionNumber="40"
-            :contents="[
-            '正しい'
-            ]"
-        />
-    </div>
-
-    <!-- ボタングループ -->
-    <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-        <!-- 上段：前へ・次へボタン -->
-        <div class="flex justify-center gap-16">
-            <Link
-                :href="route('eigyo2023a')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                前の試験へ
-            </Link>
-            <Link
-                :href="route('eigyo2023b')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                次の試験へ
-            </Link>
+            />
+            <QuestionTemp1
+                :questionNumber="22"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="23"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="24"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="25"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="26"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="27"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="28"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="29"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="30"
+                :contents="[
+                '正しい',
+                '正しい',
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="31"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="32"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="33"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="34"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="35"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="36"
+                :contents="[
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="37"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="38"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="39"
+                :contents="[
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="40"
+                :contents="[
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="41"
+                :contents="[
+                'B-通貨性預貯金',
+                ]"
+                labelin="ウ"
+            />
+            <QuestionTemp1
+                :questionNumber="42"
+                :contents="[
+                'A-３分の１',
+                ]"
+                labelin="ア"
+            />
+            <QuestionTemp1
+                :questionNumber="43"
+                :contents="[
+                'B-介護認定審査会',
+                ]"
+                labelin="ウ"
+            />
+            <QuestionTemp1
+                :questionNumber="44"
+                :contents="[
+                'A-資産運用成果',
+                ]"
+                labelin="ア"
+            />
+            <QuestionTemp1
+                :questionNumber="45"
+                :contents="[
+                'C（A・Bともに正しい）',
+                ]"
+                labelin="オ"
+            />
+            <QuestionTemp1
+                :questionNumber="46"
+                :contents="[
+                'A-企業等',
+                ]"
+                labelin="イ"
+            />
+            <QuestionTemp1
+                :questionNumber="47"
+                :contents="[
+                'A-厚生労働大臣',
+                ]"
+                labelin="イ"
+            />
+            <QuestionTemp1
+                :questionNumber="48"
+                :contents="[
+                'C（A・Bともに正しい）',
+                ]"
+                labelin="オ"
+            />
+            <QuestionTemp1
+                :questionNumber="49"
+                :contents="[
+                'B-保障額',
+                ]"
+                labelin="エ"
+            />
+            <QuestionTemp1
+                :questionNumber="50"
+                :contents="[
+                'C（A・Bともに正しい）',
+                ]"
+                labelin="オ"
+            />
         </div>
 
-        <!-- 下段：戻るボタン -->
-        <Link
-            :href="route('tests.index')"
-            class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-            一覧画面に戻る
-        </Link>
-    </div>
-
-</section>
-
-
-    <!-- フッターセクション -->
-    <footer class="text-gray-600 body-font">
-    <div class="container px-5 py-20 mx-auto flex items-center sm:flex-row flex-col">
-        <img src="/images/rencon3.png" alt="れんこん" class="w-10 h-10" />
-        <span class="ml-3">生保講座過去問解説</span>
-        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024</p>
-        <p class="text-gray-600 ml-1 text-sm" rel="noopener noreferrer" target="_blank">@ rencon</p>
-    </div>
-    </footer>
-
+        <!-- ボタングループ -->
+        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
+            <!-- 上段：前へ・次へボタン -->
+            <div class="flex justify-center gap-16">
+                <Link
+                    :href="route('eigyo2023a')"
+                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
+                    前の試験へ
+                </Link>
+                <Link
+                    :href="route('eigyo2023b')"
+                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
+                    次の試験へ
+                </Link>
+            </div>
+            <!-- 下段：戻るボタン -->
+            <Link
+                :href="route('tests.index')"
+                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
+                一覧画面に戻る
+            </Link>
+        </div>
+    </section>
+</SeihoTestLayout>
 </template>

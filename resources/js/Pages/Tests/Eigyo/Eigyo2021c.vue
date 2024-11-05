@@ -5,6 +5,7 @@ import { Inertia } from '@inertiajs/inertia';
 import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
+import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 </script>
 

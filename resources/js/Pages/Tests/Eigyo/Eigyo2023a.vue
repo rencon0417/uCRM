@@ -19,7 +19,7 @@ const subject = '2023年度 フォームA'
 
         <!-- ページタイトル -->
         <Pagetitle
-            title="生命保険商品と営業"
+            :title="title"
             :description="subject"
         />
 
@@ -44,6 +44,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'ク', 'ウ', 'カ', 'ア', 'オ',  //問６〜10
                 ]"
+                :title="title"
                 :subject="subject"
             />
             <QuestionTemp3
@@ -54,6 +55,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'ウ', 'コ', 'キ', 'イ', 'ケ',  //問11〜15
                 ]"
+                :title="title"
                 :subject="subject"
             />
             <QuestionTemp3
@@ -64,6 +66,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'ケ', 'エ', 'ア', 'ク', 'オ',  //問16〜20
                 ]"
+                :title="title"
                 :subject="subject"
             />
             <QuestionTemp1
@@ -73,6 +76,8 @@ const subject = '2023年度 フォームA'
                 '正しい',
                 '3000万円を上限とし、特約保険料は不要（無料）となっている。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="22"
@@ -81,6 +86,8 @@ const subject = '2023年度 フォームA'
                 '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
                 '契約時に定めた基本保険金額、特約保険金額は変動しない。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="23"
@@ -89,6 +96,8 @@ const subject = '2023年度 フォームA'
                 '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
                 '健康保険組合連合会ではなく、地方公共団体。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="24"
@@ -97,6 +106,8 @@ const subject = '2023年度 フォームA'
                 '正しい',
                 '保険代理店についても、業務の特性や規模に応じて、体制整備が求められることとなった。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="25"
@@ -105,6 +116,8 @@ const subject = '2023年度 フォームA'
                 '応用課程試験に合格した者が「シニア・ライフ・コンサルタント」の称号を得る。',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="26"
@@ -113,6 +126,8 @@ const subject = '2023年度 フォームA'
                 '正しい',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="27"
@@ -121,6 +136,8 @@ const subject = '2023年度 フォームA'
                 '第3号ではなく第1号被保険者。',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="28"
@@ -129,6 +146,8 @@ const subject = '2023年度 フォームA'
                 '正しい',
                 '相互会社でも一定の制限のもとで可能となっている。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="29"
@@ -137,6 +156,8 @@ const subject = '2023年度 フォームA'
                 '正しい',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="30"
@@ -145,6 +166,8 @@ const subject = '2023年度 フォームA'
                 '正しい',
                 '保険契約者保護の観点から保険仲立人に係る規制を緩和することが適当であるとされており、それを受け、保険業法の改正で保証金の額の引き下げなど一部の規制が和された。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp2
                 :questionNumber="31"
@@ -169,6 +192,8 @@ const subject = '2023年度 フォームA'
                 '解', '解', '解', '解', '解', '解', '解', '解', '解', '解',  //問31〜40
                 'ウ', 'ア', 'ウ', 'ア', 'オ', 'イ', 'イ', 'オ', 'エ', 'オ',  //問41〜50
                 ]"
+                :title="title"
+                :subject="subject"
             />
         </div>
 

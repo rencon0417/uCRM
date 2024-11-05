@@ -8,6 +8,12 @@
           <p>{{ content }}</p>
         </div>
       </div>
+      <div class="flex justify-end text-gray-500 text-xs">
+        {{ props.title }}
+      </div>
+      <div class="flex justify-end text-gray-500 text-xs">
+        {{ props.subject }}
+      </div>
     </div>
 </template>
 
@@ -18,6 +24,8 @@
     questionNumber: number
     contents: string[]
     labels: string[]
+    title: string[]
+    subject: string[]
   }
 
   const props = defineProps<Props>()

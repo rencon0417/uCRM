@@ -13,7 +13,7 @@
       <div class="flex justify-end text-gray-500 text-xs">
         {{ props.title }}
       </div>
-      <div class="flex justify-end text-gray-500 text-xs mt-2">
+      <div class="flex justify-end text-gray-500 text-xs">
         {{ props.subject }}
       </div>
     </div>

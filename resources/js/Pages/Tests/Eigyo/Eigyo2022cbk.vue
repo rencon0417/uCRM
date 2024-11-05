@@ -2,8 +2,8 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
+import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
-import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
@@ -11,30 +11,31 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 </script>
 
 <template>
-<SeihoTestLayout>
+<Head title="生保講座過去問解説">
+    <link rel="icon" href="/images/rencon3.png" />
+</Head>
+    <!-- ナビゲーションバー -->
+    <header class="py-6">
+        <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-xl font-bold flex justify-between items-center">
+                <div class="px-2">
+                    <img src="/images/rencon3.png" alt="れんこん" class="w-10 h-10" />
+                </div>
+                <Link :href="route('tests.index')">生保講座過去問解説</Link>
+            </div>
+        </div>
+    </header>
+
     <section class="bg-gray-100 text-gray-800 py-10">
-        <!-- ページタイトル -->
-        <Pagetitle
-            title="生命保険商品と営業"
-            description="2022年度 フォームC"
-        />
-        <!-- 問題リスト -->
-        <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp2
-                :questionNumber="1"
-                :contents="[
-                '60歳', '報酬比例', '定額保険料', '標準賞与額', '18.30%', // 問１〜５
-                '10年', '1ヶ月', '1級〜3級', '子の数', '4分の3', //問６〜10
-                '事業者', '困惑', '取り消す', '重要', '断定的', //問11〜15
-                '金融商品販売業者', '市場リスク', '信用リスク', '元本欠損額の賠償責任', '勧誘方針', //問16〜20
-                ]"
-                :labels="[
-                'ケ', 'ク', 'エ', 'カ', 'イ',  //問１〜５
-                'カ', 'ア', 'イ', 'コ', 'ク',  //問６〜10
-                'オ', 'エ', 'ク', 'カ', 'キ',  //問11〜15
-                'ウ', 'カ', 'キ', 'ア', 'イ',  //問16〜20
-                ]"
-            />
+
+    <!-- ページタイトル -->
+    <Pagetitle
+        title="生命保険商品と営業"
+        description="2022年度 フォームC"
+    />
+
+    <!-- 問題リスト -->
+    <div class="max-w-4xl mx-auto mt-4 space-y-2">
             <QuestionTemp1
                 :questionNumber="21"
                 :contents="[
@@ -114,59 +115,104 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '正しい',
                 'スーパーバイザーではなくホールセラー。'
                 ]"
-            />
-            <QuestionTemp2
+        />
+            <QuestionTemp1
                 :questionNumber="31"
                 :contents="[
-                // 問31〜35
                 '正しい',
-                '既契約者から本人情報の開示を求められた場合には、個人情報保護法により開示が義務付けられている項目・箇所については開示しなければならない。',
-                '特別配当の権利は転換後の契約に引き継がれる。',
-                'メリットとしては、海外の比較的高い金利を反映することで、予定利率を高く設定していること。',
-                '正しい',
-                // 問36〜40
-                '入院または医師の指示により自宅療養をし、業務に全く従事できない状態（就業不能状態）が所定の期間を超えて継続した場合に就業不能保険金を支払う保険である。',
-                '正しい',
-                '生命保険商品の枠を超えたコンサルティングセールスも要求されている。',
-                '正しい',
-                'トータル・ライフ・コンサルタント（TLC）が正しい。',
-                 //問41〜50
-                'A-65歳', 'B-所得段階別', 'B-団体扱特約', 'B-面接', 'C（A・Bともに正しい）',
-                'A-第1号被保険者', 'A-傷病', 'B-分割', 'C（A・Bともに正しい）', 'A-地域',
-                ]"
-                :labels="[
-                '解', '解', '解', '解', '解',  //問31〜35
-                '解', '解', '解', '解', '解',  //問36〜40
-                'ア', 'ウ', 'ウ', 'エ', 'オ',  //問41〜45
-                'ア', 'イ', 'ウ', 'オ', 'イ',  //問46〜50
                 ]"
             />
-        </div>
+            <QuestionTemp1
+                :questionNumber="32"
+                :contents="[
+                '既契約者から本人情報の開示を求められた場合には、個人情報保護法により開示が義務付けられている項目・箇所については開示しなければならない。',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="33"
+                :contents="[
+                '特別配当の権利は転換後の契約に引き継がれる。',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="34"
+                :contents="[
+                'メリットとしては、海外の比較的高い金利を反映することで、予定利率を高く設定していること。',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="35"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="36"
+                :contents="[
+                '入院または医師の指示により自宅療養をし、業務に全く従事できない状態（就業不能状態）が所定の期間を超えて継続した場合に就業不能保険金を支払う保険である。'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="37"
+                :contents="[
+                '正しい',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="38"
+                :contents="[
+                '生命保険商品の枠を超えたコンサルティングセールスも要求されている。',
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="39"
+                :contents="[
+                '正しい'
+                ]"
+            />
+            <QuestionTemp1
+                :questionNumber="40"
+                :contents="[
+                'トータル・ライフ・コンサルタント（TLC）が正しい。'
+                ]"
+            />
+    </div>
 
-        <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('eigyo2022b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('eigyo2021a')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-
-            <!-- 下段：戻るボタン -->
+    <!-- ボタングループ -->
+    <div class="flex flex-col items-center mt-4 pt-3 gap-4">
+        <!-- 上段：前へ・次へボタン -->
+        <div class="flex justify-center gap-16">
             <Link
-                :href="route('tests.index')"
+                :href="route('eigyo2022b')"
                 class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
+                前の試験へ
+            </Link>
+            <Link
+                :href="route('eigyo2021a')"
+                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
+                次の試験へ
             </Link>
         </div>
 
-    </section>
-</SeihoTestLayout>
+        <!-- 下段：戻るボタン -->
+        <Link
+            :href="route('tests.index')"
+            class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
+            一覧画面に戻る
+        </Link>
+    </div>
+
+</section>
+
+
+    <!-- フッターセクション -->
+    <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-20 mx-auto flex items-center sm:flex-row flex-col">
+        <img src="/images/rencon3.png" alt="れんこん" class="w-10 h-10" />
+        <span class="ml-3">生保講座過去問解説</span>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024</p>
+        <p class="text-gray-600 ml-1 text-sm" rel="noopener noreferrer" target="_blank">@ rencon</p>
+    </div>
+    </footer>
+
 </template>

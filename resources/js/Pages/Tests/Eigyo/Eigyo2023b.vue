@@ -4,6 +4,7 @@ import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
+import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
@@ -25,125 +26,154 @@ const subject = '2023年度 フォームB'
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp2
+            <QuestionTemp3
                 :questionNumber="1"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '世代間扶養', '18.30%', '16,900円', 'マクロ経済スライド', '2割', // 問１〜５
-                '2分の1', '5年', '10年', '短時間労働者', '産休期間中', //問６〜10
-                '継続的', 'マーケティング', '転換制度', 'エージェント', '不可分化', //問11〜15
-                'face to face', '情報通信機器', '囲い込み', 'CS（customer Satisfaciton）', '選択', //問16〜20
                 ]"
                 :labels="[
                 'ウ', 'オ', 'キ', 'ケ', 'ア',  //問１〜５
-                'ケ', 'ア', 'ウ', 'ク', 'キ',  //問６〜10
-                'ウ', 'コ', 'キ', 'イ', 'ケ',  //問11〜15
-                'ケ', 'エ', 'ア', 'ク', 'オ',  //問16〜20
                 ]"
+            />
+            <QuestionTemp3
+                :questionNumber="2"
                 :title="title"
                 :subject="subject"
+                :contents="[
+                '2分の1', '5年', '10年', '短時間労働者', '産休期間中', //問６〜10
+                ]"
+                :labels="[
+                'ケ', 'ア', 'ウ', 'ク', 'キ',  //問６〜10
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="3"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '継続的', 'マーケティング', '転換制度', 'エージェント', '不可分化', //問11〜15
+                ]"
+                :labels="[
+                'ウ', 'コ', 'キ', 'イ', 'ケ',  //問11〜15
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="1"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                'face to face', '情報通信機器', '囲い込み', 'CS（customer Satisfaciton）', '選択', //問16〜20
+                ]"
+                :labels="[
+                'ケ', 'エ', 'ア', 'ク', 'オ',  //問16〜20
+                ]"
             />
             <QuestionTemp1
                 :questionNumber="21"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '契約の解約ではなく、契約を取り消すことができる',
                 '正しい',
                 '運用方針ではなく勧誘方針。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="22"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
                 '契約時に定めた基本保険金額、特約保険金額は変動しない。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="23"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
                 '健康保険組合連合会ではなく、地方公共団体。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="24"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '従業員や団体の所属員が保険料を拠出し、加入脱退が任意で（任意加入）、保険料額・年金額の自在性があるのが特徴であり、「B（型）年金」とも称されるのは拠出型企業年金',
                 '元本確保商品としての要件をみたすGICタイプの商品が生命保険商品として主流なのは、確定拠出年金保険。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="25"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '契約者と保険会社との間に立って中立の立場で保険契約の締結の媒介を行う。',
                 '日本固有の制度ではない。',
                 '正しい'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="26"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '正しい',
                 '株式・株式投資信託等の有価証券ではなく定期性預貯金。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="27"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '第3号ではなく第1号被保険者。',
                 '正しい'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="28"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '年齢階級別ではなく所得段階別。',
                 '正しい'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="29"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '正しい',
                 '個人型確定拠出年金（iDeCo）は対象外。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="30"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '正しい',
                 '企業保険の販売を中心とした活動を行いつつ、個人保険販売の支援のため担当企業やその関連企業の基盤化を推進している法人営業組織もある。'
                 ]"
-                :title="title"
-                :subject="subject"
             />
             <QuestionTemp2
                 :questionNumber="31"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 // 問31〜35
                 '正しい',
@@ -165,8 +195,6 @@ const subject = '2023年度 フォームB'
                 '解', '解', '解', '解', '解', '解', '解', '解', '解', '解',  //問31〜40
                 'エ', 'ア', 'エ', 'イ', 'オ', 'イ', 'イ', 'ア', 'ウ', 'オ',  //問41〜50
                 ]"
-                :title="title"
-                :subject="subject"
             />
         </div>
 

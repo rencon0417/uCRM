@@ -7,6 +7,8 @@ import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
+const title = "生命保険商品と営業"
+const subject = '2023年度 フォームB'
 
 </script>
 
@@ -17,8 +19,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
         <!-- ページタイトル -->
         <Pagetitle
-            title="生命保険商品と営業"
-            description="2023年度 フォームB"
+            :title="title"
+            :description="subject"
         />
 
         <!-- 問題リスト -->
@@ -37,6 +39,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 'ウ', 'コ', 'キ', 'イ', 'ケ',  //問11〜15
                 'ケ', 'エ', 'ア', 'ク', 'オ',  //問16〜20
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="21"
@@ -45,6 +49,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '正しい',
                 '運用方針ではなく勧誘方針。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="22"
@@ -53,6 +59,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
                 '契約時に定めた基本保険金額、特約保険金額は変動しない。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="23"
@@ -61,6 +69,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
                 '健康保険組合連合会ではなく、地方公共団体。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="24"
@@ -69,6 +79,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '従業員や団体の所属員が保険料を拠出し、加入脱退が任意で（任意加入）、保険料額・年金額の自在性があるのが特徴であり、「B（型）年金」とも称されるのは拠出型企業年金',
                 '元本確保商品としての要件をみたすGICタイプの商品が生命保険商品として主流なのは、確定拠出年金保険。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="25"
@@ -77,6 +89,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '日本固有の制度ではない。',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="26"
@@ -85,6 +99,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '正しい',
                 '株式・株式投資信託等の有価証券ではなく定期性預貯金。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="27"
@@ -93,6 +109,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '第3号ではなく第1号被保険者。',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="28"
@@ -101,6 +119,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '年齢階級別ではなく所得段階別。',
                 '正しい'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="29"
@@ -109,6 +129,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '正しい',
                 '個人型確定拠出年金（iDeCo）は対象外。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="30"
@@ -117,6 +139,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '正しい',
                 '企業保険の販売を中心とした活動を行いつつ、個人保険販売の支援のため担当企業やその関連企業の基盤化を推進している法人営業組織もある。'
                 ]"
+                :title="title"
+                :subject="subject"
             />
             <QuestionTemp2
                 :questionNumber="31"
@@ -141,6 +165,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 '解', '解', '解', '解', '解', '解', '解', '解', '解', '解',  //問31〜40
                 'エ', 'ア', 'エ', 'イ', 'オ', 'イ', 'イ', 'ア', 'ウ', 'オ',  //問41〜50
                 ]"
+                :title="title"
+                :subject="subject"
             />
         </div>
 

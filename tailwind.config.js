@@ -15,6 +15,9 @@ module.exports = {
                 // poppins: ['Poppins', 'sans-serif'],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            fontSize: {
+                'xxs': '0.6rem', // 例として0.6remを定義
+            },
             colors: {
                 body: "#050505",
                 "selected-text": "#A3A3FF",

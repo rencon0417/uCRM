@@ -10,10 +10,10 @@
           <p>{{ content }}</p>
         </div>
       </div>
-      <div class="flex justify-end text-gray-400 text-xs">
+      <div class="flex justify-end text-gray-400 text-xxs">
         {{ props.title }}
       </div>
-      <div class="flex justify-end text-gray-400 text-xs">
+      <div class="flex justify-end text-gray-400 text-xxs">
         {{ props.subject }}
       </div>
     </div>

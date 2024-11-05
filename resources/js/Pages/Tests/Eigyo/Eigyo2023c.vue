@@ -7,6 +7,9 @@ import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
+const title = "生命保険商品と営業"
+const subject = '2023年度 フォームC'
+
 </script>
 
 <template>
@@ -15,14 +18,16 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
         <!-- ページタイトル -->
         <Pagetitle
-            title="生命保険商品と営業"
-            description="2023年度 フォームC"
+            :title="title"
+            :description="subject"
         />
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
             <QuestionTemp3
                 :questionNumber="1"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '40歳以上', '65歳以上', '医療費抑制', '所得段階別', '18万円', // 問１〜５
                 ]"
@@ -32,6 +37,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp3
                 :questionNumber="2"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '厚生労働省', '介護認定審査会', '予防給付', '地域密着サービス', '居住費', //問６〜10
                 ]"
@@ -41,6 +48,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp3
                 :questionNumber="3"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '継続的', 'マーケティング', '転換制度', 'エージェント', '不可分化', //問11〜15
                 ]"
@@ -50,6 +59,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp3
                 :questionNumber="4"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 'face to face', '情報通信機器', '囲い込み', 'CS（customer Satisfaciton）', '選択', //問16〜20
                 ]"
@@ -59,6 +70,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="21"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '主契約より長い場合はない。',
                 '短縮払ではなく短期払。',
@@ -67,6 +80,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="22"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '変動保険金は毎月変動、満期保険金は満期時に確定、積立金と解約返戻金は毎日変動。',
@@ -75,6 +90,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="23"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '1年以上ではなく2年以上、前後6か月以内ではなく前後1年以内。',
@@ -83,6 +100,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="24"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '告知義務や契約始期、モラルリスク等が問題となりやすく、取扱保険商品、加入保険金額を制限しているケースが多い。',
                 'パソコンやスマートフォンで資料請求や申込ができるだけでなく、契約の成立までも完了できる生保会社もある。',
@@ -91,6 +110,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="25"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '生命保険協会ではなく内閣総理大臣（金融庁長官に委任）の登録を受ける。',
                 '正しい',
@@ -99,6 +120,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="26"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '正しい',
@@ -107,6 +130,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="27"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '第3号ではなく第1号被保険者。',
@@ -115,6 +140,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="28"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 'ホールセラーではなく、「法人営業第●部」',
@@ -123,6 +150,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="29"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '再販売等に活用することが一般的となってきている。',
                 '正しい',
@@ -131,6 +160,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="30"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 'これまで生命保険会社の支社の配置は、管理スパン上の問題や地域社会における店舗サービス機能の発揮ならびにPR効果の観点から、組織がある一定規模までに達すれば支社を分割するのが一般的であったか近年ではコスト、効率化のため事務面の集約化や規模の大型化に向かう傾向が見られる。',
                 '正しい',
@@ -139,6 +170,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp2
                 :questionNumber="31"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 // 問31〜35
                 '企業福祉制度のあり方も、従来のような総合的・恩恵的福祉から、自己責任原則のもと、従業員の自助努力・自立を側面から支援するものに重点が移されつつある。',

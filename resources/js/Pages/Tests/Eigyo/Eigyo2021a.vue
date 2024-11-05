@@ -7,6 +7,8 @@ import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
+const title = "生命保険商品と営業"
+const subject = '2021年度 フォームA'
 
 </script>
 
@@ -15,8 +17,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
     <section class="bg-gray-100 text-gray-800 py-10">
         <!-- ページタイトル -->
         <Pagetitle
-            title="生命保険商品と営業"
-            description="2021年度 フォームA"
+            :title="title"
+            :description="subject"
         />
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">

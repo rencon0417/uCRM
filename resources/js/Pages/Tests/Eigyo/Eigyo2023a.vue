@@ -8,6 +8,7 @@ import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
+const title = "生命保険商品と営業"
 const subject = '2023年度 フォームA'
 
 </script>
@@ -32,6 +33,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'イ', 'コ', 'ア', 'キ', 'ク',  //問１〜５
                 ]"
+                :title="title"
                 :subject="subject"
             />
             <QuestionTemp3
@@ -42,6 +44,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'ク', 'ウ', 'カ', 'ア', 'オ',  //問６〜10
                 ]"
+                :subject="subject"
             />
             <QuestionTemp3
                 :questionNumber="3"
@@ -51,6 +54,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'ウ', 'コ', 'キ', 'イ', 'ケ',  //問11〜15
                 ]"
+                :subject="subject"
             />
             <QuestionTemp3
                 :questionNumber="4"
@@ -60,6 +64,7 @@ const subject = '2023年度 フォームA'
                 :labels="[
                 'ケ', 'エ', 'ア', 'ク', 'オ',  //問16〜20
                 ]"
+                :subject="subject"
             />
             <QuestionTemp1
                 :questionNumber="21"

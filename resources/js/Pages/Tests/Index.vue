@@ -19,7 +19,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
         </div>
 
         <!-- 目次 -->
-        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="index" class="container bg-white pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full h-full p-6 border border-gray-300 rounded-sm shadow-md">
             <h2 class="text-lg font-semibold mb-4">目次</h2>
             <ul class="list-disc pl-5 space-y-3 text-gray-700">

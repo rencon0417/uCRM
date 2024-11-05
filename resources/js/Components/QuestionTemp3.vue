@@ -10,8 +10,11 @@
           <p>{{ content }}</p>
         </div>
       </div>
+      <div class="flex justify-end text-gray-500 text-xs">
+        {{ props.subject }}
+      </div>
     </div>
-  </template>
+</template>
 
 <script setup lang="ts">
 
@@ -19,6 +22,7 @@
         questionNumber: number
         contents: string[]
         labels: string[]
+        subject: string[]
     }
 
     const props = defineProps<Props>()

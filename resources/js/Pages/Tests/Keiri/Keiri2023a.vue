@@ -7,8 +7,8 @@ import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
-const title = "生命保険総論"
-const subject = '2023年度 フォームC'
+const title = "生命保険計理"
+const subject = '2023年度 フォームA'
 
 </script>
 
@@ -30,10 +30,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '内閣総理大臣', '委託', '禁止行為', '販売チャネル', '保険ブローカー（保険仲立人）', // 問１〜５
+                '5,425','522,926','1.51','1.23','2,710,245', // 問１〜５
                 ]"
                 :labels="[
-                'キ', 'エ', 'コ', 'ア', 'ウ',  //問１〜５
+                'カ','ク','ウ','ア','コ',  //問１〜５
                 ]"
             />
             <QuestionTemp3
@@ -41,10 +41,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '意向把握義務', '勧誘方針', '消費者契約法', '金融商品取引法', '特定保険契約', //問６〜10
+                '0.98530','98,455','1.02','955,236','9,790', //問６〜10
                 ]"
                 :labels="[
-                'ケ', 'ア', 'ク', 'ウ', 'コ',  //問６〜10
+                'ア','キ','ウ','コ','カ',  //問６〜10
                 ]"
             />
             <QuestionTemp3
@@ -52,10 +52,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '保障制度', '自給自足', '経済単位', '相互扶助', 'ギルド', //問11〜15
+                '経験生命表','完全生命表','総合表','選択効果','年齢別', //問11〜15
                 ]"
                 :labels="[
-                'オ', 'ア', 'コ', 'キ', 'カ',  //問11〜15
+                'ウ','ア','キ','カ','コ',  //問11〜15
                 ]"
             />
             <QuestionTemp3
@@ -63,10 +63,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '海上保険', '冒険貸借', '統計学', 'ドイツ', '社会保険', //問16〜20
+                '解約返戻金','残存','そのときの被保険者の到達年齢','新契約費','同じ', //問16〜20
                 ]"
                 :labels="[
-                'カ', 'イ', 'エ', 'ケ', 'オ',  //問16〜20
+                'ウ','キ','ケ','ク','イ',  //問16〜20
                 ]"
             />
             <QuestionTemp1
@@ -74,9 +74,9 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '正しい',
                 '',
-                ''
+                '',
+                '正しい'
                 ]"
                 />
             <QuestionTemp1
@@ -84,8 +84,8 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
+                '',
                 ''
                 ]"
             />
@@ -95,8 +95,8 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 '',
-                '正しい',
-                ''
+                '',
+                '正しい'
                 ]"
             />
             <QuestionTemp1
@@ -105,8 +105,8 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 '',
-                '',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp1
@@ -124,9 +124,9 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
+                '',
                 '正しい',
-                '正しい',
-                ''
+                '正しい'
                 ]"
             />
             <QuestionTemp1
@@ -164,9 +164,9 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp2
@@ -175,26 +175,26 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 // 問31〜35
+                '正しい',
+                '正しい',
                 '',
                 '正しい',
-                '正しい',
-                '正しい',
-                '正しい',
+                '',
                 // 問36〜40
                 '正しい',
-                '',
-                '',
+                '正しい',
                 '正しい',
                 '',
+                '',
                  //問41〜50
-                'B-いずれかの遅い日', 'A-負債', 'B-維持費', 'C（A・Bともに正しい）', 'A-更生手続',
-                'A-家系可処分所得', 'C（A・Bともに正しい）', 'A-安全性', 'B-第2号被保険者', 'B-保険金額',
+                'C（A・Bともに正しい）', 'A-大数', 'B-高くなる', 'B-平準保険料', 'A-未経過保険料',
+                'A-定期保険', 'C（A・Bともに正しい）', 'B-価格変動', 'A-死亡保険金額', 'A-事前積立',
                 ]"
                 :labels="[
-                '解', '解', '解', '解', '解',  //問31〜35
-                '解', '解', '解', '解', '解',  //問36〜40
-                'エ', 'ア', 'エ', 'オ', 'イ',  //問41〜45
-                'ア', 'オ', 'イ', 'ウ', 'ウ',  //問46〜50
+                '解','解','解','解','解',  //問31〜35
+                '解','解','解','解','解',  //問36〜40
+                'オ','イ','エ','ウ','イ',  //問41〜45
+                'ア','オ','エ','ア','ア',  //問46〜50
                 ]"
             />
         </div>
@@ -204,12 +204,7 @@ const subject = '2023年度 フォームC'
             <!-- 上段：前へ・次へボタン -->
             <div class="flex justify-center gap-16">
                 <Link
-                    :href="route('souron2023b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('souron2022a')"
+                    :href="route('keiri2023b')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     次の試験へ
                 </Link>

@@ -57,6 +57,158 @@ class TestController extends Controller
         return Inertia::render('Tests/Souron/Souron2021c');
     }
 
+    // 生命保険計理
+    public function keiri2023a()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2023a');
+    }
+    public function keiri2023b()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2023b');
+    }
+    public function keiri2023c()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2023c');
+    }
+    public function keiri2022a()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2022a');
+    }
+    public function keiri2022b()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2022b');
+    }
+    public function keiri2022c()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2022c');
+    }
+    public function keiri2021a()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2021a');
+    }
+    public function keiri2021b()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2021b');
+    }
+    public function keiri2021c()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2021c');
+    }
+
+    // 危険選択
+    public function kiken2023a()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2023a');
+    }
+    public function kiken2023b()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2023b');
+    }
+    public function kiken2023c()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2023c');
+    }
+    public function kiken2022a()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2022a');
+    }
+    public function kiken2022b()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2022b');
+    }
+    public function kiken2022c()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2022c');
+    }
+    public function kiken2021a()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2021a');
+    }
+    public function kiken2021b()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2021b');
+    }
+    public function kiken2021c()
+    {
+        return Inertia::render('Tests/Kiken/Kiken2021c');
+    }
+
+    // 約款と法律
+    public function yakkan2023a()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2023a');
+    }
+    public function yakkan2023b()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2023b');
+    }
+    public function yakkan2023c()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2023c');
+    }
+    public function yakkan2022a()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2022a');
+    }
+    public function yakkan2022b()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2022b');
+    }
+    public function yakkan2022c()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2022c');
+    }
+    public function yakkan2021a()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2021a');
+    }
+    public function yakkan2021b()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2021b');
+    }
+    public function yakkan2021c()
+    {
+        return Inertia::render('Tests/Yakkan/Yakkan2021c');
+    }
+
+    // 生命保険会計
+    public function kaikei2023a()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2023a');
+    }
+    public function kaikei2023b()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2023b');
+    }
+    public function kaikei2023c()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2023c');
+    }
+    public function kaikei2022a()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2022a');
+    }
+    public function kaikei2022b()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2022b');
+    }
+    public function kaikei2022c()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2022c');
+    }
+    public function kaikei2021a()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2021a');
+    }
+    public function kaikei2021b()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2021b');
+    }
+    public function kaikei2021c()
+    {
+        return Inertia::render('Tests/Kaikei/Kaikei2021c');
+    }
+
     // 生命保険商品と営業
     public function eigyo2023a()
     {
@@ -95,43 +247,83 @@ class TestController extends Controller
         return Inertia::render('Tests/Eigyo/Eigyo2021c');
     }
 
-    // 生命保険商品と営業
-    public function kaikei2023a()
+    // 生命保険と税法
+    public function zeihou2023a()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2023a');
+        return Inertia::render('Tests/Zeihou/Zeihou2023a');
     }
-    public function kaikei2023b()
+    public function zeihou2023b()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2023b');
+        return Inertia::render('Tests/Zeihou/Zeihou2023b');
     }
-    public function kaikei2023c()
+    public function zeihou2023c()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2023c');
+        return Inertia::render('Tests/Zeihou/Zeihou2023c');
     }
-    public function kaikei2022a()
+    public function zeihou2022a()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2022a');
+        return Inertia::render('Tests/Zeihou/Zeihou2022a');
     }
-    public function kaikei2022b()
+    public function zeihou2022b()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2022b');
+        return Inertia::render('Tests/Zeihou/Zeihou2022b');
     }
-    public function kaikei2022c()
+    public function zeihou2022c()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2022c');
+        return Inertia::render('Tests/Zeihou/Zeihou2022c');
     }
-    public function kaikei2021a()
+    public function zeihou2021a()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2021a');
+        return Inertia::render('Tests/Zeihou/Zeihou2021a');
     }
-    public function kaikei2021b()
+    public function zeihou2021b()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2021b');
+        return Inertia::render('Tests/Zeihou/Zeihou2021b');
     }
-    public function kaikei2021c()
+    public function zeihou2021c()
     {
-        return Inertia::render('Tests/Kaikei/Kaikei2021c');
+        return Inertia::render('Tests/Zeihou/Zeihou2021c');
     }
+
+    // 資産運用
+    public function sisan2023a()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2023a');
+    }
+    public function sisan2023b()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2023b');
+    }
+    public function sisan2023c()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2023c');
+    }
+    public function sisan2022a()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2022a');
+    }
+    public function sisan2022b()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2022b');
+    }
+    public function sisan2022c()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2022c');
+    }
+    public function sisan2021a()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2021a');
+    }
+    public function sisan2021b()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2021b');
+    }
+    public function sisan2021c()
+    {
+        return Inertia::render('Tests/Sisan/Sisan2021c');
+    }
+
+
 
 
 

@@ -8,7 +8,7 @@ import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "生命保険総論"
-const subject = '2023年度 フォームC'
+const subject = '2022年度 フォームA'
 
 </script>
 
@@ -30,10 +30,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '内閣総理大臣', '委託', '禁止行為', '販売チャネル', '保険ブローカー（保険仲立人）', // 問１〜５
+                '契約自由','債権債務','経済的','保険法','商法', // 問１〜５
                 ]"
                 :labels="[
-                'キ', 'エ', 'コ', 'ア', 'ウ',  //問１〜５
+                'ケ','ウ','エ','イ','キ',  //問１〜５
                 ]"
             />
             <QuestionTemp3
@@ -41,10 +41,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '意向把握義務', '勧誘方針', '消費者契約法', '金融商品取引法', '特定保険契約', //問６〜10
+                '拘束','法規範説','定型的取引','保険約款','強行', //問６〜10
                 ]"
                 :labels="[
-                'ケ', 'ア', 'ク', 'ウ', 'コ',  //問６〜10
+                'ウ','ア','キ','カ','イ',  //問６〜10
                 ]"
             />
             <QuestionTemp3
@@ -52,10 +52,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '保障制度', '自給自足', '経済単位', '相互扶助', 'ギルド', //問11〜15
+                '平均寿命','7','速い','扶養','15〜64', //問11〜15
                 ]"
                 :labels="[
-                'オ', 'ア', 'コ', 'キ', 'カ',  //問11〜15
+                'ク','ウ','キ','カ','コ',  //問11〜15
                 ]"
             />
             <QuestionTemp3
@@ -63,10 +63,10 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '海上保険', '冒険貸借', '統計学', 'ドイツ', '社会保険', //問16〜20
+                '年金','70','合計特殊出生率','下回って','労働力率', //問16〜20
                 ]"
                 :labels="[
-                'カ', 'イ', 'エ', 'ケ', 'オ',  //問16〜20
+                'エ','ケ','イ','オ','コ',  //問16〜20
                 ]"
             />
             <QuestionTemp1
@@ -74,8 +74,8 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '正しい',
                 '',
+                '正しい',
                 ''
                 ]"
                 />
@@ -85,8 +85,8 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 '',
-                '正しい',
-                ''
+                '',
+                '正しい'
                 ]"
             />
             <QuestionTemp1
@@ -104,9 +104,9 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
+                '正しい',
                 '',
-                '',
-                '正しい'
+                ''
                 ]"
             />
             <QuestionTemp1
@@ -124,9 +124,9 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
+                '',
                 '正しい',
-                '正しい',
-                ''
+                '正しい'
                 ]"
             />
             <QuestionTemp1
@@ -135,8 +135,8 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 '正しい',
-                '',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp1
@@ -145,8 +145,8 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 '正しい',
-                '正しい',
-                ''
+                '',
+                '正しい'
                 ]"
             />
             <QuestionTemp1
@@ -154,8 +154,8 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '正しい',
                 '',
+                '正しい',
                 '正しい'
                 ]"
             />
@@ -164,9 +164,9 @@ const subject = '2023年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp2
@@ -175,26 +175,26 @@ const subject = '2023年度 フォームC'
                 :subject="subject"
                 :contents="[
                 // 問31〜35
+                '正しい',
+                '正しい',
                 '',
-                '正しい',
-                '正しい',
-                '正しい',
+                '',
                 '正しい',
                 // 問36〜40
                 '正しい',
-                '',
-                '',
+                '正しい',
                 '正しい',
                 '',
+                '',
                  //問41〜50
-                'B-いずれかの遅い日', 'A-負債', 'B-維持費', 'C（A・Bともに正しい）', 'A-更生手続',
-                'A-家系可処分所得', 'C（A・Bともに正しい）', 'A-安全性', 'B-第2号被保険者', 'B-保険金額',
+                'B-配当金', 'C（A・Bともに正しい）', 'A-経過年数', 'A-友愛組合', 'B-低く',
+                'A-負債', 'A-保険料の拠出', 'B-財務大臣', 'C（A・Bともに正しい）', 'A-団体定期保険',
                 ]"
                 :labels="[
-                '解', '解', '解', '解', '解',  //問31〜35
-                '解', '解', '解', '解', '解',  //問36〜40
-                'エ', 'ア', 'エ', 'オ', 'イ',  //問41〜45
-                'ア', 'オ', 'イ', 'ウ', 'ウ',  //問46〜50
+                '解','解','解','解','解',  //問31〜35
+                '解','解','解','解','解',  //問36〜40
+                'ウ','オ','イ','イ','エ',  //問41〜45
+                'ア','ア','エ','オ','ア',  //問46〜50
                 ]"
             />
         </div>
@@ -204,12 +204,12 @@ const subject = '2023年度 フォームC'
             <!-- 上段：前へ・次へボタン -->
             <div class="flex justify-center gap-16">
                 <Link
-                    :href="route('souron2023b')"
+                    :href="route('souron2023c')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     前の試験へ
                 </Link>
                 <Link
-                    :href="route('souron2022a')"
+                    :href="route('souron2022b')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     次の試験へ
                 </Link>

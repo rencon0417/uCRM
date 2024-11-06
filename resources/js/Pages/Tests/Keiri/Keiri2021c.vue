@@ -8,7 +8,7 @@ import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "生命保険計理"
-const subject = '2022年度 フォームA'
+const subject = '2021年度 フォームC'
 
 </script>
 
@@ -30,10 +30,10 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '0.96114','98,233','1.26','1,194,044','12,610', // 問１〜５
+                '1.12','203,011','2.52','1.21','1,459,148', // 問１〜５
                 ]"
                 :labels="[
-                'ア','ク','ウ','コ','カ',  //問１〜５
+                'ア','ク','オ','イ','コ',  //問１〜５
                 ]"
             />
             <QuestionTemp3
@@ -41,10 +41,10 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '24,120','2,123,292','1.51','1.33','1,902,931', //問６〜10
+                '貯蓄','歩合（割合）','新契約','未償却','ゼロ', //問６〜10
                 ]"
                 :labels="[
-                'オ','コ','ウ','イ','ク',  //問６〜10
+                'ア','コ','ウ','エ','カ',  //問６〜10
                 ]"
             />
             <QuestionTemp3
@@ -52,10 +52,10 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '危険保険金','危険保険料','多く','責任準備金','利息および配当金等収入', //問11〜15
+                '未経過保険料','危険準備金','4月1日から翌年3月31日','契約月','保険リスク', //問11〜15
                 ]"
                 :labels="[
-                'キ','イ','オ','ケ','コ',  //問11〜15
+                'キ','イ','エ','ケ','コ',  //問11〜15
                 ]"
             />
             <QuestionTemp3
@@ -63,10 +63,10 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '付加保険料','価格変動','危険準備金','解約・失効益','法人税および住民税額', //問16〜20
+                '保証はない','変動保険金額','毎日','契約者','生命保険会社', //問16〜20
                 ]"
                 :labels="[
-                'イ','オ','エ','ケ','カ',  //問16〜20
+                'コ','カ','キ','ケ','イ',  //問16〜20
                 ]"
             />
             <QuestionTemp1
@@ -114,9 +114,9 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
+                '正しい',
                 '',
-                '',
-                '正しい'
+                ''
                 ]"
             />
             <QuestionTemp1
@@ -124,8 +124,8 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
+                '',
                 '正しい'
                 ]"
             />
@@ -154,8 +154,8 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '正しい',
                 '',
+                '正しい',
                 '正しい'
                 ]"
             />
@@ -164,9 +164,9 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
-                '正しい'
+                '正しい',
+                ''
                 ]"
             />
             <QuestionTemp2
@@ -176,10 +176,10 @@ const subject = '2022年度 フォームA'
                 :contents="[
                 // 問31〜35
                 '正しい',
-                '正しい',
-                '正しい',
+                '',
                 '',
                 '正しい',
+                '',
                 // 問36〜40
                 '正しい',
                 '',
@@ -187,14 +187,14 @@ const subject = '2022年度 フォームA'
                 '',
                 '正しい',
                  //問41〜50
-                'B-2', 'B-収支相当', 'A-貯蓄保険料', 'B-予定利率', 'B-契約者貸付',
-                'C（A・Bともに正しい）', 'A-保険種類', 'C（A・Bともに正しい）', 'C（A・Bともに正しい）', 'B-通常保険料',
+                'C（A・Bともに正しい）', 'B-毎年', 'B-責任準備金', 'A-高くなる', 'C（A・Bともに正しい）',
+                'A-標準', 'A-定期保険', 'A-責任準備金関係', 'A-保険年度末保険料積立金', 'B-純保険料率',
                 ]"
                 :labels="[
                 '解','解','解','解','解',  //問31〜35
                 '解','解','解','解','解',  //問36〜40
-                'エ','ウ','イ','エ','エ',  //問41〜45
-                'オ','ア','オ','オ','ウ',  //問46〜50
+                'オ','ウ','エ','イ','オ',  //問41〜45
+                'イ','ア','イ','ア','ウ',  //問46〜50
                 ]"
             />
         </div>
@@ -204,14 +204,9 @@ const subject = '2022年度 フォームA'
             <!-- 上段：前へ・次へボタン -->
             <div class="flex justify-center gap-16">
                 <Link
-                    :href="route('keiri2023a')"
+                    :href="route('keiri2021b')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     前の試験へ
-                </Link>
-                <Link
-                    :href="route('keiri2022b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
                 </Link>
             </div>
             <!-- 下段：戻るボタン -->

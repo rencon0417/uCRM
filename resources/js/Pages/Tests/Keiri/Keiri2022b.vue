@@ -8,7 +8,7 @@ import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "生命保険計理"
-const subject = '2022年度 フォームA'
+const subject = '2022年度 フォームB'
 
 </script>
 
@@ -52,10 +52,10 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '危険保険金','危険保険料','多く','責任準備金','利息および配当金等収入', //問11〜15
+                '年金','負債','平準純保険料式','ソルベンシー・マージン','ストレステスト', //問11〜15
                 ]"
                 :labels="[
-                'キ','イ','オ','ケ','コ',  //問11〜15
+                'ア','エ','コ','キ','オ',  //問11〜15
                 ]"
             />
             <QuestionTemp3
@@ -63,10 +63,10 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '付加保険料','価格変動','危険準備金','解約・失効益','法人税および住民税額', //問16〜20
+                '未経過保険料','危険保険料','算出方法書','最低保証リスク','保険計理人', //問16〜20
                 ]"
                 :labels="[
-                'イ','オ','エ','ケ','カ',  //問16〜20
+                'エ','コ','イ','ク','ア',  //問16〜20
                 ]"
             />
             <QuestionTemp1
@@ -74,8 +74,8 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '正しい',
                 '',
+                '正しい',
                 ''
                 ]"
                 />
@@ -84,8 +84,8 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
+                '',
                 ''
                 ]"
             />
@@ -104,8 +104,8 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
+                '',
                 ''
                 ]"
             />
@@ -124,8 +124,8 @@ const subject = '2022年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '',
                 '正しい',
+                '',
                 '正しい'
                 ]"
             />
@@ -181,20 +181,20 @@ const subject = '2022年度 フォームA'
                 '',
                 '正しい',
                 // 問36〜40
-                '正しい',
+                '',
                 '',
                 '正しい',
                 '',
-                '正しい',
+                '',
                  //問41〜50
-                'B-2', 'B-収支相当', 'A-貯蓄保険料', 'B-予定利率', 'B-契約者貸付',
-                'C（A・Bともに正しい）', 'A-保険種類', 'C（A・Bともに正しい）', 'C（A・Bともに正しい）', 'B-通常保険料',
+                'B-毎年', 'A-年平残方式', 'A-現価', 'B-低くなる', 'B-契約者貸付',
+                'C（A・Bともに正しい）', 'C（A・Bともに正しい）', 'B-20%', 'A-超過資産', 'B-通常保険料',
                 ]"
                 :labels="[
                 '解','解','解','解','解',  //問31〜35
                 '解','解','解','解','解',  //問36〜40
-                'エ','ウ','イ','エ','エ',  //問41〜45
-                'オ','ア','オ','オ','ウ',  //問46〜50
+                'ウ','イ','ア','ウ','エ',  //問41〜45
+                'オ','オ','ウ','ア','ウ',  //問46〜50
                 ]"
             />
         </div>
@@ -209,7 +209,7 @@ const subject = '2022年度 フォームA'
                     前の試験へ
                 </Link>
                 <Link
-                    :href="route('keiri2022b')"
+                    :href="route('keiri2022c')"
                     class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
                     次の試験へ
                 </Link>

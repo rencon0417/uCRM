@@ -4,40 +4,76 @@ import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
+import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
+
+const title = "生命保険会計"
+const subject = '2023年度 フォームC'
 
 </script>
 
 <template>
-    <SeihoTestLayout>
+
+<SeihoTestLayout>
     <section class="bg-gray-100 text-gray-800 py-10">
 
         <!-- ページタイトル -->
         <Pagetitle
-            title="生命保険会計"
-            description="2023年度 フォームC"
+            :title="title"
+            :description="subject"
         />
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp2
+            <QuestionTemp3
                 :questionNumber="1"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '客観性', '会計慣習', '注解', '報告', '処理', // 問１〜５
-                '真実性', '資本取引・損益取引区分', '資本剰余金', '保守主義', '単一性', //問６〜10
-                '付加保険料', '維持費', '募集機関', '福利厚生', '退職給付引当金繰入額', //問11〜15
-                '死亡率', '利源分析', '６', '拡大', '支出管理', //問16〜20
                 ]"
                 :labels="[
                 'ク', 'カ', 'ア', 'ウ', 'エ',  //問１〜５
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="2"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '真実性', '資本取引・損益取引区分', '資本剰余金', '保守主義', '単一性', //問６〜10
+                ]"
+                :labels="[
                 'イ', 'ケ', 'ク', 'カ', 'ウ',  //問６〜10
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="3"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '付加保険料', '維持費', '募集機関', '福利厚生', '退職給付引当金繰入額', //問11〜15
+                ]"
+                :labels="[
                 'ク', 'コ', 'カ', 'キ', 'エ',  //問11〜15
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="4"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '死亡率', '利源分析', '６', '拡大', '支出管理', //問16〜20
+                ]"
+                :labels="[
                 'オ', 'イ', 'エ', 'キ', 'ア',  //問16〜20
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="21"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '',
                 '正しい',
@@ -46,6 +82,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 />
             <QuestionTemp1
                 :questionNumber="22"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '',
                 '',
@@ -54,6 +92,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="23"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '',
@@ -62,6 +102,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="24"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '',
                 '',
@@ -70,6 +112,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="25"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '',
@@ -78,6 +122,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="26"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '',
@@ -86,6 +132,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="27"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '',
                 '正しい',
@@ -94,6 +142,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="28"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '',
@@ -102,6 +152,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="29"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '',
                 '正しい',
@@ -110,6 +162,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp1
                 :questionNumber="30"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '正しい',
@@ -118,6 +172,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             />
             <QuestionTemp2
                 :questionNumber="31"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 // 問31〜35
                 '',

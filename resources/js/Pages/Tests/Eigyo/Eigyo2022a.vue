@@ -2,9 +2,9 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
-import KaTeXDisplay from '../../../Components/KaTeXDisplay.vue';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
+import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
@@ -23,23 +23,54 @@ const subject = '2022年度 フォームA'
         />
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp2
+            <QuestionTemp3
                 :questionNumber="1"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '60歳', '報酬比例', '定額保険料', '標準賞与額', '18.30%', // 問１〜５
-                '10年', '1ヶ月', '1級〜3級', '子の数', '4分の3', //問６〜10
-                '規約型', 'GIC（guaranteed interest contract：利率保証契約）', '拠出型企業年金', 'B（型）年金', '国民年金基金', //問11〜15
-                '団体生存保険', '公務員', '新企業年金保険', 'A（型）年金', '合同', //問16〜20
                 ]"
                 :labels="[
                 'ケ', 'ク', 'エ', 'カ', 'イ',  //問１〜５
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="2"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '10年', '1ヶ月', '1級〜3級', '子の数', '4分の3', //問６〜10
+                ]"
+                :labels="[
                 'カ', 'ア', 'イ', 'コ', 'ク',  //問６〜10
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="3"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '規約型', 'GIC（guaranteed interest contract：利率保証契約）', '拠出型企業年金', 'B（型）年金', '国民年金基金', //問11〜15
+                ]"
+                :labels="[
                 'キ', 'オ', 'ケ', 'イ', 'ク',  //問11〜15
+                ]"
+            />
+            <QuestionTemp3
+                :questionNumber="4"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                '団体生存保険', '公務員', '新企業年金保険', 'A（型）年金', '合同', //問16〜20
+                ]"
+                :labels="[
                 'カ', 'オ', 'キ', 'ケ', 'ク',  //問16〜20
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="21"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '住民票を有するすべての人へ個人番号を割り当てている。',
                 '正しい',
@@ -48,6 +79,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="22"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '支払われる保険金は非課税扱いになる。',
                 '契約自体はあくまでも当初の契約が継続する点も転換制度と異なる。',
@@ -56,6 +89,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="23"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '死差配当ではなく利差配当。',
                 '正しい',
@@ -64,6 +99,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="24"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '一定の条件を満たす保険代理店においては、一社専属性の例外が認められ、複数の生命保険会社の商品を取り扱うことができる。',
@@ -72,6 +109,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="25"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '銀行等金融機関を専門的にサポートする担当者を一般的に「ホールセラー」と呼称する。',
@@ -80,6 +119,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="26"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '消費者は契約を取り消すことができる。損害額の賠償を請求できるわけではない。',
                 '正しい',
@@ -88,6 +129,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="27"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '責任準金は生存した他の被保険者の保険金の支払に充当する。',
                 '正しい',
@@ -96,6 +139,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="28"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '一般預貯金と同じく利子に対して20%課税される。',
@@ -104,6 +149,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="29"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 '正しい',
                 '正しい',
@@ -112,6 +159,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="30"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 'ソルベンシー・マージン比率ではなく、予定事業費とくに予定新契約費。',
                 '正しい',
@@ -120,6 +169,8 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp2
                 :questionNumber="31"
+                :title="title"
+                :subject="subject"
                 :contents="[
                 // 問31〜35
                 '国、都道府県、被保険者が重層的に支えあう制度となっている。',

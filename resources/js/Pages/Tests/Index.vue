@@ -40,7 +40,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">生命保険総論</h2>
                 <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -135,7 +135,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">生命保険計理</h2>
                 <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -230,7 +230,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">危険選択</h2>
                 <p class="secondary-paragraph text-sm">10月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -325,7 +325,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">約款と法律</h2>
                 <p class="secondary-paragraph text-sm">10月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -420,7 +420,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">生命保険会計</h2>
                 <p class="secondary-paragraph text-sm">12月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -515,7 +515,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">生命保険と営業</h2>
                 <p class="secondary-paragraph text-sm">12月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -610,7 +610,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">生命保険と税法</h2>
                 <p class="secondary-paragraph text-sm">2月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->
@@ -705,7 +705,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">資産運用</h2>
                 <p class="secondary-paragraph text-sm">2月実施の試験</p>
-                    <div class="bg-white px-6 py-6 rounded shadow-md">
+                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->

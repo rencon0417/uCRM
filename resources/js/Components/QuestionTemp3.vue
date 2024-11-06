@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white px-6 py-4 border border-gray-300 rounded-lg shadow-md">
+    <div class="bg-white px-6 py-3 border border-gray-300 rounded-lg shadow-md">
       <h2 class="text-lg font-semibold mb-4">
         問題{{ getQuestionRange(props.questionNumber) }}
       </h2>

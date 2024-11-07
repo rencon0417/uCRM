@@ -16,7 +16,7 @@ const subject = '2023年度 フォームB'
 
 <template>
 
-<SeihoTestLayout>
+<SeihoTestLayout :title="title">
     <section class="bg-gray-100 text-gray-800 py-10">
 
         <!-- ページタイトル -->

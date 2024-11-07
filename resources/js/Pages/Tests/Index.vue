@@ -6,7 +6,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 </script>
 
 <template>
-    <SeihoTestLayout>
+    <SeihoTestLayout title="ホーム">
         <!-- ヒーローセクション -->
         <div id="index" class="container my-20 py-4 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full h-30">

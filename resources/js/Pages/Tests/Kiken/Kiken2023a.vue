@@ -14,7 +14,7 @@ const subject = '2023年度 フォームA'
 
 <template>
 
-<SeihoTestLayout>
+<SeihoTestLayout :title="title">
     <section class="bg-gray-100 text-gray-800 py-10">
 
         <!-- ページタイトル -->
@@ -30,7 +30,7 @@ const subject = '2023年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '保護',',公平性','減殺','被保険者利益','疾病保険', // 問１〜５
+                '保護','公平性','減殺','被保険者利益','疾病保険', // 問１〜５
                 ]"
                 :labels="[
                 'ウ','イ','キ','ク','カ',  //問１〜５

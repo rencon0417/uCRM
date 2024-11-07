@@ -2,10 +2,18 @@
 import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
+
+defineProps({
+  title: {
+    type: String,
+    required: true
+  }
+})
+
 </script>
 
 <template>
-    <Head title="生保講座過去問解説">
+    <Head :title="title">
         <link rel="icon" href="/images/rencon3.png" />
     </Head>
     <div class="scroll-smooth">

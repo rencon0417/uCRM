@@ -238,21 +238,21 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                                 <h2 class="secondary-head">2023年度</h2>
                             <div class="divide-y divide-gray-200 border-y border-gray-200">
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2023a')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                     </div>
                                 </Link>
                                 </div>
                                 <div class="">
-                                <Link :href="route('souron2023b')">
+                                <Link :href="route('kiken2023b')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                     </div>
                                 </Link>
                                 </div>
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2023c')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                     </div>
@@ -265,21 +265,21 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                                 <h2 class="secondary-head">2022年度</h2>
                             <div class="divide-y divide-gray-200 border-y border-gray-200">
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2022a')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                     </div>
                                 </Link>
                                 </div>
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2022b')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                     </div>
                                 </Link>
                                 </div>
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2022c')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                     </div>
@@ -293,21 +293,21 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                                 <h2 class="secondary-head">2021年度</h2>
                             <div class="divide-y divide-gray-200 border-y border-gray-200">
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2021a')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
                                     </div>
                                 </Link>
                                 </div>
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2021b')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
                                     </div>
                                 </Link>
                                 </div>
                                 <div class="">
-                                <Link :href="route('souron2023a')">
+                                <Link :href="route('kiken2021c')">
                                     <div class="py-3">
                                     <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
                                     </div>

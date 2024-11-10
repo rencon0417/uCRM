@@ -285,7 +285,7 @@ class TestController extends Controller
         return Inertia::render('Tests/Zeihou/Zeihou2021c');
     }
 
-    // 資産運用
+    // 資産の運用
     public function sisan2023a()
     {
         return Inertia::render('Tests/Sisan/Sisan2023a');

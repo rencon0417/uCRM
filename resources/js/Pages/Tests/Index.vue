@@ -28,7 +28,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
                 <li><a href="#souron" class="hover:text-purple-500">生命保険総論（作成中）</a></li>
                 <li><a href="#keiri" class="hover:text-purple-500">生命保険計理（作成中）</a></li>
                 <li><a href="#kiken" class="hover:text-purple-500">危険選択</a></li>
-                <li><a href="#yakkan" class="hover:text-purple-500">約款と法律（作成中）</a></li>
+                <li><a href="#yakkan" class="hover:text-purple-500">約款と法律</a></li>
                 <li><a href="#kaikei" class="hover:text-purple-500">生命保険会計</a></li>
                 <li><a href="#eigyo" class="hover:text-purple-500">生命保険商品と営業</a></li>
                 <li><a href="#zeihou" class="hover:text-purple-500">生命保険と税法</a></li>
@@ -325,7 +325,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
         <!-- 約款と法律セクション -->
         <div id="yakkan" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full">
-                <h2 class="secondary-title">約款と法律（作成中）</h2>
+                <h2 class="secondary-title">約款と法律</h2>
                 <p class="secondary-paragraph text-sm">10月実施の試験</p>
                     <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">

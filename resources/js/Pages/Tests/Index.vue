@@ -42,7 +42,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full">
                 <h2 class="secondary-title">生命保険総論（作成中）</h2>
                 <p class="secondary-paragraph text-sm">8月実施の試験</p>
-                    <div class="bg-white px-6 py-6 border border-gray-300 rounded-sm shadow-md">
+                    <div class="bg-white p-10 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
 
                             <!-- ２０２３年度 -->

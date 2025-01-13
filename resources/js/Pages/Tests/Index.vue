@@ -40,7 +40,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
         <!-- 生命保険総論セクション -->
         <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full">
-                <h2 class="secondary-title">生命保険総論<span class="text-sm">（作成中）</span></h2>
+                <h2 class="secondary-title">生命保険総論</h2>
                 <p class="secondary-paragraph text-sm">8月実施の試験</p>
                     <div class="bg-white p-10 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
@@ -135,7 +135,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
         <!-- 生命保険計理セクション -->
         <div id="keiri" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full">
-                <h2 class="secondary-title">生命保険計理<span class="text-sm">（作成中）</span></h2>
+                <h2 class="secondary-title">生命保険計理</h2>
                 <p class="secondary-paragraph text-sm">8月実施の試験</p>
                     <div class="bg-white p-10 border border-gray-300 rounded-sm shadow-md">
                         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">

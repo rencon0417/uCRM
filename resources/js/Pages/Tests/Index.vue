@@ -25,8 +25,8 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             <section class="w-full h-full bg-white p-6 border border-gray-300 rounded-sm shadow-md">
             <h2 class="text-lg font-semibold mb-4">目次</h2>
             <ul class="list-disc pl-5 space-y-3 text-gray-700">
-                <li><a href="#souron" class="hover:text-purple-500">生命保険総論（作成中）</a></li>
-                <li><a href="#keiri" class="hover:text-purple-500">生命保険計理（作成中）</a></li>
+                <li><a href="#souron" class="hover:text-purple-500">生命保険総論</a></li>
+                <li><a href="#keiri" class="hover:text-purple-500">生命保険計理</a></li>
                 <li><a href="#kiken" class="hover:text-purple-500">危険選択</a></li>
                 <li><a href="#yakkan" class="hover:text-purple-500">約款と法律</a></li>
                 <li><a href="#kaikei" class="hover:text-purple-500">生命保険会計</a></li>

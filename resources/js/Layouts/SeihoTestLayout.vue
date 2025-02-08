@@ -13,7 +13,8 @@ defineProps({
 </script>
 
 <template>
-    <Head :title="title">
+    <!-- <Head :title="title"> -->
+    <Head>
         <link rel="icon" href="/images/rencon3.png" />
     </Head>
     <div class="scroll-smooth">

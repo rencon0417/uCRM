@@ -4,21 +4,31 @@ import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
+const openGoogleForm = () => {
+  const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdYvdwHrldz56rBizNEgfUx9o5e9WdME_OwXpdjyv7oWlW3mQ/viewform?usp=header'; // ここに取得したURLを入力
+  window.open(googleFormUrl, '_blank'); // 新しいタブで開く
+};
+
 </script>
 
 
 <template>
-    <SeihoTestLayout title="ホーム">
-        <!-- ヒーローセクション -->
-        <div id="index" class="container my-20 py-4 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
-            <section class="w-full h-30">
-                <h1 class="font-bold text-3xl lg:text-5xl md:text-3xl sm:text-3xl">
-                        生保講座 <br />
-                        過去問解説
-                </h1>
-
-            </section>
-        </div>
+    <SeihoTestLayout title="生命保険講座過去問解説">
+        <div class="container mx-auto px-4 py-20 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5 relative">
+    <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-20 rounded-lg"></div>
+    <section class="w-full relative z-10">
+        <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-gray-800 leading-tight font-sans">
+        生保講座<br>
+        過去問解説
+        </h1>
+        <p class="mt-8 mb-10 text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed font-sans">
+        生命保険講座の過去問を徹底解説
+        </p>
+        <button @click="openGoogleForm" class="px-8 py-4 rounded-lg bg-white text-blue-500 font-bold hover:bg-blue-100 transition duration-300">
+            お問い合わせ
+        </button>
+    </section>
+</div>
 
         <!-- 目次 -->
         <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
@@ -797,6 +807,6 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
             </section>
         </div>
 
-        
+
     </SeihoTestLayout>
 </template>

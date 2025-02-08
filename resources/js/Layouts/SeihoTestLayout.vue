@@ -3,6 +3,11 @@ import { Head, Link} from '@inertiajs/vue3';
 import { reactive, onMounted, ref, computed } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 
+const openGoogleForm = () => {
+  const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdYvdwHrldz56rBizNEgfUx9o5e9WdME_OwXpdjyv7oWlW3mQ/viewform?usp=header'; // ここに取得したURLを入力
+  window.open(googleFormUrl, '_blank'); // 新しいタブで開く
+};
+
 defineProps({
   title: {
     type: String,
@@ -37,12 +42,9 @@ defineProps({
             <!-- Links -->
             <div class="w-full flex justify-center">
                 <nav class="flex flex-row items-center"> <!-- flex-colを削除し、常にflex-rowに -->
-                    <Link
-                        :href="route('yakkan2023a')"
-                        class="text-gray-700 hover:text-gray-900 text-sm px-4 transition-colors duration-200"
-                    >
+                    <button @click="openGoogleForm" class="text-gray-700 hover:text-gray-900 text-sm px-4 transition-colors duration-200">
                         お問い合わせ
-                    </Link>
+                    </button>
                     <span class="text-gray-300">|</span> <!-- hiddenクラスを削除し、常に表示 -->
                     <Link
                         :href="route('policy')"

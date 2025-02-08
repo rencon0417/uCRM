@@ -107,6 +107,9 @@ Route::controller(TestController::class)->group(function () {
     Route::get('sisan2021a', 'sisan2021a')->name('sisan2021a');
     Route::get('sisan2021b', 'sisan2021b')->name('sisan2021b');
     Route::get('sisan2021c', 'sisan2021c')->name('sisan2021c');
+
+    // プライバシーポリシー
+    Route::get('policy', 'policy')->name('policy');
 });
 
 

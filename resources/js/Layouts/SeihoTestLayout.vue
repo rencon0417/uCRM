@@ -31,15 +31,47 @@ defineProps({
 
         <slot />
 
-        <!-- フッターセクション -->
-        <footer class="text-gray-600 body-font">
-        <div class="container px-5 py-20 mx-auto flex items-center sm:flex-row flex-col">
-            <img src="/images/rencon3.png" alt="れんこん" class="w-10 h-10" />
-            <span class="ml-3">生保講座過去問解説</span>
-            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025</p>
-            <p class="text-gray-600 ml-1 text-sm" rel="noopener noreferrer" target="_blank">@ rencon</p>
+        <footer class="bg-white border-t border-gray-100">
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col items-center justify-center space-y-8">
+            <!-- Links -->
+            <div class="w-full flex justify-center">
+                <nav class="flex flex-row items-center"> <!-- flex-colを削除し、常にflex-rowに -->
+                    <Link
+                        :href="route('yakkan2023a')"
+                        class="text-gray-700 hover:text-gray-900 text-sm px-4 transition-colors duration-200"
+                    >
+                        お問い合わせ
+                    </Link>
+                    <span class="text-gray-300">|</span> <!-- hiddenクラスを削除し、常に表示 -->
+                    <Link
+                        :href="route('policy')"
+                        class="text-gray-700 hover:text-gray-900 text-sm px-4 transition-colors duration-200"
+                    >
+                        プライバシーポリシー
+                    </Link>
+                </nav>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-sm text-gray-700">
+                ©2024-2025
+            </div>
+
+            <!-- Logo and Title -->
+            <div class="flex items-center space-x-3">
+                <img
+                    src="/images/rencon3.png"
+                    alt="れんこん"
+                    class="w-8 h-8 object-contain"
+                />
+                <span class="text-sm font-medium text-gray-800">
+                    生保講座過去問解説
+                </span>
+            </div>
         </div>
-        </footer>
+    </div>
+</footer>
     </div>
 
 </template>

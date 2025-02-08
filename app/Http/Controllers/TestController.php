@@ -19,6 +19,11 @@ class TestController extends Controller
         return Inertia::render('Tests/Index');
     }
 
+    public function policy()
+    {
+        return Inertia::render('Tests/Policy');
+    }
+
     // 生命保険総論
     public function souron2023a()
     {

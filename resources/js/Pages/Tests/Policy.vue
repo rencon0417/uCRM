@@ -8,7 +8,7 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 
 <template>
-    <SeihoTestLayout title="プライバシーポリシー">
+    <SeihoTestLayout title="プライバシーポリシー" separator="|">
 
         <div class="min-h-screen bg-gray-50">
         <div class="container mx-auto px-4 py-8 max-w-4xl">

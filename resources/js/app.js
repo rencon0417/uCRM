@@ -26,7 +26,13 @@ Inertia.on('navigate', (event) => {
 });
 
 createInertiaApp({
-    title: (title) => `${title} - ${appName}`,
+      title: (title) => {
+            if (window.location.pathname === '/tests') {
+            return appName; // サイト名のみ
+            } else {
+            return `${title} | ${appName}`; // 通常のタイトル
+            }
+        },
     resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
     setup({ el, App, props, plugin }) {
         return createApp({ render: () => h(App, props) })

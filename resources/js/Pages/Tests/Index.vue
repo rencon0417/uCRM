@@ -147,7 +147,7 @@ const openGoogleForm = () => {
 
                         <!-- ２０２３年度 -->
                         <div class="group">
-                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
+                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 transition-all duration-300 hover:shadow-md">
                                 <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
                                     <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
                                     2023年度

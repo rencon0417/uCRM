@@ -338,6 +338,99 @@ const openGoogleForm = () => {
             </section>
         </div>
 
+        <div id="keiri" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+            <section class="w-full">
+                <h2 class="secondary-title">生命保険計理</h2>
+                <p class="secondary-paragraph text-sm">8月実施の試験</p>
+                    <div class="bg-white p-10 border border-gray-300 rounded-sm shadow-md">
+                        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
+
+                            <!-- ２０２３年度 -->
+                            <div class="w-full">
+                                <h2 class="secondary-head">2023年度</h2>
+                            <div class="divide-y divide-gray-200 border-y border-gray-200">
+                                <div class="">
+                                <Link :href="route('keiri2023a')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                                <div class="">
+                                <Link :href="route('keiri2023b')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                                <div class="">
+                                <Link :href="route('keiri2023c')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                            </div>
+                            </div>
+                            <!-- ２０２２年度 -->
+                            <div class="w-full">
+                                <h2 class="secondary-head">2022年度</h2>
+                            <div class="divide-y divide-gray-200 border-y border-gray-200">
+                                <div class="">
+                                <Link :href="route('keiri2022a')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                                <div class="">
+                                <Link :href="route('keiri2022b')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                                <div class="">
+                                <Link :href="route('keiri2022c')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                            </div>
+                            </div>
+
+                            <!-- ２０２１年度 -->
+                            <div class="w-full">
+                                <h2 class="secondary-head">2021年度</h2>
+                            <div class="divide-y divide-gray-200 border-y border-gray-200">
+                                <div class="">
+                                <Link :href="route('keiri2021a')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームAの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                                <div class="">
+                                <Link :href="route('keiri2021b')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームBの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                                <div class="">
+                                <Link :href="route('keiri2021c')">
+                                    <div class="py-3">
+                                    <button class="font-medium text-gray-700 h-10 hover:text-purple-500">フォームCの解説</button>
+                                    </div>
+                                </Link>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
 
         <!-- 危険選択セクション -->
         <div id="kiken" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">

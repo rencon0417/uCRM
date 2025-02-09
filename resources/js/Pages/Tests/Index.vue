@@ -43,8 +43,8 @@ const openGoogleForm = () => {
             生保講座<br>
             過去問解説
         </h1>
-        <p class="mt-8 mb-10 text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed font-sans">
-            生命保険講座の過去問を無料解説
+        <p class="mt-8 mb-10 text-base md:text-xl lg:text-2xl text-gray-700 leading-relaxed font-sans">
+            生命保険講座の過去問を無料で解説
         </p>
 
         <!-- Enhanced visual separator -->

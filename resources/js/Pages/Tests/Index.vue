@@ -137,7 +137,7 @@ const openGoogleForm = () => {
                 </div>
 
                 <!-- メインコンテンツ -->
-                <div class="bg-white p-8 rounded-lg shadow-lg relative overflow-hidden">
+                <div class="bg-white p-4 rounded-lg shadow-lg relative overflow-hidden">
                     <!-- 装飾的な背景要素 -->
                     <!-- <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-blue-100 opacity-30 rounded-full -mr-32 -mt-32"></div>
                     <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->
@@ -147,7 +147,7 @@ const openGoogleForm = () => {
 
                         <!-- ２０２３年度 -->
                         <div class="group">
-                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 transition-all duration-300 hover:shadow-md">
+                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
                                 <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
                                     <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
                                     2023年度

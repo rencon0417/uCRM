@@ -14,19 +14,45 @@ const openGoogleForm = () => {
 
 <template>
     <SeihoTestLayout title="生命保険講座過去問解説">
-        <div class="container mx-auto px-4 py-20 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5 relative">
+        <div class="container mx-auto px-4 py-20 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5 relative overflow-hidden">
+    <!-- Background gradient -->
     <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-20 rounded-lg"></div>
+
+    <!-- Decorative elements -->
+    <div class="absolute top-0 right-0 w-64 h-64 -mr-32 -mt-32 bg-blue-100 rounded-full opacity-50"></div>
+    <div class="absolute bottom-0 left-0 w-48 h-48 -ml-24 -mb-24 bg-purple-100 rounded-full opacity-50"></div>
+
+    <!-- Additional decorative circles -->
+    <div class="absolute top-1/2 right-0 w-16 h-16 mr-8 bg-purple-100 rounded-full opacity-40"></div>
+    <div class="absolute top-1/3 left-0 w-20 h-20 -ml-10 bg-blue-100 rounded-full opacity-40"></div>
+
+    <!-- Small decorative dots -->
+    <div class="absolute top-20 right-20 w-4 h-4 bg-blue-400 rounded-full opacity-30"></div>
+    <div class="absolute bottom-16 right-40 w-3 h-3 bg-purple-400 rounded-full opacity-30"></div>
+    <div class="absolute top-40 left-16 w-2 h-2 bg-blue-400 rounded-full opacity-30"></div>
+
+    <!-- Subtle grid pattern -->
+    <div class="absolute inset-0 opacity-5">
+        <div class="w-full h-full" style="background-image: radial-gradient(circle at 1px 1px, gray 1px, transparent 0); background-size: 24px 24px;"></div>
+    </div>
+
     <section class="w-full relative z-10">
+        <div class="absolute -left-8 top-0 w-1 h-32 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full opacity-50"></div>
+
         <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-gray-800 leading-tight font-sans">
-        生保講座<br>
-        過去問解説
+            生保講座<br>
+            過去問解説
         </h1>
         <p class="mt-8 mb-10 text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed font-sans">
-        生命保険講座の過去問を徹底解説
+            生命保険講座の過去問を無料解説
         </p>
-        <button @click="openGoogleForm" class="px-8 py-4 rounded-lg bg-white text-blue-500 font-bold hover:bg-blue-100 transition duration-300">
-            お問い合わせ
-        </button>
+
+        <!-- Enhanced visual separator -->
+        <div class="flex items-center gap-3">
+            <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-blue-500 rounded-full opacity-50"></div>
+            <div class="w-2 h-2 bg-purple-500 rounded-full opacity-30"></div>
+        </div>
     </section>
 </div>
 

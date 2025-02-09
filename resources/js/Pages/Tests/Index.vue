@@ -137,7 +137,7 @@ const openGoogleForm = () => {
                 </div>
 
                 <!-- メインコンテンツ -->
-                <div class="bg-white p-4 rounded-lg shadow-lg relative overflow-hidden">
+                <div class="bg-white p-6 rounded-lg shadow-lg relative overflow-hidden">
                     <!-- 装飾的な背景要素 -->
                     <!-- <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-blue-100 opacity-30 rounded-full -mr-32 -mt-32"></div>
                     <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->

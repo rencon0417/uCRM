@@ -1001,10 +1001,5 @@ onMounted(() => {
             </section>
         </div>
 
-        <!-- 広告 -->
-        <div ref="adsContainer" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5"></div>
-
-
-
     </SeihoTestLayout>
 </template>

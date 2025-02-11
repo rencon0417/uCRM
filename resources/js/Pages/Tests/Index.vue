@@ -141,9 +141,8 @@ onMounted(() => {
         </div>
 
         <!-- 広告 -->
-        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
-            <div ref="adsContainer"></div>
-        </div>
+        <div ref="adsContainer" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5"></div>
+
 
         <!-- 生命保険総論セクション -->
         <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
@@ -1003,9 +1002,8 @@ onMounted(() => {
         </div>
 
         <!-- 広告 -->
-        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
-            <div ref="adsContainer"></div>
-        </div>
+        <div ref="adsContainer" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5"></div>
+
 
 
     </SeihoTestLayout>

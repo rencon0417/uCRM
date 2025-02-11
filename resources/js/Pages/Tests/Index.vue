@@ -1,6 +1,6 @@
 <script setup>
 import { Head, Link} from '@inertiajs/vue3';
-import { reactive, onMounted, ref, computed } from 'vue'
+import { reactive, onMounted, ref, computed, nextTick } from 'vue'
 import { Inertia } from '@inertiajs/inertia';
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
@@ -9,21 +9,29 @@ const openGoogleForm = () => {
   window.open(googleFormUrl, '_blank'); // 新しいタブで開く
 };
 
-const adsContainer = ref(null);
+// const adsContainer = ref(null);
+
+// onMounted(() => {
+//   const adsbygoogle = window.adsbygoogle || [];
+//   const ins = document.createElement('ins');
+//   ins.classList.add('adsbygoogle');
+//   ins.style.display = 'block';
+//   ins.dataset.adClient = 'ca-pub-5875099458010785'; // あなたのAdSenseクライアントID
+//   ins.dataset.adSlot = '4302187603'; // あなたの広告ユニットID
+//   ins.dataset.adFormat = 'auto';
+//   ins.dataset.fullWidthResponsive = 'true';
+
+//   adsContainer.value.appendChild(ins);
+//   adsbygoogle.push({});
+// });
 
 onMounted(() => {
-  const adsbygoogle = window.adsbygoogle || [];
-  const ins = document.createElement('ins');
-  ins.classList.add('adsbygoogle');
-  ins.style.display = 'block';
-  ins.dataset.adClient = 'ca-pub-5875099458010785'; // あなたのAdSenseクライアントID
-  ins.dataset.adSlot = '4302187603'; // あなたの広告ユニットID
-  ins.dataset.adFormat = 'auto';
-  ins.dataset.fullWidthResponsive = 'true';
-
-  adsContainer.value.appendChild(ins);
-  adsbygoogle.push({});
-});
+  nextTick(() => {
+    if (window.adsbygoogle) {
+      window.adsbygoogle.push({})
+    }
+  })
+})
 
 </script>
 
@@ -141,8 +149,19 @@ onMounted(() => {
         </div>
 
         <!-- 広告 -->
-        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <!-- <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <div ref="adsContainer"></div>
+        </div> -->
+        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+            <div>
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-5875099458010785"
+                data-ad-slot="4302187603"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+                </ins>
+            </div>
         </div>
 
         <!-- 生命保険総論セクション -->
@@ -1003,10 +1022,9 @@ onMounted(() => {
         </div>
 
         <!-- 広告 -->
-        <div ref="adsContainer"></div>
-        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <!-- <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <div ref="adsContainer"></div>
-        </div>
+        </div> -->
 
 
     </SeihoTestLayout>

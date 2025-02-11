@@ -132,7 +132,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">生命保険総論</h2>
-                        <p class="text-sm text-gray-600 mt-1">8月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">8月〜9月実施の試験</p>
                     </div>
                 </div>
 
@@ -239,7 +239,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">生命保険計理</h2>
-                        <p class="text-sm text-gray-600 mt-1">8月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">8月〜9月実施の試験</p>
                     </div>
                 </div>
 
@@ -338,7 +338,6 @@ const openGoogleForm = () => {
             </section>
         </div>
 
-
         <!-- 危険選択セクション -->
         <div id="kiken" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full">
@@ -347,7 +346,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">危険選択</h2>
-                        <p class="text-sm text-gray-600 mt-1">10月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">10月〜11月実施の試験</p>
                     </div>
                 </div>
 
@@ -454,7 +453,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">約款と法律</h2>
-                        <p class="text-sm text-gray-600 mt-1">10月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">10月〜11月実施の試験</p>
                     </div>
                 </div>
 
@@ -561,7 +560,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">生命保険会計</h2>
-                        <p class="text-sm text-gray-600 mt-1">12月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">12月〜1月実施の試験</p>
                     </div>
                 </div>
 
@@ -668,7 +667,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">生命保険商品と営業</h2>
-                        <p class="text-sm text-gray-600 mt-1">12月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">12月〜1月実施の試験</p>
                     </div>
                 </div>
 
@@ -775,7 +774,7 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">生命保険と税法</h2>
-                        <p class="text-sm text-gray-600 mt-1">2月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">2月〜3月実施の試験</p>
                     </div>
                 </div>
 
@@ -875,14 +874,14 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 資産の運用セクション -->
-        <div id="sisan" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="sisan" class="container pt-10 mt-10 mb-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
                     <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full mr-4"></div>
                     <div>
                         <h2 class="text-2xl font-bold text-gray-800">資産の運用</h2>
-                        <p class="text-sm text-gray-600 mt-1">2月実施の試験</p>
+                        <p class="text-sm text-gray-600 mt-1">2月〜3月実施の試験</p>
                     </div>
                 </div>
 

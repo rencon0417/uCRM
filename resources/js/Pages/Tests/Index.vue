@@ -9,22 +9,6 @@ const openGoogleForm = () => {
   window.open(googleFormUrl, '_blank'); // 新しいタブで開く
 };
 
-const adsContainer = ref(null);
-
-onMounted(() => {
-  const adsbygoogle = window.adsbygoogle || [];
-  const ins = document.createElement('ins');
-  ins.classList.add('adsbygoogle');
-  ins.style.display = 'block';
-  ins.dataset.adClient = 'ca-pub-5875099458010785'; // あなたのAdSenseクライアントID
-  ins.dataset.adSlot = '4302187603'; // あなたの広告ユニットID
-  ins.dataset.adFormat = 'auto';
-  ins.dataset.fullWidthResponsive = 'true';
-
-  adsContainer.value.appendChild(ins);
-  adsbygoogle.push({});
-});
-
 </script>
 
 
@@ -139,10 +123,6 @@ onMounted(() => {
                 </ul>
             </section>
         </div>
-
-        <!-- 広告 -->
-        <div ref="adsContainer" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5"></div>
-
 
         <!-- 生命保険総論セクション -->
         <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">

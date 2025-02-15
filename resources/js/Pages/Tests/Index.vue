@@ -45,7 +45,8 @@ const openGoogleForm = () => {
                     過去問解説
                 </h1>
                 <p class="mt-8 mb-10 text-base md:text-xl lg:text-2xl text-gray-700 leading-relaxed font-sans">
-                    生命保険講座の過去問を無料で解説
+                    生命保険講座の過去問を完全無料で徹底解説<br>
+
                 </p>
 
                 <!-- Enhanced visual separator -->
@@ -982,3 +983,5 @@ const openGoogleForm = () => {
 
     </SeihoTestLayout>
 </template>
+
+

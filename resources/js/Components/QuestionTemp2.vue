@@ -5,7 +5,7 @@
       <div class="grid gap-2">
         <div class="grid gap-2 text-gray-700 select-none grid-cols-[2em_1fr]" >
           <span class="font-semibold">{{ props.labels[index] }}：</span>
-          <p v-html="content"></p>
+          <p>{{ content }}</p>
         </div>
       </div>
       <div class="flex justify-end text-gray-400 text-xxs lg:text-xs">

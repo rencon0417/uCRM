@@ -17,10 +17,10 @@
         <p class="text-sm sm:text-base text-gray-700 select-none" v-html="content.explanation"></p>
 
         <!-- タイトルと科目 -->
-        <div class="flex justify-end text-xs sm:text-sm text-gray-400">
+        <div class="flex justify-end text-xs  text-gray-400">
             {{ props.title }}
         </div>
-        <div class="flex justify-end text-xs sm:text-sm text-gray-400">
+        <div class="flex justify-end text-xs text-gray-400">
             {{ props.subject }}
         </div>
     </div>

@@ -3,6 +3,7 @@ import { Head, Link} from '@inertiajs/vue3';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
+import QuestionTemp4 from '../../../Components/QuestionTemp4.vue'
 
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
@@ -25,7 +26,7 @@ const subject = '2021年度 フォームA'
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp2
+            <QuestionTemp4
                 :questionNumber="1"
                 :title="title"
                 :subject="subject"

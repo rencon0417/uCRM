@@ -1,7 +1,7 @@
 <template>
     <div  v-for="(content, index) in props.contents"
         :key="index"
-        class="bg-white px-2 sm:px-4 md:px-6 py-3 border border-gray-300 rounded-lg shadow-md">
+        class="bg-white px-2 sm:px-6 md:px-6 py-3 border border-gray-300 rounded-lg shadow-md">
         <!-- 問題番号 -->
         <h2 class="text-base sm:text-lg font-semibold mb-4">
             問題{{ index + questionNumber }}

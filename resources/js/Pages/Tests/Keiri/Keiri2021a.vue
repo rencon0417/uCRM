@@ -25,18 +25,22 @@ const subject = '2021年度 フォームA'
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
-            <QuestionTemp3
+            <QuestionTemp2
                 :questionNumber="1"
                 :title="title"
                 :subject="subject"
-                :contents="[
-                '0.97957','98,756','1.12','776,129','8,050', // 問１〜５
+                :contents="[ // 問１〜５
+                '0.97957<br><br>生存率 ＝ 期末の生存数 ÷ 期初の生存数<br>＝ 93,054 ÷ 94,995<br>＝ 0.979567346...<br>⇒ 小数第6位を四捨五入して <strong>0.97957</strong>',
+                '98,756<br><br>期末の生存数 ÷ 期初の生存数 × 期初の生存者数<br>＝ 97,539 ÷ 98,768 × 100,000<br>＝ 98755.6699...<br>⇒ 小数第1位を四捨五入して98,756',
+                '1.12',
+                '776,129',
+                '8,050',
                 ]"
                 :labels="[
                 'イ','キ','ウ','コ','カ',  //問１〜５
                 ]"
             />
-            <QuestionTemp3
+            <QuestionTemp2
                 :questionNumber="2"
                 :title="title"
                 :subject="subject"

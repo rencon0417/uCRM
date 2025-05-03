@@ -3,7 +3,7 @@
         :key="index"
         class="bg-white px-2 sm:px-6 md:px-6 py-3 border border-gray-300 rounded-lg shadow-md">
         <!-- 問題番号 -->
-        <h2 class="text-base sm:text-lg font-semibold mb-4">
+        <h2 class="text-lg font-semibold mb-4">
             問題{{ index + questionNumber }}
         </h2>
           <!-- 回答 -->

@@ -3,6 +3,7 @@ import { Head, Link} from '@inertiajs/vue3';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
+import QuestionTemp4 from '../../../Components/QuestionTemp4.vue'
 
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
@@ -25,6 +26,66 @@ const subject = '2021年度 フォームB'
 
         <!-- 問題リスト -->
         <div class="max-w-4xl mx-auto mt-4 space-y-2">
+            <QuestionTemp4
+                :questionNumber="1"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                    // 問１
+                    {
+                        answer: '2,710',
+                        explanation:
+                        '<br>元金は300,000円で、月利0.15%（＝0.0015）の1ヶ月複利で6ヶ月間運用した場合の元利合計金額は、<br>\
+                        300,000円 × (1 + 0.0015) <sup>6</sup> ＝ 302,710.14<br><br>\
+                        元金との差額が利息なので、<br>\
+                        302,710.14 - 300,000 ＝ 2,710.14<br>\
+                        ⇒ 円未満を四捨五入して <strong>2,710円</strong>'
+                    },
+                    // 問２
+                    {
+                        answer: '310,963',
+                        explanation:
+                        '<br>年利1.2%で半年複利のため、利率は半年あたり0.6%（=0.006）となり、3年間で6回の複利が適用される。<br><br>\
+                        よって元金300,000円の場合の元利合計金額は、<br>\
+                        300,000 × (1 + 0.006)<sup>6</sup> ＝ 310,963.30<br>\
+                        ⇒ 円未満を四捨五入して <strong>310,963円</strong>'
+                    },
+                    // 問３
+                    {
+                        answer: '1.51',
+                        explanation:
+                        '<br>転化回数：1年間に利息を元金に繰り入れる回数<br><br>\
+                        実利率 = （ 1 + 名称利率 ÷ 転化回数）<sup>転化回数</sup> - 1<br><br>\
+                        （ 1 + 0.015 ÷ 6 ）<sup>6</sup> - 1 ＝ 0.015094 ＝ 1.5094%<br>\
+                        ⇒ 小数第3位を四捨五入して <strong>1.51%</strong>'
+                    },
+                    // 問４
+                    {
+                        answer: '1.53',
+                        explanation:
+                        '<br>年平均利回り：投資によって得られる利益を、投資期間全体で年単位に平均化したもの<br><br>\
+                        年平均利回り ＝ （（ 1 + 複利利率）<sup>期間</sup> - 1 ） ÷ 期間<br><br>\
+                        （（ 1 + 0.015 ）<sup>4</sup> - 1 ） ÷ 4 ＝ 0.01534 ＝ 1.534%<br>\
+                        ⇒ 小数第3位を四捨五入して <strong>1.53%</strong>'
+                    },
+                    // 問５ 400,000 + 395,648 + 391,343 + 387,085 + 382,874
+                    {
+                        answer: '1,956,950',
+                        explanation:
+                        '<br>40万円を毎年始に5年間支払うために必要な資金は、各年の支払いの現在価値を合計して求める。<br><br>\
+                        初年度（今年） ： 400,000円<br>\
+                        1年後の現在価値 ： 400,000 × （ 1 ÷ 1.011 ） ＝ 395,647.873 ＝ 395,648円<br>\
+                        2年後の現在価値 ： 400,000 × （ 1 ÷ 1.011 ）<sup>2</sup> ＝ 391,343.099 ＝ 391,343円<br>\
+                        3年後の現在価値 ： 400,000 × （ 1 ÷ 1.011 ）<sup>3</sup> ＝ 387,085.162 ＝ 387,085円<br>\
+                        4年後の現在価値 ： 400,000 × （ 1 ÷ 1.011 ）<sup>4</sup> ＝ 382,873.553 ＝ 382,874円<br><br>\
+                        現在において必要な資金の合計は<br>\
+                        400,000 + 395,648 + 391,343 + 387,085 + 382,874 ＝ <strong>1,956,950円</strong>'
+                    }
+                ]"
+                :labels="[
+                    'カ','キ','ウ','エ','コ',  //問１〜５
+                ]"
+            />
             <QuestionTemp3
                 :questionNumber="1"
                 :title="title"

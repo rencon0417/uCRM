@@ -3,6 +3,7 @@ import { Head, Link} from '@inertiajs/vue3';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
+import QuestionTemp4 from '../../../Components/QuestionTemp4.vue'
 
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
@@ -34,6 +35,72 @@ const subject = '2021年度 フォームC'
                 ]"
                 :labels="[
                 'ア','ク','オ','イ','コ',  //問１〜５
+                ]"
+            />
+            <QuestionTemp4
+                :questionNumber="1"
+                :title="title"
+                :subject="subject"
+                :contents="[
+                    // 問１
+                    {
+                        answer: '1.12',
+                        explanation:
+                        '<br>死亡は年間を通じて発生するが、平均して年央に集中発生したものと考えられるので、例えば、100歳から101歳になるまでに死亡する人の平均生存年数は0.5年となる。<br><br>\
+                        年齢 ： 死亡数 × 平均生存年数 ＝ 延べ生存年数<br>\
+                        108歳 ： 58.951人 × 0.5年 ＝ 29.4755 ＝ 29.48<br>\
+                        109歳 ： 25.888人 × 1.5年 ＝ 38.832 ＝ 38.83<br>\
+                        110歳 ： 10.1008人 × 2.5年 ＝ 25.252 ＝ 25.25<br>\
+                        111歳 ： 3.4515人 × 3.5年 ＝ 12.08025 ＝ 12.08<br>\
+                        112歳 ： 1.0162人 × 4.5年 ＝ 4.5729 ＝ 4.57<br>\
+                        113歳 ： 0.3155人 × 5.5年 ＝ 1.73525 ＝ 1.74<br>\
+                        → 108歳～113歳の延べ生存年数の合計 ＝ 111.95<br><br>\
+                        108歳の平均余命 ＝ 延べ生存年数の合計 ÷ 108歳の生存者数<br>\
+                        ＝ 111.95 ÷ 99.723 ＝ 1.12226<br>\
+                        ⇒ 小数第3位を四捨五入して <strong>1.12</strong>'
+                    },
+                    // 問２
+                    {
+                        answer: '203,011',
+                        explanation:
+                        '<br>年利1.5%で半年複利のため、利率は半年あたり0.75%（=0.0075）となり、1年間で2回の複利が適用される。<br><br>\
+                        よって元金200,000円の場合の元利合計金額は、<br>\
+                        200,000 × (1 + 0.0075)<sup>2</sup> ＝ 203,011.25<br>\
+                        ⇒ 円未満を四捨五入して <strong>203,011円</strong>'
+                    },
+                    // 問３
+                    {
+                        answer: '2.52',
+                        explanation:
+                        '<br>転化回数：1年間に利息を元金に繰り入れる回数<br><br>\
+                        実利率 = （ 1 + 名称利率 ÷ 転化回数）<sup>転化回数</sup> - 1<br><br>\
+                        （ 1 + 0.025 ÷ 4 ）<sup>4</sup> - 1 ＝ 0.025235 ＝ 2.5235%<br>\
+                        ⇒ 小数第3位を四捨五入して <strong>2.52%</strong>'
+                    },
+                    // 問４
+                    {
+                        answer: '1.21',
+                        explanation:
+                        '<br>年平均利回り：投資によって得られる利益を、投資期間全体で年単位に平均化したもの<br><br>\
+                        年平均利回り ＝ （（ 1 + 複利利率）<sup>期間</sup> - 1 ） ÷ 期間<br><br>\
+                        （（ 1 + 0.012 ）<sup>3</sup> - 1 ） ÷ 3 ＝ 0.012144 ＝ 1.2144%<br>\
+                        ⇒ 小数第3位を四捨五入して <strong>1.21%</strong>'
+                    },
+                    {
+                        answer: '1,459,148',
+                        explanation:
+                        '<br>30万円を毎年始に5年間支払うために必要な資金は、各年の支払いの現在価値を合計して求める。<br><br>\
+                        初年度 ： 300,000円<br>\
+                        1年後 ： 300,000 × （ 1 ÷ 1.014 ） ＝ 295,857.988 ＝ 295,858円<br>\
+                        2年後 ： 300,000 × （ 1 ÷ 1.014 ）<sup>2</sup> ＝ 291,773.163 ＝ 291,773円<br>\
+                        3年後 ： 300,000 × （ 1 ÷ 1.014 ）<sup>3</sup> ＝ 287,744.737 ＝ 287,745円<br>\
+                        4年後 ： 300,000 × （ 1 ÷ 1.014 ）<sup>4</sup> ＝ 283,771.930 ＝ 283,772円<br><br>\
+                        現在において必要な資金の合計は<br>\
+                        300,000 + 295,858 + 291,773 + 287,745 + 283,772 ＝ <strong>1,459,148円</strong>'
+                    }
+                ]"
+                :labels="[
+                    'ア','ク','オ','イ','コ',  //問１〜５
                 ]"
             />
             <QuestionTemp3

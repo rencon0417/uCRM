@@ -174,6 +174,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp3
                 :questionNumber="3"
+                questionTitle="死亡表の種類"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -185,6 +186,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp3
                 :questionNumber="4"
+                questionTitle="払済保険"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -306,6 +308,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="25"
+                questionTitle="契約者配当金の分配・支払方法について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -316,6 +319,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="26"
+                questionTitle="営業保険料について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -326,6 +330,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="27"
+                questionTitle="保険料積立金について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -336,6 +341,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="28"
+                questionTitle="事業年度末責任準備金について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -346,6 +352,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="29"
+                questionTitle="解約返戻金について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -356,6 +363,7 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="30"
+                questionTitle="契約転換制度について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -366,6 +374,28 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp2
                 :questionNumber="31"
+                :questionTitle="[
+                    '契約年齢', //問31
+                    '単利', //問32
+                    '予定利率', //問33
+                    '終価', //問34
+                    '保険料の計算原理', //問35
+                    '1年定期保険の準保険料', //問36
+                    '責任準備金', //問37
+                    '決算による剰余金算定', //問38
+                    '変額保険の仕組み', //問39
+                    '団体定期保険の数理', //問40
+                    '死亡率', //問41
+                    '保険計理の基礎', //問42
+                    '純保険料の変化', //問43
+                    '責任準備金の積立', //問44
+                    '積立に関する法的規制', //問45
+                    '延長保険', //問46
+                    '配当準備金繰入', //問47
+                    '剰余金の発生源', //問48
+                    '変額保険の仕組み', //問49
+                    '団体年金制度の財政方式', //問50
+                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[

@@ -4,7 +4,7 @@
         class="bg-white px-6 py-3 border border-gray-300 rounded-lg shadow-md">
         <!-- 問題番号 -->
         <h2 class="text-lg font-semibold mb-4">
-            問題{{ index + questionNumber }}
+            問題{{ index + questionNumber }}：{{ content.title }}
         </h2>
           <!-- 回答 -->
         <div class="grid gap-2 text-gray-700 select-none grid-cols-[2em_1fr]">
@@ -27,11 +27,10 @@
 </template>
 
   <script setup lang="ts">
-  import { ref, computed } from 'vue'
 
   interface Props {
     questionNumber: number
-    contents: { answer: string; explanation: string }[]
+    contents: { title: string; answer: string; explanation: string }[]
     labels: string[]
     title: string[]
     subject: string[]

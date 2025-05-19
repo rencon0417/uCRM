@@ -98,6 +98,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp3
                 :questionNumber="2"
+                questionTitle="チルメル式保険料積立金"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -109,6 +110,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp3
                 :questionNumber="3"
+                questionTitle="事業年度末責任準備金"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -120,6 +122,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp3
                 :questionNumber="4"
+                questionTitle="変額保険と定額保険の比較"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -129,56 +132,6 @@ const subject = '2021年度 フォームC'
                 'コ','カ','キ','ケ','イ',  //問16〜20
                 ]"
             />
-            <QuestionTemp1
-                :questionNumber="21"
-                :title="title"
-                :subject="subject"
-                :contents="[
-                '正しい',
-                '',
-                ''
-                ]"
-                />
-            <QuestionTemp1
-                :questionNumber="22"
-                :title="title"
-                :subject="subject"
-                :contents="[
-                '',
-                '正しい',
-                ''
-                ]"
-            />
-            <QuestionTemp1
-                :questionNumber="23"
-                :title="title"
-                :subject="subject"
-                :contents="[
-                '',
-                '',
-                '正しい'
-                ]"
-            />
-            <QuestionTemp1
-                :questionNumber="24"
-                :title="title"
-                :subject="subject"
-                :contents="[
-                '',
-                '正しい',
-                ''
-                ]"
-            />
-            <QuestionTemp1
-                :questionNumber="25"
-                :title="title"
-                :subject="subject"
-                :contents="[
-                '正しい',
-                '',
-                ''
-                ]"
-            />
             <QuestionTemp4
                 :questionNumber="21"
                 :title="title"
@@ -186,6 +139,7 @@ const subject = '2021年度 フォームC'
                 :contents="[
                     // 問21
                     {
+                        title: '死亡保険金の現価について',
                         answer: '1,082,173千円',
                         explanation:
                         '<br>死亡保険金の支払いは平均して年の中央で発生すると仮定し、45歳〜49歳の各年齢における死亡保険金の現価求めてそれらを合計する。<br><br>\
@@ -199,6 +153,7 @@ const subject = '2021年度 フォームC'
                     },
                     // 問22
                     {
+                        title: '満期保険金の現価について',
                         answer: '139,207,563千円',
                         explanation:
                         '<br>5年後に支払う満期保険金の現価は、<br>\
@@ -209,6 +164,7 @@ const subject = '2021年度 フォームC'
                     },
                     // 問23
                     {
+                        title: '予定事業費の現価について',
                         answer: '3,685,463千円',
                         explanation:
                         '<br>予定事業費は保険金1000円につき25円より、一人当たりの予定事業費に加入時の生存数をかけて求める。<br><br>\
@@ -218,6 +174,7 @@ const subject = '2021年度 フォームC'
                     },
                     // 問24
                     {
+                        title: '養老保険の年払保険料について',
                         answer: '299,660円',
                         explanation:
                         '<br>収支相当の原則「収入現価 ＝ 支出現価」で求める。<br><br>\
@@ -242,6 +199,7 @@ const subject = '2021年度 フォームC'
                     },
                     // 問25
                     {
+                        title: '払済保険金額について',
                         answer: '549,000円',
                         explanation:
                         '払済保険金 ＝解約返戻金 × (保険金額 ÷ 養老保険の一時払保険料)<br>\
@@ -256,6 +214,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp1
                 :questionNumber="26"
+                questionTitle="営業保険料について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -266,6 +225,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp1
                 :questionNumber="27"
+                questionTitle="純保険料式保険料積立金について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -276,6 +236,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp1
                 :questionNumber="28"
+                questionTitle="剰余金の処分について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -286,6 +247,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp1
                 :questionNumber="29"
+                questionTitle="剰余金の発生源について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -296,6 +258,7 @@ const subject = '2021年度 フォームC'
             />
             <QuestionTemp1
                 :questionNumber="30"
+                questionTitle="団体年金保険の数理について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -308,25 +271,25 @@ const subject = '2021年度 フォームC'
                 :questionNumber="31"
                 :questionTitle="[
                     '契約年齢', //問31
-                    '単利', //問32
+                    '現価', //問32
                     '予定利率', //問33
-                    '終価', //問34
-                    '保険料の計算原理', //問35
-                    '1年定期保険の準保険料', //問36
-                    '責任準備金', //問37
-                    '決算による剰余金算定', //問38
-                    '変額保険の仕組み', //問39
-                    '団体定期保険の数理', //問40
+                    '収支相当の原則', //問34
+                    '責任準備金積立根拠', //問35
+                    '解約返戻金の算式', //問36
+                    '契約変更', //問37
+                    '5年ごと利差配当付保険', //問38
+                    '配当金支払方法', //問39
+                    '最低保証機能', //問40
                     '死亡率', //問41
-                    '保険計理の基礎', //問42
-                    '純保険料の変化', //問43
-                    '責任準備金の積立', //問44
-                    '積立に関する法的規制', //問45
-                    '延長保険', //問46
-                    '配当準備金繰入', //問47
+                    '死亡表の種類', //問42
+                    '準備金の積立根拠', //問43
+                    '純保険料の変化', //問44
+                    '養老保険の積立金', //問45
+                    '積立に関する法的規制', //問46
+                    '延長保険', //問47
                     '剰余金の発生源', //問48
-                    '変額保険の仕組み', //問49
-                    '団体年金制度の財政方式', //問50
+                    '配当金の計算方法', //問49
+                    '団体定期保険の保険料', //問50
                 ]"
                 :title="title"
                 :subject="subject"

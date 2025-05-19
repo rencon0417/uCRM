@@ -63,6 +63,19 @@ class TestController extends Controller
     }
 
     // 生命保険計理
+    public function keiri2024a()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2024a');
+    }
+    public function keiri2024b()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2024b');
+    }
+    public function keiri2024c()
+    {
+        return Inertia::render('Tests/Keiri/Keiri2024c');
+    }
+    // 生命保険計理
     public function keiri2023a()
     {
         return Inertia::render('Tests/Keiri/Keiri2023a');

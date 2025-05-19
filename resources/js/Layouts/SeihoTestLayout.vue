@@ -36,44 +36,52 @@ defineProps({
 
         <slot />
 
-        <footer class="bg-white border-t border-gray-100">
-    <div class="container px-5 py-10 mx-auto">
-        <div class="flex flex-col items-center justify-center space-y-8">
-            <!-- Links -->
-            <div class="w-full flex justify-center">
-                <nav class="flex flex-row items-center"> <!-- flex-colを削除し、常にflex-rowに -->
-                    <button @click="openGoogleForm" class="text-gray-700 hover:text-gray-900 text-sm px-4 transition-colors duration-200">
-                        お問い合わせ
-                    </button>
-                    <span class="text-gray-300">|</span> <!-- hiddenクラスを削除し、常に表示 -->
-                    <Link
-                        :href="route('policy')"
-                        class="text-gray-700 hover:text-gray-900 text-sm px-4 transition-colors duration-200"
-                    >
-                        プライバシーポリシー
-                    </Link>
-                </nav>
-            </div>
+        <footer class="bg-white border-t border-gray-100 mt-12">
+  <div class="container mx-auto px-6 py-10">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0">
 
-            <!-- Copyright -->
-            <div class="text-sm text-gray-700">
-                ©2024-2025
-            </div>
+<!-- 左：ロゴとサイト名 -->
+<div class="flex items-center justify-center md:justify-start space-x-2 flex-nowrap">
+  <img
+    src="/images/rencon3.png"
+    alt="れんこん"
+    class="w-7 h-7 object-contain shrink-0"
+  />
+  <div class="flex flex-col text-left">
+    <span class="text-sm font-semibold text-gray-800 whitespace-nowrap">
+      生保講座過去問解説
+    </span>
+    <span class="text-[11px] text-gray-500 leading-tight mt-0.5">
+        ※本サイトは非公式であり、試験問題の転載は行っていません。
+    </span>
+  </div>
+</div>
 
-            <!-- Logo and Title -->
-            <div class="flex items-center space-x-3">
-                <img
-                    src="/images/rencon3.png"
-                    alt="れんこん"
-                    class="w-8 h-8 object-contain"
-                />
-                <span class="text-sm font-medium text-gray-800">
-                    生保講座過去問解説
-                </span>
-            </div>
-        </div>
+      <!-- 中央：リンク -->
+      <nav class="flex justify-center space-x-4 text-sm text-gray-700">
+        <button @click="openGoogleForm" class="hover:text-purple-600 transition-colors duration-200">
+          お問い合わせ
+        </button>
+        <span class="text-gray-300">|</span>
+        <Link :href="route('policy')" class="hover:text-purple-600 transition-colors duration-200">
+          プライバシーポリシー
+        </Link>
+      </nav>
+
+      <!-- 右：コピーライト -->
+      <div class="text-sm text-gray-500 text-center md:text-right">
+        © 2024–2025 生保講座過去問解説
+      </div>
     </div>
+
+    <!-- 下：免責文（左揃え） -->
+    <div class="mt-8 px-4 text-[11px] text-gray-400 leading-relaxed text-left md:max-w-4xl md:mx-auto">
+      当サイトは受験者の学習支援を目的としたものであり、生命保険協会等の公式機関とは一切関係ありません。<br>
+      問題文等の転載は行っておらず、独自に作成した解説コンテンツを掲載しています。<br>
+      内容の正確性・完全性は保証されませんのでご了承ください。
+    </div>
+  </div>
 </footer>
-    </div>
 
+    </div>
 </template>

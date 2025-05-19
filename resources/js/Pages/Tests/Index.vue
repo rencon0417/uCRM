@@ -15,7 +15,7 @@ const openGoogleForm = () => {
 <template>
     <SeihoTestLayout title="生命保険講座過去問解説">
         <!-- ヒーローセクション -->
-        <div class="container mx-auto px-4 py-20 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5 relative overflow-hidden">
+        <div class="mx-auto px-4 py-20 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5 relative overflow-hidden">
             <!-- Background gradient -->
             <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-20 rounded-lg"></div>
 
@@ -59,7 +59,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 目次 -->
-        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full h-full bg-white p-8 rounded-lg shadow-lg relative overflow-hidden">
                 <!-- 装飾的な背景要素 -->
                 <div class="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-purple-100 to-blue-100 opacity-50 rounded-full -mr-20 -mt-20"></div>
@@ -70,54 +70,53 @@ const openGoogleForm = () => {
                     <div class="w-1.5 h-6 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
                     <h2 class="text-xl font-bold text-gray-800">目次</h2>
                 </div>
-
                 <!-- 目次リスト -->
-                <ul class="relative space-y-4 text-gray-700">
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#souron" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 text-gray-800 text-base sm:text-lg">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#souron" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             生命保険総論
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#keiri" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#keiri" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             生命保険計理
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#kiken" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#kiken" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             危険選択
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#yakkan" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#yakkan" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             約款と法律
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#kaikei" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#kaikei" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             生命保険会計
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#eigyo" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#eigyo" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             生命保険商品と営業
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#zeihou" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#zeihou" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             生命保険と税法
                         </a>
                     </li>
-                    <li class="flex items-center group">
-                        <div class="w-1.5 h-1.5 bg-purple-300 rounded-full mr-3 group-hover:bg-purple-500 transition-colors"></div>
-                        <a href="#sisan" class="hover:text-purple-500 transition-colors flex-grow pb-2 border-b border-gray-100">
+                    <li class="flex items-center group hover:bg-gray-50 rounded-lg px-3 py-2 transition">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full mr-3 group-hover:bg-purple-600 transition-colors"></div>
+                        <a href="#sisan" class="hover:text-purple-600 transition-colors flex-grow font-medium">
                             資産の運用
                         </a>
                     </li>
@@ -126,7 +125,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 生命保険総論セクション -->
-        <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="souron" class="pt-10 mt-10 flex justify-between items-center mx-auto px-4 md:px-10 lg:px-20 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -233,7 +232,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 生命保険計理セクション -->
-        <div id="keiri" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="keiri" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -251,8 +250,34 @@ const openGoogleForm = () => {
                     <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->
 
                     <!-- グリッドレイアウト -->
-                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 relative">
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 relative">
 
+                        <!-- ２０２４年度 -->
+                        <div class="group">
+                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
+                                <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                                    <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
+                                    2024年度
+                                </h2>
+                                <div class="space-y-2">
+                                    <Link :href="route('keiri2024a')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームAの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('keiri2024b')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームBの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('keiri2024c')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームCの解説</span>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                         <!-- ２０２３年度 -->
                         <div class="group">
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
@@ -340,7 +365,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 危険選択セクション -->
-        <div id="kiken" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="kiken" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -447,7 +472,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 約款と法律セクション -->
-        <div id="yakkan" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="yakkan" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -554,7 +579,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 生命保険会計セクション -->
-        <div id="kaikei" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="kaikei" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -661,7 +686,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 生命保険商品と営業セクション -->
-        <div id="eigyo" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="eigyo" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -768,7 +793,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 生命保険と税法セクション -->
-        <div id="zeihou" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="zeihou" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -875,7 +900,7 @@ const openGoogleForm = () => {
         </div>
 
         <!-- 資産の運用セクション -->
-        <div id="sisan" class="container pt-10 mt-10 mb-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5 md:w-1/2 lg:w-3/5">
+        <div id="sisan" class="container pt-10 mt-10 mb-10 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">

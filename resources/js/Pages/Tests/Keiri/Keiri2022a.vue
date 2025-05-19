@@ -157,6 +157,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp3
                 :questionNumber="3"
+                questionTitle="剰余金の発生源-①"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -168,6 +169,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp3
                 :questionNumber="4"
+                questionTitle="剰余金の発生源-②"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -184,6 +186,7 @@ const subject = '2022年度 フォームA'
                 :contents="[
                     // 問21
                     {
+                        title: '死亡保険金の現価について',
                         answer: '4,722,311千円',
                         explanation:
                         '<br>死亡保険金の支払いは平均して年の中央で発生すると仮定し、50歳〜54歳の各年齢における死亡保険金の現価求めてそれらを合計する。<br><br>\
@@ -197,6 +200,7 @@ const subject = '2022年度 フォームA'
                     },
                     // 問22
                     {
+                        title: '満期保険金の現価について',
                         answer: '270,322,908千円',
                         explanation:
                         '<br>5年後に支払う満期保険金の現価は、<br>\
@@ -207,6 +211,7 @@ const subject = '2022年度 フォームA'
                     },
                     // 問23
                     {
+                        title: '予定事業費の現価について',
                         answer: '7,223,925千円',
                         explanation:
                         '<br>予定事業費は保険金1000円につき25円より、一人当たりの予定事業費に加入時の生存数をかけて求める。<br><br>\
@@ -216,6 +221,7 @@ const subject = '2022年度 フォームA'
                     },
                     // 問24
                     {
+                        title: '養老保険の年払保険料について',
                         answer: '601,530円',
                         explanation:
                         '<br>収支相当の原則「収入現価 ＝ 支出現価」で求める。<br><br>\
@@ -245,6 +251,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="25"
+                questionTitle="契約者配当金の分配・支払方法について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -255,6 +262,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="26"
+                questionTitle="死亡表の種類について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -265,6 +273,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="27"
+                questionTitle="責任準備金の積立に関する法的規制について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -275,6 +284,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="28"
+                questionTitle="契約変更について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -285,6 +295,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="29"
+                questionTitle="契約者配当の意義と割当について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -295,6 +306,7 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="30"
+                questionTitle="変額保険の仕組みについて"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -306,26 +318,26 @@ const subject = '2022年度 フォームA'
             <QuestionTemp2
                 :questionNumber="31"
                 :questionTitle="[
-                    '契約年齢', //問31
-                    '単利', //問32
+                    '死亡率', //問31
+                    '生命保険契約と年齢', //問32
                     '予定利率', //問33
-                    '終価', //問34
-                    '保険料の計算原理', //問35
-                    '1年定期保険の準保険料', //問36
-                    '責任準備金', //問37
+                    '計算基礎の変化と純保険料の変化', //問34
+                    '付加保険料', //問35
+                    '分割払営業保険料', //問36
+                    '責任準備金積立根拠', //問37
                     '決算による剰余金算定', //問38
-                    '変額保険の仕組み', //問39
-                    '団体定期保険の数理', //問40
-                    '死亡率', //問41
+                    '変額保険の運用リスク', //問39
+                    '団体定期保険の配当', //問40
+                    '資産の平均利回り', //問41
                     '保険計理の基礎', //問42
-                    '純保険料の変化', //問43
-                    '責任準備金の積立', //問44
-                    '積立に関する法的規制', //問45
-                    '延長保険', //問46
-                    '配当準備金繰入', //問47
-                    '剰余金の発生源', //問48
-                    '変額保険の仕組み', //問49
-                    '団体年金制度の財政方式', //問50
+                    'チルメル式保険料積立金', //問43
+                    '責任準備金', //問44
+                    '解約返戻金', //問45
+                    '加入年齢方式による転換', //問46
+                    'アセット・シェア方式', //問47
+                    '配当金の計算方法', //問48
+                    '変額保険の変動保険金額', //問49
+                    '団体年金の保険料計算', //問50
                 ]"
                 :title="title"
                 :subject="subject"

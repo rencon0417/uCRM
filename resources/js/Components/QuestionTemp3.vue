@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white px-6 py-3 border border-gray-300 rounded-lg shadow-md">
       <h2 class="text-base font-semibold mb-4">
-        問題{{ getQuestionRange(props.questionNumber) }}： {{ props.questionTitle }}
+        問題{{ getQuestionRange(props.questionNumber) }}
       </h2>
       <div class="grid gap-2">
         <div v-for="(content, index) in props.contents" :key="index"

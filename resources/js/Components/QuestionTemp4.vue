@@ -4,7 +4,7 @@
         class="bg-white px-6 py-3 border border-gray-300 rounded-lg shadow-md">
         <!-- 問題番号 -->
         <h2 class="text-base font-semibold mb-4">
-            問題{{ index + questionNumber }}：{{ content.title }}
+            問題{{ index + questionNumber }}
         </h2>
           <!-- 回答 -->
         <div class="grid gap-2 text-gray-700 select-none grid-cols-[2em_1fr]">

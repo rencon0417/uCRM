@@ -33,7 +33,6 @@ const subject = '2021年度 フォームA'
                 :contents="[
                     // 問１ p6-9
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '0.97957',
                         explanation:
                         '<br>生存率 ＝ 期末の生存数 ÷ 期初の生存数<br>\
@@ -43,7 +42,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問２ p6-9
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '98,756',
                         explanation:
                         '<br>生存数 ＝ 期末の生存数 ÷ 期初の生存数 × 期初の生存者数<br>\
@@ -53,7 +51,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問３ p10
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '1.12',
                         explanation:
                         '<br>死亡は年間を通じて発生するが、平均して年央に集中発生したものと考えられるので、例えば、100歳から101歳になるまでに死亡する人の平均生存年数は0.5年となる。<br><br>\
@@ -71,7 +68,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問４ p39
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '776,129',
                         explanation:
                         '<br>55歳の女性は1年間に260人が死亡し、1人あたりの保険金は300万円なので、合計の保険金額は<br>\
@@ -82,7 +78,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問５ p39
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '8,050',
                         explanation:
                         '<br>問4で求めた死亡保険金の支払いに必要な費用は、55歳女性の年始生存者数96,441人で平等に分担するので、<br>\
@@ -101,7 +96,6 @@ const subject = '2021年度 フォームA'
                 :contents="[
                     // 問６
                     {
-                        title: '複利運用',
                         answer: '6,015',
                         explanation:
                         '<br>元金は1,000,000円で、月利0.1%（＝0.001）の1ヶ月複利で6ヶ月間運用した場合の元利合計金額は、<br>\
@@ -112,7 +106,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問７
                     {
-                        title: '複利運用',
                         answer: '1,061,646',
                         explanation:
                         '<br>年利1.2%で半年複利のため、利率は半年あたり0.6%（=0.006）となり、5年間で10回の複利が適用される。<br><br>\
@@ -122,7 +115,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問８
                     {
-                        title: '複利運用',
                         answer: '1.51',
                         explanation:
                         '<br>転化回数：1年間に利息を元金に繰り入れる回数<br><br>\
@@ -132,7 +124,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問９
                     {
-                        title: '複利運用',
                         answer: '1.33',
                         explanation:
                         '<br>年平均利回り：投資によって得られる利益を、投資期間全体で年単位に平均化したもの<br><br>\
@@ -142,7 +133,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問10
                     {
-                        title: '複利運用',
                         answer: '1,941,180',
                         explanation:
                         '<br>元金 × （ 1 + 利率 ）<sup>期間</sup> ＝ 元利合計<br>\
@@ -157,7 +147,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp3
                 :questionNumber="3"
-                questionTitle="事業年度末責任準備金"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -169,7 +158,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp3
                 :questionNumber="4"
-                questionTitle="変額保険と定額保険の比較"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -186,7 +174,6 @@ const subject = '2021年度 フォームA'
                 :contents="[
                     // 問21
                     {
-                        title: '死亡保険金の現価について',
                         answer: '1,525,697千円',
                         explanation:
                         '<br>死亡保険金の支払いは平均して年の中央で発生すると仮定し、41歳〜45歳の各年齢における死亡保険金の現価求めてそれらを合計する。<br><br>\
@@ -200,7 +187,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問22
                     {
-                        title: '満期保険金の現価について',
                         answer: '280,187,708千円',
                         explanation:
                         '<br>5年後に支払う満期保険金の現価は、<br>\
@@ -211,7 +197,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問23
                     {
-                        title: '予定事業費の現価について',
                         answer: '7,401,075千円',
                         explanation:
                         '<br>予定事業費は保険金1000円につき25円より、一人当たりの予定事業費に加入時の生存数をかけて求める。<br><br>\
@@ -221,7 +206,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問24
                     {
-                        title: '養老保険の年払保険料について',
                         answer: '598,850円',
                         explanation:
                         '<br>収支相当の原則「収入現価 ＝ 支出現価」で求める。<br><br>\
@@ -246,7 +230,6 @@ const subject = '2021年度 フォームA'
                     },
                     // 問25
                     {
-                        title: '払済保険金額について',
                         answer: '732,000円',
                         explanation:
                         '払済保険金 ＝解約返戻金 × (保険金額 ÷ 養老保険の一時払保険料)<br>\
@@ -261,7 +244,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="26"
-                questionTitle="営業保険料について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -272,7 +254,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="27"
-                questionTitle="解約返戻金について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -283,7 +264,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="28"
-                questionTitle="契約変更について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -294,7 +274,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="29"
-                questionTitle="剰余金の発生源について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -305,7 +284,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp1
                 :questionNumber="30"
-                questionTitle="団体年金保険の数理について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -316,28 +294,6 @@ const subject = '2021年度 フォームA'
             />
             <QuestionTemp2
                 :questionNumber="31"
-                :questionTitle="[
-                    '契約年齢', //問31
-                    '平準保険料', //問32
-                    '予定利率', //問33
-                    '分割払営業保険料', //問34
-                    '責任準備金積立根拠', //問35
-                    '契約転換制度', //問36
-                    'その他の損益', //問37
-                    '契約者配当の意義と性格', //問38
-                    '配当金支払方法', //問39
-                    'リスクヘッジ', //問40
-                    '死亡率', //問41
-                    '死亡表の種類', //問42
-                    '資産の平均利回り', //問43
-                    '純保険料の変化', //問44
-                    '保険計理の基礎', //問45
-                    'チルメル式保険料積立金', //問46
-                    '危険保険料の計算', //問47
-                    '配当準備金繰入', //問48
-                    'アセット・シェア方式', //問49
-                    '団体定期保険の保険料', //問50
-                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[

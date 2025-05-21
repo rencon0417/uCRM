@@ -33,7 +33,6 @@ const subject = '2024年度 フォームB'
                 :contents="[
                     // 問１ p6-9
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '0.97957',
                         explanation:
                         '<br>生存率 ＝ 期末の生存数 ÷ 期初の生存数<br>\
@@ -43,7 +42,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問２ p6-9
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '98,756',
                         explanation:
                         '<br>生存数 ＝ 期末の生存数 ÷ 期初の生存数 × 期初の生存者数<br>\
@@ -53,7 +51,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問３ p10
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '1.02',
                         explanation:
                         '<br>死亡は年間を通じて発生するが、平均して年央に集中発生したものと考えられるので、例えば、100歳から101歳になるまでに死亡する人の平均生存年数は0.5年となる。<br><br>\
@@ -70,7 +67,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問４ p39
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '776,129',
                         explanation:
                         '<br>55歳の女性は1年間に260人が死亡し、1人あたりの保険金は300万円なので、合計の保険金額は<br>\
@@ -81,7 +77,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問５ p39
                     {
-                        title: '生存率・生存数・平均余命・保険料計算',
                         answer: '8,050',
                         explanation:
                         '<br>問4で求めた死亡保険金の支払いに必要な費用は、55歳女性の年始生存者数96,441人で平等に分担するので、<br>\
@@ -100,7 +95,6 @@ const subject = '2024年度 フォームB'
                 :contents="[
                     // 問６
                     {
-                        title: '複利運用',
                         answer: '6,015',
                         explanation:
                         '<br>元金は1,000,000円で、月利0.1%（＝0.001）の1ヶ月複利で6ヶ月間運用した場合の元利合計金額は、<br>\
@@ -111,7 +105,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問７
                     {
-                        title: '複利運用',
                         answer: '1,061,646',
                         explanation:
                         '<br>年利1.2%で半年複利のため、利率は半年あたり0.6%（=0.006）となり、5年間で10回の複利が適用される。<br><br>\
@@ -123,7 +116,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問８
                     {
-                        title: '複利運用',
                         answer: '1.51',
                         explanation:
                         '<br>転化回数：1年間に利息を元金に繰り入れる回数<br><br>\
@@ -133,7 +125,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問９
                     {
-                        title: '複利運用',
                         answer: '1.33',
                         explanation:
                         '<br>年平均利回り：投資によって得られる利益を、投資期間全体で年単位に平均化したもの<br><br>\
@@ -143,7 +134,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問10
                     {
-                        title: '複利運用',
                         answer: '1,941,180',
                         explanation:
                         '<br>元金 × （ 1 + 利率 ）<sup>期間</sup> ＝ 元利合計<br>\
@@ -158,7 +148,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp3
                 :questionNumber="3"
-                questionTitle="死亡表の種類"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -170,7 +159,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp3
                 :questionNumber="4"
-                questionTitle="払済保険"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -187,7 +175,6 @@ const subject = '2024年度 フォームB'
                 :contents="[
                     // 問21
                     {
-                        title: '死亡保険金の現価について',
                         answer: '2,139,522千円',
                         explanation:
                         '<br>死亡保険金の支払いは平均して年の中央で発生すると仮定し、50歳〜54歳の各年齢における死亡保険金の現価求めてそれらを合計する。<br><br>\
@@ -201,7 +188,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問22
                     {
-                        title: '満期保険金の現価について',
                         answer: '183,520,665千円',
                         explanation:
                         '<br>5年後に支払う満期保険金の現価は、<br>\
@@ -212,7 +198,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問23
                     {
-                        title: '予定事業費の現価について',
                         answer: '4,876,950千円',
                         explanation:
                         '<br>予定事業費は保険金1000円につき25円より、一人当たりの予定事業費に加入時の生存数をかけて求める。<br><br>\
@@ -222,7 +207,6 @@ const subject = '2024年度 フォームB'
                     },
                     // 問24
                     {
-                        title: '養老保険の年払営業保険料について',
                         answer: '400,170円',
                         explanation:
                         '<br>収支相当の原則「収入現価 ＝ 支出現価」で求める。<br><br>\
@@ -252,7 +236,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp1
                 :questionNumber="25"
-                questionTitle="契約者配当金の分配・支払方法について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -263,7 +246,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp1
                 :questionNumber="26"
-                questionTitle="営業保険料について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -274,7 +256,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp1
                 :questionNumber="27"
-                questionTitle="責任準備金の積立に関する法的規制について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -285,7 +266,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp1
                 :questionNumber="28"
-                questionTitle="契約変更および契約転換制度について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -296,7 +276,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp1
                 :questionNumber="29"
-                questionTitle="解約返戻金について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -307,7 +286,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp1
                 :questionNumber="30"
-                questionTitle="契約者配当の意義と割当について"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -318,28 +296,6 @@ const subject = '2024年度 フォームB'
             />
             <QuestionTemp2
                 :questionNumber="31"
-                :questionTitle="[
-                    '死亡保険', //問31
-                    '単利', //問32
-                    '生命保険契約と年齢', //問33
-                    '終価', //問34
-                    '保険料の計算原理', //問35
-                    '1年定期保険の純保険料', //問36
-                    'チルメル式保険料積立金', //問37
-                    '剰余金の発生源', //問38
-                    '変額保険の用語', //問39
-                    '団体定期保険の保険料', //問40
-                    '死亡表の種類', //問41
-                    '保険計理の基礎', //問42
-                    '純保険料の変化', //問43
-                    '責任準備金の積立', //問44
-                    '養老保険の積立金', //問45
-                    '積立に関する法的規制', //問46
-                    '配当準備金繰入', //問47
-                    'アセット・シェア方式', //問48
-                    '変額保険の仕組み', //問49
-                    '団体年金の保険料計算', //問50
-                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[

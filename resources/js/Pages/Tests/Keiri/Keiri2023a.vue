@@ -16,6 +16,7 @@ const subject = '2023年度 フォームA'
 <template>
 
 <SeihoTestLayout :title="title">
+
     <section class="bg-gray-100 text-gray-800 py-10">
 
         <!-- ページタイトル -->
@@ -334,6 +335,28 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp2
                 :questionNumber="31"
+                :questionTitle="[
+                    '契約年齢', //問31
+                    '単利', //問32
+                    '予定利率', //問33
+                    '終価', //問34
+                    '保険料の計算原理', //問35
+                    '1年定期保険の純保険料', //問36
+                    '責任準備金', //問37
+                    '決算による剰余金算定', //問38
+                    '変額保険の仕組み', //問39
+                    '団体定期保険の数理', //問40
+                    '死亡率', //問41
+                    '保険計理の基礎', //問42
+                    '純保険料の変化', //問43
+                    '責任準備金の積立', //問44
+                    '積立に関する法的規制', //問45
+                    '延長保険', //問46
+                    '配当準備金繰入', //問47
+                    '剰余金の発生源', //問48
+                    '変額保険の仕組み', //問49
+                    '団体年金制度の財政方式', //問50
+                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -362,28 +385,27 @@ const subject = '2023年度 フォームA'
             />
         </div>
 
-        <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('keiri2024c')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('keiri2023b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
-            <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
-            </Link>
+        <!-- ==== ナビゲーションボタン：グラデーションで強調 ==== -->
+      <div class="flex flex-col items-center mt-10 gap-6">
+        <div class="flex justify-center gap-10">
+          <Link
+            :href="route('keiri2024c')"
+            class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            前の試験へ
+          </Link>
+          <Link
+            :href="route('keiri2023b')"
+            class="w-40 h-12  flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            次の試験へ
+          </Link>
         </div>
+
+        <Link
+          :href="route('tests.index')"
+          class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+          一覧画面に戻る
+        </Link>
+      </div>
 
     </section>
 

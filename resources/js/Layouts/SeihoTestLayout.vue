@@ -37,25 +37,25 @@ defineProps({
         <slot />
 
         <footer class="bg-white border-t border-gray-100 mt-12">
-  <div class="container mx-auto px-6 py-10">
-    <div class="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0">
+        <div class="container mx-auto px-6 py-10">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0">
 
-<!-- 左：ロゴとサイト名 -->
-<div class="flex items-center justify-center md:justify-start space-x-2 flex-nowrap">
-  <img
-    src="/images/rencon3.png"
-    alt="れんこん"
-    class="w-7 h-7 object-contain shrink-0"
-  />
-  <div class="flex flex-col text-left">
-    <span class="text-sm font-semibold text-gray-800 whitespace-nowrap">
-      生保講座過去問解説
-    </span>
-    <span class="text-[11px] text-gray-500 leading-tight mt-0.5">
-        ※本サイトは非公式であり、試験問題の転載は行っていません。
-    </span>
-  </div>
-</div>
+        <!-- 左：ロゴとサイト名 -->
+        <div class="flex items-center justify-center md:justify-start space-x-2 flex-nowrap">
+        <img
+            src="/images/rencon3.png"
+            alt="れんこん"
+            class="w-7 h-7 object-contain shrink-0"
+        />
+        <div class="flex flex-col text-left">
+            <span class="text-sm font-semibold text-gray-800 whitespace-nowrap">
+            生保講座過去問解説
+            </span>
+            <span class="text-[11px] text-gray-500 leading-tight mt-0.5">
+                ※本サイトは非公式であり、試験問題の転載は行っていません。
+            </span>
+        </div>
+        </div>
 
       <!-- 中央：リンク -->
       <nav class="flex justify-center space-x-4 text-sm text-gray-700">

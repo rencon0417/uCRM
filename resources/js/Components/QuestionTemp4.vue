@@ -19,7 +19,7 @@
             <p class="text-base" v-html="content.answer"></p>
         </div>
         <!-- 解説 -->
-        <div class="my-4 p-4 bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-md">
+        <div class="my-4 p-4  border border-gray-200 rounded-md">
         <div
             class="text-sm sm:text-base leading-relaxed text-gray-800 overflow-x-auto whitespace-nowrap"
             v-html="content.explanation">

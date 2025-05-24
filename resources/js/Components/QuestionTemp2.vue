@@ -5,7 +5,7 @@
         <div class="flex items-center gap-2 my-4">
             <div class="w-1.5 h-6 bg-gradient-to-b from-purple-400 to-blue-400 rounded-full"></div>
             <h2 class="text-base font-bold text-gray-800">
-                問題{{ index + questionNumber }}： {{ questionTitle[index] }}
+                問題{{ index + questionNumber }}
             </h2>
         </div>
 

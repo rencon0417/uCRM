@@ -1,11 +1,11 @@
 <template>
     <div class="bg-white px-6 py-3 border border-gray-300 rounded-lg shadow-md">
-        
+
         <!-- 問題番号 -->
         <div class="flex items-center gap-2 my-4">
             <div class="w-1.5 h-6 bg-gradient-to-b from-purple-400 to-blue-400 rounded-full"></div>
             <h2 class="text-base font-bold text-gray-800">
-                問題{{ getQuestionRange(props.questionNumber) }}： {{ props.questionTitle }}
+                問題{{ getQuestionRange(props.questionNumber) }}
             </h2>
         </div>
 

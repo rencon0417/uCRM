@@ -13,10 +13,10 @@
 
           <!-- 回答 -->
         <div class="grid gap-2 text-gray-700 select-none grid-cols-[2em_1fr]">
-            <span class="font-semibold text-sm sm:text-base">
+            <span class="font-semibold text-base">
             {{ props.labels[index] }}：
             </span>
-            <p class="text-sm sm:text-base" v-html="content.answer"></p>
+            <p class="text-base" v-html="content.answer"></p>
         </div>
         <!-- 解説 -->
         <div class="my-4 p-4 bg-gray-50 rounded text-sm sm:text-base leading-relaxed text-gray-800 whitespace-pre-line" v-html="content.explanation"></div>

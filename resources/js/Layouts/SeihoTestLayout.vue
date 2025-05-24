@@ -24,7 +24,7 @@ defineProps({
     <div class="scroll-smooth">
         <!-- ナビゲーションバー -->
         <header class="py-6">
-            <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
+            <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full ">
                 <div class="text-xl font-bold flex justify-between items-center">
                     <div class="px-2">
                         <img src="/images/rencon3.png" alt="れんこん" class="w-10 h-10" />

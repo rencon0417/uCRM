@@ -19,7 +19,7 @@
             <p class="text-sm sm:text-base" v-html="content.answer"></p>
         </div>
         <!-- 解説 -->
-        <p class="text-sm sm:text-base text-gray-700 select-none" v-html="content.explanation"></p>
+        <div class="my-4 p-4 bg-gray-50 rounded text-sm sm:text-base leading-relaxed text-gray-800 whitespace-pre-line" v-html="content.explanation"></div>
 
         <!-- タイトルと科目 -->
         <div class="flex justify-end text-gray-400 text-xxs lg:text-xs">

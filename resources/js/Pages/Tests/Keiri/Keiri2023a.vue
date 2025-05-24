@@ -38,7 +38,7 @@ const subject = '2023年度 フォームA'
                         title: '複利運用',
                         answer: '5,425',
                         explanation:
-                        '<br><strong>元金：</strong>500,000円<br>\
+                        '<strong>元金：</strong>500,000円<br>\
                         <strong>月利：</strong>0.18%（＝0.0018）<br><br>\
                         1ヶ月複利で6ヶ月間運用した場合の<br>\
                         元利合計金額を求める。<br><br>\

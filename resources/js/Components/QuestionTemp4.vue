@@ -26,7 +26,7 @@
         </div> -->
 
         <!-- 解説 -->
-        <div class="my-4 p-4 bg-gray-50 rounded-md border border-gray-200 space-y-2 text-sm sm:text-base">
+        <div class="my-4 p-4 bg-gray-50 rounded-md border border-gray-200 space-y-2 text-base">
         <p class="font-semibold text-gray-600">【解説】</p>
         <div class="text-gray-700 leading-relaxed overflow-x-auto whitespace-nowrap">
             <div v-html="content.explanation" class="min-w-full inline-block"></div>

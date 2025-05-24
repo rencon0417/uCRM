@@ -16,6 +16,10 @@ const subject = '2023年度 フォームA'
 <template>
 
 <SeihoTestLayout :title="title">
+    <!-- ==== オシャレな背景装飾 ==== -->
+    <div class="absolute inset-0 bg-gradient-to-r from-blue-50 to-purple-100 opacity-20 rounded-lg z-0"></div>
+    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-100 rounded-full opacity-40 -mt-16 -mr-16"></div>
+    <div class="absolute bottom-0 left-0 w-24 h-24 bg-blue-100 rounded-full opacity-40 -mb-12 -ml-12"></div>
 
     <section class="bg-gray-100 text-gray-800 py-10">
 

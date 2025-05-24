@@ -20,7 +20,6 @@
         </div>
         <!-- 解説 -->
         <div class="my-4 p-4 bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-md">
-        <div class="mb-2 text-base font-semibold text-purple-600">解説：</div>
         <div class="text-sm sm:text-base leading-relaxed text-gray-800 whitespace-pre-line" v-html="content.explanation"></div>
         </div>
 

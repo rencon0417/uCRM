@@ -18,20 +18,20 @@
             </span>
             <p class="text-sm sm:text-base" v-html="content.answer"></p>
         </div>
-        <!-- 解説
-        <div class="my-4 p-4 bg-gray-50 rounded-md border border-gray-200 space-y-2 text-sm sm:text-base">
+
+        <!-- 解説 -->
+        <!-- <div class="my-4 p-4 bg-gray-50 rounded-md border border-gray-200 space-y-2 text-sm sm:text-base">
         <p class="font-semibold text-gray-600">【解説】</p>
         <div v-html="content.explanation" class="text-gray-700 leading-relaxed"></div>
         </div> -->
 
         <!-- 解説 -->
-        <div class="my-4 p-4 bg-gray-50 rounded-md border border-gray-200 space-y-2 text-base">
+        <div class="my-4 p-4 bg-gray-50 rounded-md border border-gray-200 space-y-2 text-sm sm:text-base">
         <p class="font-semibold text-gray-600">【解説】</p>
-        <div class="overflow-x-auto">
-            <div v-html="content.explanation" class="text-gray-700 leading-relaxed min-w-[300px]"></div>
+        <div class="text-gray-700 leading-relaxed overflow-x-auto whitespace-nowrap">
+            <div v-html="content.explanation" class="min-w-full inline-block"></div>
         </div>
         </div>
-
 
         <!-- タイトルと科目 -->
         <div class="flex justify-end text-gray-400 text-xxs lg:text-xs">

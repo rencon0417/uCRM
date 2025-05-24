@@ -19,13 +19,7 @@
             <p class="text-base" v-html="content.answer"></p>
         </div>
         <!-- 解説 -->
-        <div class="mt-4 flex gap-4">
-        <!-- グラデーションの縦バー -->
-        <div class="w-1.5 rounded-full bg-gradient-to-b from-purple-400 to-blue-400"></div>
-
-        <!-- 解説本文 -->
-        <div class="flex-1 p-4 bg-gray-50 rounded text-sm sm:text-base leading-relaxed text-gray-800 whitespace-pre-line" v-html="content.explanation"></div>
-        </div>
+        <div class="my-4 p-4 bg-gray-50 rounded text-sm sm:text-base leading-relaxed text-gray-800 whitespace-pre-line" v-html="content.explanation"></div>
 
         <!-- タイトルと科目 -->
         <div class="flex justify-end text-gray-400 text-xxs lg:text-xs">

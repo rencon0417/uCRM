@@ -11,7 +11,8 @@
         <div v-for="(content, index) in props.contents" :key="index"
              class="grid gap-2 text-gray-700 select-none grid-cols-[2em_1fr]">
           <span class="font-semibold">{{ getLabel(index) }}：</span>
-          <p>{{ content }}</p>
+          <!-- <p>{{ content }}</p> -->
+          <p v-html="content"></p>
         </div>
       </div>
       <div class="flex justify-end text-gray-400 text-xxs lg:text-xs">

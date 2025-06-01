@@ -187,7 +187,7 @@ const subject = '2024年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '解約返戻金','残存','そのときの被保険者の到達年齢','新契約費','同じ', //問16〜20
+                '安全性','公平性','利源別配当方式（利源式）','保険業法施行規則','1年', //問16〜20
                 ]"
                 :labels="[
                 'ウ','オ','コ','ク','ア',  //問16〜20
@@ -281,8 +281,8 @@ const subject = '2024年度 フォームA'
                 :questionNumber="26"
                 :title="title"
                 :subject="subject"
-                :contents="[
-                '保険金を比例させる方式、営業保険料に比例させる方式、1契約について予定事業費を一定額とする方式、これらの方式を組み合わせる方式の4方式のいずれかである。', //p54
+                :contents="[ //p53
+                '予定死亡率と予定利率を低くすると、生存保険の純保険料は<u>高くなる</u>。',
                 '正しい',
                 '正しい'
                 ]"
@@ -291,8 +291,8 @@ const subject = '2024年度 フォームA'
                 :questionNumber="27"
                 :title="title"
                 :subject="subject"
-                :contents="[
-                '',
+                :contents="[ //p55
+                '保険金に比例させる方式と保険料に比例させる方式を組み合わせる方式が一般的である。',
                 '正しい',
                 '正しい'
                 ]"
@@ -301,8 +301,8 @@ const subject = '2024年度 フォームA'
                 :questionNumber="28"
                 :title="title"
                 :subject="subject"
-                :contents="[
-                '',
+                :contents="[ //p96
+                '保険業法では、事業年度末までに経過した期間に見合う保険料部分に対応する積立金（保険料積立金）、翌事業年度以降に対応する保険料部分（未経過保険料）、第三分野における積立傷害保険等の積立型商品において、将来の満期返戻金支払いに対応する保険料部分（払戻積立金）および危険準備金に分けて計算することとされている。',
                 '正しい',
                 '正しい'
                 ]"
@@ -311,19 +311,19 @@ const subject = '2024年度 フォームA'
                 :questionNumber="29"
                 :title="title"
                 :subject="subject"
-                :contents="[
+                :contents="[ //p119
                 '正しい',
                 '正しい',
-                ''
+                '転換前契約の責任準備金は転換後契約の一時払保険料（新契約費部分<u>を含まないもの</u>）に充当する。'
                 ]"
             />
             <QuestionTemp1
                 :questionNumber="30"
                 :title="title"
                 :subject="subject"
-                :contents="[
+                :contents="[ //p147
                 '正しい',
-                '',
+                '毎月ではなく毎日。',
                 '正しい'
                 ]"
             />
@@ -334,19 +334,19 @@ const subject = '2024年度 フォームA'
                 :contents="[
                 // 問31〜35
                 '正しい',
-                '',
+                '通常、単に現価という場合には<u>期末払現価</u>を指す。', //p27
                 '正しい',
-                '',
-                '',
+                '年間払込額は、分割払のために保険料払込みが遅れるための利息の損失（年払保険料の場合に比べて年間の予定利息分は少なくなる）や集金回数（払込回数）の増加に伴う事業費の増加により、年払とした場合の営業保険料学を<u>上回る</u>。', //p62
+                '自然保険料方式と異なり、平準保険料方式は責任準備金を積み立てる必要がある。', //p68
                 // 問36〜40
                 '正しい',
                 '正しい',
                 '正しい',
                 '正しい',
-                '',
+                '配当は、被保険者ごとの配当を算出してそれを<u>積み上げるのではなく</u>、団体単位で計算されている。', //p154
                  //問41〜50
-                'C（A・Bともに正しい）', 'A-現価', 'C（A・Bともに正しい）', 'B-（1 + 予定利率）', 'A-標準',
-                'A-失効', 'A-危険保険金額', 'C（A・Bともに正しい）', 'B-消滅時保険料積立金', 'B-が認められている',
+                'C（A・Bともに正しい）', 'A-現価', 'C（A・Bともに正しい）', 'B-（1 + 予定利率）1/2乗', 'A-標準',
+                'A-失効', 'A-危険保険金額', 'C（A・Bともに正しい）', 'B-を禁止されている', 'B-総合保険料',
                 ]"
                 :labels="[
                 '解','解','解','解','解',  //問31〜35
@@ -357,21 +357,20 @@ const subject = '2024年度 フォームA'
             />
         </div>
 
-        <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('keiri2024b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
+        <!-- ==== ナビゲーションボタン：グラデーションで強調 ==== -->
+        <div class="flex flex-col items-center mt-10 gap-6">
+            <div class="flex justify-center gap-10">
             <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
+                :href="route('keiri2024b')"
+                class="w-40 h-12  flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+                次の試験へ
+            </Link>
+            </div>
+
+            <Link
+            :href="route('tests.index')"
+            class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            一覧画面に戻る
             </Link>
         </div>
 

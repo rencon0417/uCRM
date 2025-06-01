@@ -175,7 +175,7 @@ const subject = '2024年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '経験生命表','完全生命表','総合表','選択効果','年齢別', //問11〜15
+                '付加保険料','保険金','長い','高く','低く', //問11〜15
                 ]"
                 :labels="[
                 'キ','ケ','オ','エ','カ',  //問11〜15
@@ -186,7 +186,7 @@ const subject = '2024年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '解約返戻金','残存','そのときの被保険者の到達年齢','新契約費','同じ', //問16〜20
+                '平準純保険料式','ソルベンシー・マージン','健全性','標準責任準備金','負債十分性テスト', //問16〜20
                 ]"
                 :labels="[
                 'キ','イ','オ','カ','ケ',  //問16〜20
@@ -356,26 +356,25 @@ const subject = '2024年度 フォームB'
             />
         </div>
 
-        <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('keiri2024a')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('keiri2024c')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
+        <!-- ==== ナビゲーションボタン：グラデーションで強調 ==== -->
+        <div class="flex flex-col items-center mt-10 gap-6">
+            <div class="flex justify-center gap-10">
             <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
+                :href="route('keiri2024a')"
+                class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+                前の試験へ
+            </Link>
+            <Link
+                :href="route('keiri2024c')"
+                class="w-40 h-12  flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+                次の試験へ
+            </Link>
+            </div>
+
+            <Link
+            :href="route('tests.index')"
+            class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            一覧画面に戻る
             </Link>
         </div>
 

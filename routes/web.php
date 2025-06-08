@@ -21,6 +21,9 @@ Route::resource('tests', TestController::class);
 
 Route::controller(TestController::class)->group(function () {
     // 生命保険総論
+    Route::get('souron2024a', 'souron2024a')->name('souron2024a');
+    Route::get('souron2024b', 'souron2024b')->name('souron2024b');
+    Route::get('souron2024c', 'souron2024c')->name('souron2024c');
     Route::get('souron2023a', 'souron2023a')->name('souron2023a');
     Route::get('souron2023b', 'souron2023b')->name('souron2023b');
     Route::get('souron2023c', 'souron2023c')->name('souron2023c');

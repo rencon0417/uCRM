@@ -25,6 +25,18 @@ class TestController extends Controller
     }
 
     // 生命保険総論
+    public function souron2024a()
+    {
+        return Inertia::render('Tests/Souron/Souron2024a');
+    }
+    public function souron2024b()
+    {
+        return Inertia::render('Tests/Souron/Souron2024b');
+    }
+    public function souron2024c()
+    {
+        return Inertia::render('Tests/Souron/Souron2024c');
+    }
     public function souron2023a()
     {
         return Inertia::render('Tests/Souron/Souron2023a');

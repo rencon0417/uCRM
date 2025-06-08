@@ -143,8 +143,34 @@ const openGoogleForm = () => {
                     <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->
 
                     <!-- グリッドレイアウト -->
-                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 relative">
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 relative">
 
+                        <!-- ２０２４年度 -->
+                        <div class="group">
+                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
+                                <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                                    <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
+                                    2024年度
+                                </h2>
+                                <div class="space-y-2">
+                                    <Link :href="route('souron2024a')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームAの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('souron2024b')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームBの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('souron2024c')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームCの解説</span>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                         <!-- ２０２３年度 -->
                         <div class="group">
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">

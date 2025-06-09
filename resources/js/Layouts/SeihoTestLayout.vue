@@ -8,6 +8,101 @@ const openGoogleForm = () => {
   window.open(googleFormUrl, '_blank'); // 新しいタブで開く
 };
 
+const isMenuOpen = ref(false)
+
+// メニュー閉じたら全て閉じる
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+  if (!isMenuOpen.value) openSubjects.value.clear()
+}
+
+const openSubjects = ref(new Set())
+
+const toggleSubject = (key) => {
+  if (openSubjects.value.has(key)) {
+    openSubjects.value.delete(key)
+  } else {
+    openSubjects.value.add(key)
+  }
+}
+
+const subjects = [
+  {
+    name: '生命保険総論',
+    key: 'souron',
+    tests: {
+      '2024年度': ['a', 'b', 'c'],
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '生命保険計理',
+    key: 'keiri',
+    tests: {
+      '2024年度': ['a', 'b', 'c'],
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '危険選択',
+    key: 'kiken',
+    tests: {
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '約款と法律',
+    key: 'yakkan',
+    tests: {
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '生命保険会計',
+    key: 'kaikei',
+    tests: {
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '生命保険商品と営業',
+    key: 'eigyo',
+    tests: {
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '生命保険と税法',
+    key: 'zeihou',
+    tests: {
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+  {
+    name: '資産運用',
+    key: 'sisan',
+    tests: {
+      '2023年度': ['a', 'b', 'c'],
+      '2022年度': ['a', 'b', 'c'],
+      '2021年度': ['a', 'b', 'c'],
+    },
+  },
+]
+
 defineProps({
   title: {
     type: String,
@@ -31,10 +126,83 @@ defineProps({
                     </div>
                     <Link :href="route('tests.index')">生保講座過去問解説</Link>
                 </div>
+                <!-- モバイル用ハンバーガー -->
+                <button @click="toggleMenu" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                </button>
             </div>
         </header>
 
         <slot />
+
+        <!-- サイドメニュー -->
+
+        <transition name="fade">
+            <div v-if="isMenuOpen" class="fixed inset-0 z-40 bg-black bg-opacity-50" @click="toggleMenu">
+            <aside class="fixed top-0 right-0 w-56 h-full bg-gray-900 shadow-xl z-50 overflow-y-auto" @click.stop>
+
+                <!-- ヘッダー -->
+                <div class="bg-gray-800 text-white text-center text-lg font-bold py-3 relative">
+                サイトメニュー
+                <div class="absolute bottom-0 left-0 w-full h-1 bg-purple-500"></div>
+                </div>
+
+                <!-- メニュー本体 -->
+                <div class="px-4 pt-4 text-sm text-white">
+
+                    <div v-for="subject in subjects" :key="subject.key">
+                        <button
+                            @click="toggleSubject(subject.key)"
+                            class="w-full flex justify-between items-center font-semibold text-gray-300 py-2 hover:text-white"
+                        >
+                            <span>{{ subject.name }}</span>
+                            <span class="text-xs text-gray-400">
+                                {{ openSubjects.has(subject.key) ? '▼' : '▶' }}
+                            </span>
+                        </button>
+
+                        <!-- 年度ごとの試験 -->
+                        <div v-if="openSubjects.has(subject.key)" class="pl-2 space-y-2 text-sm mt-1">
+                        <div v-for="(forms, yearLabel) in subject.tests" :key="yearLabel">
+                            <!-- ✅ 年度を白・太字・標準サイズに変更 -->
+                            <div class="text-white font-bold px-3 pt-2 pb-1">
+                            {{ yearLabel }}
+                            </div>
+
+                            <!-- ✅ 区切り線をなくし、リストをシンプルに -->
+                            <ul class="space-y-1">
+                            <li v-for="form in forms" :key="form">
+                                <Link
+                                :href="route(`${subject.key}${yearLabel.replace('年度', '')}${form}`)"
+                                class="flex justify-between items-center px-3 py-1 hover:bg-gray-800 transition"
+                                >
+                                フォーム{{ form.toUpperCase() }}
+                                <span class="text-gray-500 text-sm">＞</span>
+                                </Link>
+                            </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 閉じるボタン -->
+                <div class="mt-6 px-4">
+                <button class="w-full text-sm text-gray-400 hover:text-red-400" @click="toggleMenu">
+                    × 閉じる
+                </button>
+                </div>
+            </aside>
+            </div>
+        </transition>
+
+
+
+
 
         <footer class="bg-white border-t border-gray-100 mt-12">
         <div class="container mx-auto px-6 py-10">
@@ -85,3 +253,12 @@ defineProps({
 
     </div>
 </template>
+
+<style>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+</style>

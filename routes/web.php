@@ -3,14 +3,6 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
-use App\Http\Controllers\InertiaTestController;
-use App\Http\Controllers\ItemController;
-use App\Http\Controllers\CustomerController;
-use App\Http\Controllers\PurchaseController;
-use App\Http\Controllers\AnalysisController;
-use App\Http\Controllers\SeihokozaController;
-use App\Http\Controllers\SeihoQuizController;
 use App\Http\Controllers\TestController;
 
 Route::get('/', function () {
@@ -123,7 +115,5 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-
-
 
 require __DIR__.'/auth.php';

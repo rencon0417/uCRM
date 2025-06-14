@@ -13,7 +13,7 @@ const props = defineProps<Props>()
         <div class="w-1.5 h-8 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
         <h1 class="text-xl font-extrabold text-gray-800 leading-tight">{{ props.title }}</h1>
       </div>
-      <p class="text-gray-600 text-base mt-2">{{ props.description }}</p>
+      <p class="text-gray-600 font-extrabold text-base mt-2">{{ props.description }}</p>
     </div>
   </div>
 </template>

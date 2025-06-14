@@ -74,9 +74,9 @@ const subject = '2022年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '保険契約者の資格については別段の制限はなく、個人であると法人であるとを問わず、また行為能力者であると否とを問わない。', //p13
+                '保険契約者の資格については<u><b>別段の制限はなく、個人であると法人であるとを問わず、また行為能力者であると否とを問わない</b></u>。', //p13
                 '正しい',
-                '保険金受取人の資格については何らの制限はなく、個人であると法人であると、また行為能力者であると否とを問わない。' //p14
+                '保険金受取人の資格については<u><b>何らの制限はなく、個人であると法人であると、また行為能力者であると否とを問わない</b></u>。' //p14
                 ]"
                 />
             <QuestionTemp1
@@ -84,9 +84,9 @@ const subject = '2022年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '保険法においては、保険契約者と実質的に同じ地位に置かれている共済契約者の保護の観点から、共済契約も保険法の適用対象とされている。', //p7
+                '保険業法ではなく<u><b>保険法</b></u>', //p7
                 '正しい',
-                '法律に強行規定がある場合を除き、まず保険約款が適用され，保険約款に規定のない事項については、おおむね保険法、民法の順に適用される。' //p9
+                '法律に強行規定がある場合を除き、まず<u><b>保険約款が適用され，保険約款に規定のない事項については、おおむね保険法、民法の順に適用される</b></u>。' //p9
                 ]"
             />
             <QuestionTemp1
@@ -94,9 +94,9 @@ const subject = '2022年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '65歳以上を第1号被保険者とし、40歳～65歳未満の医療保険加入者を第2号被保険者とする。', //p140
+                '<u><b>65歳以上を第1号被保険者</b></u>とし、<u><b>40歳～65歳未満の医療保険加入者を第2号被保険者</b></u>とする。', //p140
                 '正しい',
-                '第1号被保険者の保険料は各市町村ごとに基準保険料（所得段階別の定額保険料）が設定され、第2号被保険者については、それぞれ加入する医療保険者が制度の算定基準に基づき保険料を設定し、一般の医療保険料に上乗せする形で一括して徴収する。' //p141
+                '<u><b>第1号被保険者</b></u>の保険料は各市町村ごとに基準保険料（所得段階別の定額保険料）が設定され、<u><b>第2号被保険者</b></u>については、それぞれ加入する医療保険者が制度の算定基準に基づき保険料を設定し、一般の医療保険料に上乗せする形で一括して徴収する。' //p141
                 ]"
             />
             <QuestionTemp1
@@ -104,8 +104,8 @@ const subject = '2022年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '解約価格法ではなく、不没収法', //p62
-                'マッカラン調査委員会ではなく、アームストロング調査委員会', //p63
+                '解約価格法ではなく<u><b>不没収法</b></u>', //p62
+                'マッカラン調査委員会ではなく<u><b>アームストロング調査委員会</b></u>', //p63
                 '正しい'
                 ]"
             />
@@ -116,7 +116,7 @@ const subject = '2022年度 フォームB'
                 :contents="[
                 '正しい',
                 '第三分野については生損保本体で取り扱えることとし、それ以外の分野については子会社方式により相互参入が可能とされた。', //p173
-                '日米保険協議の結果を踏まえ、一部制限する激変緩和措置が講じられたが、2001年（平成13年）7月に全面解禁された。' //p174
+                '日米保険協議の結果を踏まえ、一部制限する激変緩和措置が講じられたが、<u><b>2001年（平成13年）に全面解禁された</b></u>。' //p174
                 ]"
             />
             <QuestionTemp1
@@ -126,7 +126,7 @@ const subject = '2022年度 フォームB'
                 :contents="[
                 '正しい',
                 '正しい',
-                '変額保険には、終身保険タイプの変額保険（終身型）と養老保険タイプの変額保険（有期型）のほか、個人年金保険タイプの変額個人年金保険がある。' //p41
+                '変額保険には、終身保険タイプの変額保険（終身型）と<u><b>養老保険タイプの変額保険（有期型）</b></u>のほか、個人年金保険タイプの変額個人年金保険がある。' //p41
                 ]"
             />
             <QuestionTemp1
@@ -134,7 +134,7 @@ const subject = '2022年度 フォームB'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '同措置は、保険金の支払い余力を示すソルベンシー・マージン比率が200%未満の会社が対象となった', //p99-100
+                '同措置は、<u><b>保険金の支払い余力を示すソルベンシー・マージン比率が200%未満</b></u>の会社が対象となった', //p99-100
                 '正しい',
                 '正しい'
                 ]"
@@ -145,7 +145,7 @@ const subject = '2022年度 フォームB'
                 :subject="subject"
                 :contents="[
                 '正しい',
-                '賦課式の生命保険では、年を経るにつれ死亡率が高くなるので、給付金を一定にすれば、分担金が年々増加し。一方、分担金を一定にすれば、給付金が減少せざるを得ないことになる。', //p56
+                '賦課式の生命保険では、年を経るにつれ死亡率が高くなるので、給付金を一定にすれば、<u><b>分担金が年々増加</b></u>し、一方、分担金を一定にすれば、<u><b>給付金が減少</b></u>せざるを得ないことになる。', //p56
                 '正しい'
                 ]"
             />
@@ -155,7 +155,7 @@ const subject = '2022年度 フォームB'
                 :subject="subject"
                 :contents="[
                 '正しい',
-                '厚生年金保険の上乗せ年金としては確定拠出年金（企業型）などがある。', //p127
+                '厚生年金保険の上乗せ年金としては<u><b>確定拠出年金（企業型）</b></u>などがある。', //p127
                 '正しい'
                 ]"
             />
@@ -166,46 +166,24 @@ const subject = '2022年度 フォームB'
                 :contents="[
                 '正しい',
                 '正しい',
-                '特別勘定ではなく、区分経理の導入' //p200
+                '特別勘定ではなく<u><b>区分経理</b></u>の導入' //p200
                 ]"
             />
             <QuestionTemp2
                 :questionNumber="31"
-                :questionTitle="[
-                    '', //問31
-                    '', //問32
-                    '', //問33
-                    '', //問34
-                    '', //問35
-                    '', //問36
-                    '', //問37
-                    '', //問38
-                    '', //問39
-                    '', //問40
-                    '', //問41
-                    '', //問42
-                    '', //問43
-                    '', //問44
-                    '', //問45
-                    '', //問46
-                    '', //問47
-                    '', //問48
-                    '', //問49
-                    '', //問50
-                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[
                 // 問31〜35
                 '正しい',
                 '正しい',
-                'ロイヤル・エクスチェンジではなく、エクイタブル', //p57
-                '契約成立後ではなく、契約申込時に交付する。', //p83
+                'ロイヤル・エクスチェンジではなく<u><b>エクイタブル</b></u>が設立', //p57
+                '契約成立後ではなく<u><b>契約申込時</b></u>に交付', //p83
                 '正しい',
                 // 問36〜40
-                '社会扶助ではなく公的扶助制度', //p123
+                '社会扶助制度ではなく<u><b>公的扶助制度</b></u> の一つ', //p123
                 '正しい',
-                'ソルベンシー・マージン比率は、保険会社が直面している通常の予測を超える諸リスク（保険リスク・資産運用リスク等）相当額の1/2を分母とし、保険会社の自己資本勘定と考えられる資本勘定、諸準備金などの合計額を分子として計算される。', //p155
+                'ソルベンシー・マージン比率は、<u><b>保険会社が直面している通常の予測を超える諸リスク（保険リスク・資産運用リスク等）相当額の1/2を分母</b></u>とし、<u><b>保険会社の自己資本勘定と考えられる資本勘定、諸準備金などの合計額を分子</b></u>として計算される。', //p155
                 '正しい',
                 '生命保険会社は早くから医療や健康問題に関心を持ち、人間ドック紹介、健康相談サービス、介護事業者の紹介等を行っている。', //p193
                  //問41〜50
@@ -222,27 +200,26 @@ const subject = '2022年度 フォームB'
         </div>
 
         <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('souron2022a')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('souron2022c')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
-            <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
-            </Link>
+        <div class="flex flex-col items-center mt-10 gap-6">
+        <div class="flex justify-center gap-10">
+          <Link
+            :href="route('souron2022a')"
+            class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            前の試験へ
+          </Link>
+          <Link
+            :href="route('souron2022c')"
+            class="w-40 h-12  flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            次の試験へ
+          </Link>
         </div>
+
+        <Link
+          :href="route('tests.index')"
+          class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+          一覧画面に戻る
+        </Link>
+      </div>
 
     </section>
 

@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\StudyMethodController;
 
 Route::get('/', function () {
     return redirect('tests');
@@ -108,6 +109,9 @@ Route::controller(TestController::class)->group(function () {
 
     // プライバシーポリシー
     Route::get('policy', 'policy')->name('policy');
+
+    // 勉強方法
+    Route::get('studyMethod', 'studyMethod')->name('studyMethod');
 });
 
 Route::middleware('auth')->group(function () {

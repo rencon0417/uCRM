@@ -124,6 +124,55 @@ const openGoogleForm = () => {
             </section>
         </div>
 
+<!-- 分野から探す（スマホ最適化） -->
+<!-- <div class="container py-12 mx-auto px-4 md:px-10 lg:px-20 w-4/5">
+  <section class="w-full bg-white p-6 rounded-lg shadow-md relative overflow-hidden"> -->
+
+    <!-- 背景装飾 -->
+    <!-- <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-100 to-blue-100 opacity-40 rounded-full -mr-16 -mt-16"></div>
+    <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-40 rounded-full -ml-12 -mb-12"></div> -->
+
+    <!-- タイトルとボタン -->
+    <!-- <div class="relative flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-8">
+      <h2 class="text-xl sm:text-2xl font-bold text-gray-800">科目から探す</h2>
+      <Link :href="route('studyMethod')" class="text-sm px-4 py-2 border border-purple-400 text-purple-600 rounded-lg hover:bg-purple-50 transition w-max">
+        勉強方法を見る
+      </Link>
+    </div> -->
+
+    <!-- カードグリッド -->
+    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <a href="#souron" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">生命保険総論</h3>
+      </a>
+      <a href="#keiri" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">生命保険計理</h3>
+      </a>
+      <a href="#kiken" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">危険選択</h3>
+      </a>
+      <a href="#yakkan" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">約款と法律</h3>
+      </a>
+      <a href="#kaikei" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">生命保険会計</h3>
+      </a>
+      <a href="#eigyo" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">生命保険商品と営業</h3>
+      </a>
+      <a href="#zeihou" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">生命保険と税法</h3>
+      </a>
+      <a href="#sisan" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
+        <h3 class="text-sm font-semibold text-gray-800">資産の運用</h3>
+      </a>
+    </div>
+  </section>
+</div> -->
+
+
+
+
         <!-- 生命保険総論セクション -->
         <div id="souron" class="pt-10 mt-10 flex justify-between items-center mx-auto px-4 md:px-10 lg:px-20 w-4/5">
             <section class="w-full">

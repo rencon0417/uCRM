@@ -15,6 +15,9 @@ class TestController extends Controller
     // プライバシーポリシー
     public function policy(){return Inertia::render('Tests/Policy');}
 
+    // 勉強方法
+    public function studyMethod(){return Inertia::render('Tests/StudyMethod');}
+
     // 生命保険総論
     public function souron2024a(){return Inertia::render('Tests/Souron/Souron2024a');}
     public function souron2024b(){return Inertia::render('Tests/Souron/Souron2024b');}

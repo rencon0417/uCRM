@@ -114,7 +114,7 @@ defineProps({
 
 <template>
     <Head :title="title">
-        <link rel="icon" href="/images/rencon3.png" />
+        <link rel="icon" href="/images/rencon3.png" sizes="32x32" />
     </Head>
     <div class="scroll-smooth">
         <!-- ナビゲーションバー -->
@@ -122,7 +122,13 @@ defineProps({
             <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full ">
                 <div class="text-xl font-extrabold flex justify-between items-center">
                     <div class="px-2">
-                        <img src="/images/rencon3.png" alt="生保講座 過去問解説 ロゴ" class="w-10 h-10" />
+                        <img
+                        src="/images/rencon3.png"
+                        alt="生保講座 過去問解説 ロゴ"
+                        width="40"
+                        height="40"
+                        class="w-10 h-10"
+                        />
                     </div>
                     <Link :href="route('tests.index')">生保講座過去問解説</Link>
                 </div>

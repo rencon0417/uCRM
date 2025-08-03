@@ -42,6 +42,9 @@ Route::controller(TestController::class)->group(function () {
     Route::get('keiri2021c', 'keiri2021c')->name('keiri2021c');
 
     // 危険選択
+    Route::get('kiken2024a', 'kiken2024a')->name('kiken2024a');
+    Route::get('kiken2024b', 'kiken2024b')->name('kiken2024b');
+    Route::get('kiken2024c', 'kiken2024c')->name('kiken2024c');
     Route::get('kiken2023a', 'kiken2023a')->name('kiken2023a');
     Route::get('kiken2023b', 'kiken2023b')->name('kiken2023b');
     Route::get('kiken2023c', 'kiken2023c')->name('kiken2023c');
@@ -53,6 +56,9 @@ Route::controller(TestController::class)->group(function () {
     Route::get('kiken2021c', 'kiken2021c')->name('kiken2021c');
 
     // 約款と法律
+    Route::get('yakkan2024a', 'yakkan2024a')->name('yakkan2024a');
+    Route::get('yakkan2024b', 'yakkan2024b')->name('yakkan2024b');
+    Route::get('yakkan2024c', 'yakkan2024c')->name('yakkan2024c');
     Route::get('yakkan2023a', 'yakkan2023a')->name('yakkan2023a');
     Route::get('yakkan2023b', 'yakkan2023b')->name('yakkan2023b');
     Route::get('yakkan2023c', 'yakkan2023c')->name('yakkan2023c');

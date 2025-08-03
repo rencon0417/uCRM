@@ -11,7 +11,6 @@ const openGoogleForm = () => {
 
 </script>
 
-
 <template>
     <SeihoTestLayout title="生命保険講座過去問解説">
         <!-- ヒーローセクション -->
@@ -56,6 +55,29 @@ const openGoogleForm = () => {
                     <div class="w-2 h-2 bg-purple-500 rounded-full opacity-30"></div>
                 </div>
             </section>
+        </div>
+
+        <!-- お知らせセクション -->
+        <div class="mx-auto px-4 pt-12 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">お知らせ</h2>
+            <ul class="space-y-4 text-gray-700 text-base md:text-lg">
+                <li class="border-l-4 border-blue-500 pl-4">
+                    <span class="font-semibold">2025/08/03:</span><br> 生命保険計理 2024年度 フォームC 21〜24の解説の誤りを修正しました。
+                </li>
+                <!-- <li class="border-l-4 border-purple-500 pl-4">
+                    <span class="font-semibold">2025/07/28:</span> 新たに2022年度B問題の解説を追加しました。
+                </li>
+                <li class="border-l-4 border-blue-500 pl-4">
+                    <span class="font-semibold">2025/07/15:</span> 問題解説ページのデザインを一部改善しました。
+                </li> -->
+            </ul>
+            <p class="mt-8 text-gray-600 text-sm md:text-base">
+                本サイトは一人で運営しております。内容に誤りや不備などお気づきの点がございましたら、
+                <button @click="openGoogleForm" class="text-blue-600 underline hover:text-blue-800 hover:opacity-80 transition">
+                    お問い合わせ
+                </button>
+                よりご連絡いただけますと幸いです。
+            </p>
         </div>
 
         <!-- 目次 -->
@@ -124,57 +146,8 @@ const openGoogleForm = () => {
             </section>
         </div>
 
-<!-- 分野から探す（スマホ最適化） -->
-<!-- <div class="container py-12 mx-auto px-4 md:px-10 lg:px-20 w-4/5">
-  <section class="w-full bg-white p-6 rounded-lg shadow-md relative overflow-hidden"> -->
-
-    <!-- 背景装飾 -->
-    <!-- <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-100 to-blue-100 opacity-40 rounded-full -mr-16 -mt-16"></div>
-    <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-40 rounded-full -ml-12 -mb-12"></div> -->
-
-    <!-- タイトルとボタン -->
-    <!-- <div class="relative flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-8">
-      <h2 class="text-xl sm:text-2xl font-bold text-gray-800">科目から探す</h2>
-      <Link :href="route('studyMethod')" class="text-sm px-4 py-2 border border-purple-400 text-purple-600 rounded-lg hover:bg-purple-50 transition w-max">
-        勉強方法を見る
-      </Link>
-    </div> -->
-
-    <!-- カードグリッド -->
-    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      <a href="#souron" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">生命保険総論</h3>
-      </a>
-      <a href="#keiri" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">生命保険計理</h3>
-      </a>
-      <a href="#kiken" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">危険選択</h3>
-      </a>
-      <a href="#yakkan" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">約款と法律</h3>
-      </a>
-      <a href="#kaikei" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">生命保険会計</h3>
-      </a>
-      <a href="#eigyo" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">生命保険商品と営業</h3>
-      </a>
-      <a href="#zeihou" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">生命保険と税法</h3>
-      </a>
-      <a href="#sisan" class="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow hover:shadow-lg transition text-center">
-        <h3 class="text-sm font-semibold text-gray-800">資産の運用</h3>
-      </a>
-    </div>
-  </section>
-</div> -->
-
-
-
-
         <!-- 生命保険総論セクション -->
-        <div id="souron" class="pt-10 mt-10 flex justify-between items-center mx-auto px-4 md:px-10 lg:px-20 w-4/5">
+        <div id="souron" class="container pt-10 mt-10 flex justify-between items-center mx-auto px-4 md:px-10 lg:px-20 w-4/5">
             <section class="w-full">
                 <!-- セクションヘッダー -->
                 <div class="relative mb-6 flex items-center">
@@ -193,7 +166,6 @@ const openGoogleForm = () => {
 
                     <!-- グリッドレイアウト -->
                     <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 relative">
-
                         <!-- ２０２４年度 -->
                         <div class="group">
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
@@ -320,10 +292,6 @@ const openGoogleForm = () => {
 
                 <!-- メインコンテンツ -->
                 <div class="bg-white p-6 rounded-lg shadow-lg relative overflow-hidden">
-                    <!-- 装飾的な背景要素 -->
-                    <!-- <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-blue-100 opacity-30 rounded-full -mr-32 -mt-32"></div>
-                    <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->
-
                     <!-- グリッドレイアウト -->
                     <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 relative">
 
@@ -453,13 +421,35 @@ const openGoogleForm = () => {
 
                 <!-- メインコンテンツ -->
                 <div class="bg-white p-6 rounded-lg shadow-lg relative overflow-hidden">
-                    <!-- 装飾的な背景要素 -->
-                    <!-- <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-blue-100 opacity-30 rounded-full -mr-32 -mt-32"></div>
-                    <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->
-
                     <!-- グリッドレイアウト -->
-                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 relative">
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 relative">
 
+                        <!-- ２０２４年度 -->
+                        <div class="group">
+                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
+                                <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                                    <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
+                                    2024年度（作成中）
+                                </h2>
+                                <div class="space-y-2">
+                                    <Link :href="route('kiken2024a')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームAの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('kiken2024b')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームBの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('kiken2024c')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームCの解説</span>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                         <!-- ２０２３年度 -->
                         <div class="group">
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
@@ -560,13 +550,34 @@ const openGoogleForm = () => {
 
                 <!-- メインコンテンツ -->
                 <div class="bg-white p-6 rounded-lg shadow-lg relative overflow-hidden">
-                    <!-- 装飾的な背景要素 -->
-                    <!-- <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-blue-100 opacity-30 rounded-full -mr-32 -mt-32"></div>
-                    <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div> -->
-
                     <!-- グリッドレイアウト -->
-                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 relative">
-
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 relative">
+                        <!-- ２０２４年度 -->
+                        <div class="group">
+                            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
+                                <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                                    <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
+                                    2024年度（作成中）
+                                </h2>
+                                <div class="space-y-2">
+                                    <Link :href="route('yakkan2023a')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームAの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('yakkan2023b')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームBの解説</span>
+                                        </div>
+                                    </Link>
+                                    <Link :href="route('yakkan2023c')" class="block">
+                                        <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
+                                            <span class="font-medium text-gray-700 hover:text-purple-500">フォームCの解説</span>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                         <!-- ２０２３年度 -->
                         <div class="group">
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">

@@ -47,6 +47,9 @@ class TestController extends Controller
     public function keiri2021c(){return Inertia::render('Tests/Keiri/Keiri2021c');}
 
     // 危険選択
+    public function kiken2024a(){return Inertia::render('Tests/Kiken/Kiken2024a');}
+    public function kiken2024b(){return Inertia::render('Tests/Kiken/Kiken2024b');}
+    public function kiken2024c(){return Inertia::render('Tests/Kiken/Kiken2024c');}
     public function kiken2023a(){return Inertia::render('Tests/Kiken/Kiken2023a');}
     public function kiken2023b(){return Inertia::render('Tests/Kiken/Kiken2023b');}
     public function kiken2023c(){return Inertia::render('Tests/Kiken/Kiken2023c');}
@@ -58,6 +61,9 @@ class TestController extends Controller
     public function kiken2021c(){return Inertia::render('Tests/Kiken/Kiken2021c');}
 
     // 約款と法律
+    public function yakkan2024a(){return Inertia::render('Tests/Yakkan/Yakkan2024a');}
+    public function yakkan2024b(){return Inertia::render('Tests/Yakkan/Yakkan2024b');}
+    public function yakkan2024c(){return Inertia::render('Tests/Yakkan/Yakkan2024c');}
     public function yakkan2023a(){return Inertia::render('Tests/Yakkan/Yakkan2023a');}
     public function yakkan2023b(){return Inertia::render('Tests/Yakkan/Yakkan2023b');}
     public function yakkan2023c(){return Inertia::render('Tests/Yakkan/Yakkan2023c');}

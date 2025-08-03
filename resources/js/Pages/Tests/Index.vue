@@ -71,13 +71,6 @@ const openGoogleForm = () => {
                     <span class="font-semibold">2025/07/15:</span> 問題解説ページのデザインを一部改善しました。
                 </li> -->
             </ul>
-            <p class="mt-8 text-gray-600 text-sm md:text-base">
-                本サイトは一人で運営しております。内容に誤りや不備などお気づきの点がございましたら、
-                <button @click="openGoogleForm" class="text-blue-600 underline hover:text-blue-800 hover:opacity-80 transition">
-                    お問い合わせ
-                </button>
-                よりご連絡いただけますと幸いです。
-            </p>
         </div>
 
         <!-- 目次 -->

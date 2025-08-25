@@ -59,18 +59,15 @@ const openGoogleForm = () => {
 
         <!-- お知らせセクション -->
         <div class="mx-auto px-4 pt-12 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">お知らせ</h2>
-            <ul class="space-y-4 text-gray-700 text-base md:text-lg">
-                <li class="border-l-4 border-blue-500 pl-4">
-                    <span class="font-semibold">2025/08/03:</span><br> 生命保険計理 2024年度 フォームC 21〜24の解説の誤りを修正しました。
-                </li>
-                <!-- <li class="border-l-4 border-purple-500 pl-4">
-                    <span class="font-semibold">2025/07/28:</span> 新たに2022年度B問題の解説を追加しました。
-                </li>
-                <li class="border-l-4 border-blue-500 pl-4">
-                    <span class="font-semibold">2025/07/15:</span> 問題解説ページのデザインを一部改善しました。
-                </li> -->
-            </ul>
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">お知らせ</h2>
+        <ul class="space-y-4 text-gray-700 text-base md:text-lg">
+            <li class="border-l-4 border-purple-500 pl-4">
+            <span class="font-semibold">2025/08/25:</span> 危険選択の2024年度の解説を追加しました
+            <span class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
+                NEW
+            </span>
+            </li>
+        </ul>
         </div>
 
         <!-- 目次 -->
@@ -422,7 +419,10 @@ const openGoogleForm = () => {
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
                                 <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
                                     <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
-                                    2024年度（作成中）
+                                    2024年度
+                                    <span class="ml-3 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
+                                        NEW
+                                    </span>
                                 </h2>
                                 <div class="space-y-2">
                                     <Link :href="route('kiken2024a')" class="block">
@@ -553,17 +553,17 @@ const openGoogleForm = () => {
                                     2024年度（作成中）
                                 </h2>
                                 <div class="space-y-2">
-                                    <Link :href="route('yakkan2023a')" class="block">
+                                    <Link :href="route('yakkan2024a')" class="block">
                                         <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
                                             <span class="font-medium text-gray-700 hover:text-purple-500">フォームAの解説</span>
                                         </div>
                                     </Link>
-                                    <Link :href="route('yakkan2023b')" class="block">
+                                    <Link :href="route('yakkan2024b')" class="block">
                                         <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
                                             <span class="font-medium text-gray-700 hover:text-purple-500">フォームBの解説</span>
                                         </div>
                                     </Link>
-                                    <Link :href="route('yakkan2023c')" class="block">
+                                    <Link :href="route('yakkan2024c')" class="block">
                                         <div class="p-3 rounded-md bg-white hover:bg-purple-50 transition-colors duration-200 border border-gray-100 hover:border-purple-200">
                                             <span class="font-medium text-gray-700 hover:text-purple-500">フォームCの解説</span>
                                         </div>

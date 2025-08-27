@@ -57,18 +57,43 @@ const openGoogleForm = () => {
             </section>
         </div>
 
-        <!-- お知らせセクション -->
-        <div class="mx-auto px-4 pt-12 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">お知らせ</h2>
-        <ul class="space-y-4 text-gray-700 text-base md:text-lg">
-            <li class="border-l-4 border-purple-500 pl-4">
-            <span class="font-semibold">2025/08/25:</span> 危険選択の2024年度の解説を追加しました
-            <span class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
-                NEW
-            </span>
-            </li>
-        </ul>
-        </div>
+<!-- お知らせセクション -->
+<div class="mx-auto px-4 pt-12 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5">
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8 flex items-center gap-2">
+    <span class="inline-block w-2 h-6 bg-gradient-to-b from-purple-500 to-pink-500 rounded"></span>
+    お知らせ
+  </h2>
+
+  <ul class="space-y-6">
+    <li class="bg-white shadow-md rounded-xl p-4 flex items-start gap-3 hover:shadow-lg transition">
+      <div class="w-1.5 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
+      <div class="flex-1">
+        <p class="text-sm text-gray-500 font-medium">2025/08/25</p>
+        <p class="text-gray-800 text-base md:text-lg">
+          2024年度『危険選択』の解説を追加しました
+          <span
+            class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
+            NEW
+          </span>
+        </p>
+      </div>
+    </li>
+
+    <li class="bg-white shadow-md rounded-xl p-4 flex items-start gap-3 hover:shadow-lg transition">
+      <div class="w-1.5 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
+      <div class="flex-1">
+        <p class="text-sm text-gray-500 font-medium">2025/08/27</p>
+        <p class="text-gray-800 text-base md:text-lg">
+          2024年度『約款と法律』の解説を追加しました
+          <span
+            class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
+            NEW
+          </span>
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
 
         <!-- 目次 -->
         <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">
@@ -550,7 +575,10 @@ const openGoogleForm = () => {
                             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md">
                                 <h2 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
                                     <div class="w-1 h-4 bg-purple-400 rounded-full mr-2"></div>
-                                    2024年度（作成中）
+                                    2024年度
+                                    <span class="ml-3 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
+                                        NEW
+                                    </span>
                                 </h2>
                                 <div class="space-y-2">
                                     <Link :href="route('yakkan2024a')" class="block">

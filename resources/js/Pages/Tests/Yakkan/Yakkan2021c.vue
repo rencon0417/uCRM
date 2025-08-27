@@ -8,7 +8,7 @@ import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "約款と法律"
-const subject = '2021年度 フォームA'
+const subject = '2021年度 フォームC'
 
 </script>
 

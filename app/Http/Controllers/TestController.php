@@ -75,6 +75,9 @@ class TestController extends Controller
     public function yakkan2021c(){return Inertia::render('Tests/Yakkan/Yakkan2021c');}
 
     // 生命保険会計
+    public function kaikei2024a(){return Inertia::render('Tests/Kaikei/Kaikei2024a');}
+    public function kaikei2024b(){return Inertia::render('Tests/Kaikei/Kaikei2024b');}
+    public function kaikei2024c(){return Inertia::render('Tests/Kaikei/Kaikei2024c');}
     public function kaikei2023a(){return Inertia::render('Tests/Kaikei/Kaikei2023a');}
     public function kaikei2023b(){return Inertia::render('Tests/Kaikei/Kaikei2023b');}
     public function kaikei2023c(){return Inertia::render('Tests/Kaikei/Kaikei2023c');}
@@ -86,6 +89,9 @@ class TestController extends Controller
     public function kaikei2021c(){return Inertia::render('Tests/Kaikei/Kaikei2021c');}
 
     // 生命保険商品と営業
+    public function eigyo2024a(){return Inertia::render('Tests/Eigyo/Eigyo2024a');}
+    public function eigyo2024b(){return Inertia::render('Tests/Eigyo/Eigyo2024b');}
+    public function eigyo2024c(){return Inertia::render('Tests/Eigyo/Eigyo2024c');}
     public function eigyo2023a(){return Inertia::render('Tests/Eigyo/Eigyo2023a');}
     public function eigyo2023b(){return Inertia::render('Tests/Eigyo/Eigyo2023b');}
     public function eigyo2023c(){return Inertia::render('Tests/Eigyo/Eigyo2023c');}

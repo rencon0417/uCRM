@@ -171,28 +171,6 @@ const subject = '2023年度 フォームA'
             />
             <QuestionTemp2
                 :questionNumber="31"
-                :questionTitle="[
-                    '', //問31
-                    '', //問32
-                    '', //問33
-                    '', //問34
-                    '', //問35
-                    '', //問36
-                    '', //問37
-                    '', //問38
-                    '', //問39
-                    '', //問40
-                    '', //問41
-                    '', //問42
-                    '', //問43
-                    '', //問44
-                    '', //問45
-                    '', //問46
-                    '', //問47
-                    '', //問48
-                    '', //問49
-                    '', //問50
-                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[
@@ -220,20 +198,24 @@ const subject = '2023年度 フォームA'
         </div>
 
         <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('eigyo2023b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
+        <div class="flex flex-col items-center mt-10 gap-6">
+            <div class="flex justify-center gap-10">
             <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
+                :href="route('eigyo2024c')"
+                class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+                前の試験へ
+            </Link>
+            <Link
+                :href="route('eigyo2023b')"
+                class="w-40 h-12  flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+                次の試験へ
+            </Link>
+            </div>
+
+            <Link
+            :href="route('tests.index')"
+            class="w-40 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-blue-400 hover:from-purple-500 hover:to-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-transform transform hover:scale-105">
+            一覧画面に戻る
             </Link>
         </div>
 

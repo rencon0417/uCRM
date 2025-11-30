@@ -3,78 +3,78 @@
     "file": "assets/SeihoTestLayout-06aeb4b1.css",
     "src": "SeihoTestLayout.css"
   },
-  "_ApplicationLogo-a6fcd8da.js": {
-    "file": "assets/ApplicationLogo-a6fcd8da.js",
+  "_ApplicationLogo-53c2aa54.js": {
+    "file": "assets/ApplicationLogo-53c2aa54.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
     ]
   },
-  "_AuthenticatedLayout-28fc4460.js": {
-    "file": "assets/AuthenticatedLayout-28fc4460.js",
+  "_AuthenticatedLayout-23ba1bef.js": {
+    "file": "assets/AuthenticatedLayout-23ba1bef.js",
     "imports": [
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "resources/js/app.js",
-      "_index.esm-db090cbb.js"
+      "_index.esm-7cc67b19.js"
     ]
   },
-  "_FlashMessage-d3ca0415.js": {
-    "file": "assets/FlashMessage-d3ca0415.js",
+  "_FlashMessage-4857c535.js": {
+    "file": "assets/FlashMessage-4857c535.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
     ]
   },
-  "_GuestLayout-98d94e6c.js": {
-    "file": "assets/GuestLayout-98d94e6c.js",
+  "_GuestLayout-89062b8d.js": {
+    "file": "assets/GuestLayout-89062b8d.js",
     "imports": [
-      "_ApplicationLogo-a6fcd8da.js",
-      "_index.esm-db090cbb.js",
+      "_ApplicationLogo-53c2aa54.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js"
     ]
   },
-  "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js": {
-    "file": "assets/Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-    "imports": [
-      "resources/js/app.js"
-    ]
-  },
-  "_Pagination-7e1e1125.js": {
-    "file": "assets/Pagination-7e1e1125.js",
+  "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js": {
+    "file": "assets/Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_PrimaryButton-ace94787.js": {
-    "file": "assets/PrimaryButton-ace94787.js",
+  "_Pagination-64e1c9e3.js": {
+    "file": "assets/Pagination-64e1c9e3.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js": {
-    "file": "assets/QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
+  "_PrimaryButton-3935da7d.js": {
+    "file": "assets/PrimaryButton-3935da7d.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_SeihoTestLayout-aa85d0f0.js": {
+  "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js": {
+    "file": "assets/QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_SeihoTestLayout-8e4d43f5.js": {
     "css": [
       "assets/SeihoTestLayout-06aeb4b1.css"
     ],
-    "file": "assets/SeihoTestLayout-aa85d0f0.js",
+    "file": "assets/SeihoTestLayout-8e4d43f5.js",
     "imports": [
       "resources/js/app.js",
-      "_index.esm-db090cbb.js"
+      "_index.esm-7cc67b19.js"
     ]
   },
-  "_TextInput-db87ef99.js": {
-    "file": "assets/TextInput-db87ef99.js",
+  "_TextInput-811c4004.js": {
+    "file": "assets/TextInput-811c4004.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_ValidationEroors-090aef9d.js": {
-    "file": "assets/ValidationEroors-090aef9d.js",
+  "_ValidationEroors-4bbcab43.js": {
+    "file": "assets/ValidationEroors-4bbcab43.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -85,164 +85,164 @@
   "_common-1ae50ed3.js": {
     "file": "assets/common-1ae50ed3.js"
   },
-  "_dayjs.min-f84b7afc.js": {
-    "file": "assets/dayjs.min-f84b7afc.js",
+  "_dayjs.min-08acfab4.js": {
+    "file": "assets/dayjs.min-08acfab4.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_index.esm-db090cbb.js": {
-    "file": "assets/index.esm-db090cbb.js",
+  "_index.esm-7cc67b19.js": {
+    "file": "assets/index.esm-7cc67b19.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
   "resources/js/Pages/Analysis.vue": {
-    "file": "assets/Analysis-05cee1bc.js",
+    "file": "assets/Analysis-78b8e634.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
+      "_AuthenticatedLayout-23ba1bef.js",
       "_common-1ae50ed3.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Analysis.vue"
   },
   "resources/js/Pages/Auth/ConfirmPassword.vue": {
-    "file": "assets/ConfirmPassword-7ec58803.js",
+    "file": "assets/ConfirmPassword-82ab268e.js",
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout-98d94e6c.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_GuestLayout-89062b8d.js",
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ConfirmPassword.vue"
   },
   "resources/js/Pages/Auth/ForgotPassword.vue": {
-    "file": "assets/ForgotPassword-7e98fce0.js",
+    "file": "assets/ForgotPassword-37d5db9b.js",
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout-98d94e6c.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_GuestLayout-89062b8d.js",
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ForgotPassword.vue"
   },
   "resources/js/Pages/Auth/Login.vue": {
-    "file": "assets/Login-f327c17f.js",
+    "file": "assets/Login-215f0057.js",
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout-98d94e6c.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_GuestLayout-89062b8d.js",
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Login.vue"
   },
   "resources/js/Pages/Auth/Register.vue": {
-    "file": "assets/Register-8704e247.js",
+    "file": "assets/Register-cee2cd91.js",
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout-98d94e6c.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_GuestLayout-89062b8d.js",
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Register.vue"
   },
   "resources/js/Pages/Auth/ResetPassword.vue": {
-    "file": "assets/ResetPassword-e9c40bc5.js",
+    "file": "assets/ResetPassword-c8fd89dc.js",
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout-98d94e6c.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_GuestLayout-89062b8d.js",
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ResetPassword.vue"
   },
   "resources/js/Pages/Auth/VerifyEmail.vue": {
-    "file": "assets/VerifyEmail-626e1a49.js",
+    "file": "assets/VerifyEmail-387c61b0.js",
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout-98d94e6c.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_GuestLayout-89062b8d.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/VerifyEmail.vue"
   },
   "resources/js/Pages/Customers/Create.vue": {
-    "file": "assets/Create-aea6b55c.js",
+    "file": "assets/Create-a14b2eeb.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Customers/Create.vue"
   },
   "resources/js/Pages/Customers/Index.vue": {
-    "file": "assets/Index-cfa4a173.js",
+    "file": "assets/Index-df003a94.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_FlashMessage-d3ca0415.js",
-      "_Pagination-7e1e1125.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_FlashMessage-4857c535.js",
+      "_Pagination-64e1c9e3.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Customers/Index.vue"
   },
   "resources/js/Pages/Dashboard.vue": {
-    "file": "assets/Dashboard-b466abd4.js",
+    "file": "assets/Dashboard-d27dc77b.js",
     "imports": [
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Dashboard.vue"
   },
   "resources/js/Pages/Inertia/Create.vue": {
-    "file": "assets/Create-a9a55177.js",
+    "file": "assets/Create-08278118.js",
     "imports": [
       "resources/js/app.js",
-      "_ValidationEroors-090aef9d.js"
+      "_ValidationEroors-4bbcab43.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Inertia/Create.vue"
   },
   "resources/js/Pages/Inertia/Index.vue": {
-    "file": "assets/Index-0fb51910.js",
+    "file": "assets/Index-8e91b3e0.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
@@ -251,7 +251,7 @@
     "src": "resources/js/Pages/Inertia/Index.vue"
   },
   "resources/js/Pages/Inertia/Show.vue": {
-    "file": "assets/Show-52b6c541.js",
+    "file": "assets/Show-f58ce6d6.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -259,131 +259,131 @@
     "src": "resources/js/Pages/Inertia/Show.vue"
   },
   "resources/js/Pages/InertiaTest.vue": {
-    "file": "assets/InertiaTest-c5371571.js",
+    "file": "assets/InertiaTest-d9b9f8fc.js",
     "imports": [
       "resources/js/app.js",
-      "_index.esm-db090cbb.js"
+      "_index.esm-7cc67b19.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/InertiaTest.vue"
   },
   "resources/js/Pages/Items/Create.vue": {
-    "file": "assets/Create-6063aaa7.js",
+    "file": "assets/Create-d7fdd5e8.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Items/Create.vue"
   },
   "resources/js/Pages/Items/Edit.vue": {
-    "file": "assets/Edit-08496cc0.js",
+    "file": "assets/Edit-59b57054.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Items/Edit.vue"
   },
   "resources/js/Pages/Items/Index.vue": {
-    "file": "assets/Index-40283ee4.js",
+    "file": "assets/Index-d9aff807.js",
     "imports": [
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_FlashMessage-d3ca0415.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_FlashMessage-4857c535.js",
       "resources/js/app.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Items/Index.vue"
   },
   "resources/js/Pages/Items/Show.vue": {
-    "file": "assets/Show-ea78096c.js",
+    "file": "assets/Show-79a3f39e.js",
     "imports": [
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
       "_common-1ae50ed3.js",
       "resources/js/app.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Items/Show.vue"
   },
   "resources/js/Pages/Profile/Edit.vue": {
-    "file": "assets/Edit-920e29e6.js",
+    "file": "assets/Edit-8e9c3518.js",
     "imports": [
-      "_AuthenticatedLayout-28fc4460.js",
+      "_AuthenticatedLayout-23ba1bef.js",
       "resources/js/Pages/Profile/Partials/DeleteUserForm.vue",
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue",
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js"
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Edit.vue"
   },
   "resources/js/Pages/Profile/Partials/DeleteUserForm.vue": {
-    "file": "assets/DeleteUserForm-7fa3846b.js",
+    "file": "assets/DeleteUserForm-6644754e.js",
     "imports": [
       "resources/js/app.js",
-      "_TextInput-db87ef99.js",
-      "_index.esm-db090cbb.js"
+      "_TextInput-811c4004.js",
+      "_index.esm-7cc67b19.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.vue"
   },
   "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue": {
-    "file": "assets/UpdatePasswordForm-9e8b5ed3.js",
+    "file": "assets/UpdatePasswordForm-0452fe34.js",
     "imports": [
       "resources/js/app.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js"
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue"
   },
   "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue": {
-    "file": "assets/UpdateProfileInformationForm-a2df0119.js",
+    "file": "assets/UpdateProfileInformationForm-cfe38b28.js",
     "imports": [
       "resources/js/app.js",
-      "_TextInput-db87ef99.js",
-      "_PrimaryButton-ace94787.js",
-      "_index.esm-db090cbb.js"
+      "_TextInput-811c4004.js",
+      "_PrimaryButton-3935da7d.js",
+      "_index.esm-7cc67b19.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue"
   },
   "resources/js/Pages/Purchases/Create.vue": {
-    "file": "assets/Create-0284715a.js",
+    "file": "assets/Create-d14e327c.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
       "_common-1ae50ed3.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Purchases/Create.vue"
   },
   "resources/js/Pages/Purchases/Create_bak.vue": {
-    "file": "assets/Create_bak-76724670.js",
+    "file": "assets/Create_bak-d7431707.js",
     "imports": [
       "resources/js/app.js",
       "_common-1ae50ed3.js"
@@ -392,109 +392,109 @@
     "src": "resources/js/Pages/Purchases/Create_bak.vue"
   },
   "resources/js/Pages/Purchases/Edit.vue": {
-    "file": "assets/Edit-d2742ed3.js",
+    "file": "assets/Edit-1847e941.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_dayjs.min-f84b7afc.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_dayjs.min-08acfab4.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Purchases/Edit.vue"
   },
   "resources/js/Pages/Purchases/Index.vue": {
-    "file": "assets/Index-df54b06c.js",
+    "file": "assets/Index-caa4802e.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_FlashMessage-d3ca0415.js",
-      "_Pagination-7e1e1125.js",
-      "_dayjs.min-f84b7afc.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_FlashMessage-4857c535.js",
+      "_Pagination-64e1c9e3.js",
+      "_dayjs.min-08acfab4.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Purchases/Index.vue"
   },
   "resources/js/Pages/Purchases/Show.vue": {
-    "file": "assets/Show-1df6cf9a.js",
+    "file": "assets/Show-122ac2b7.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_dayjs.min-f84b7afc.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_dayjs.min-08acfab4.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Purchases/Show.vue"
   },
   "resources/js/Pages/Seiho/Create.vue": {
-    "file": "assets/Create-04191c0a.js",
+    "file": "assets/Create-a7591d0e.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_FlashMessage-d3ca0415.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_FlashMessage-4857c535.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Seiho/Create.vue"
   },
   "resources/js/Pages/Seiho/Createbk.vue": {
-    "file": "assets/Createbk-8f02bb0c.js",
+    "file": "assets/Createbk-7676d730.js",
     "imports": [
       "resources/js/app.js",
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
-      "_ValidationEroors-090aef9d.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
+      "_ValidationEroors-4bbcab43.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Seiho/Createbk.vue"
   },
   "resources/js/Pages/Seiho/Home.vue": {
-    "file": "assets/Home-c413ead5.js",
+    "file": "assets/Home-ab9cc59e.js",
     "imports": [
       "resources/js/app.js",
-      "_index.esm-db090cbb.js"
+      "_index.esm-7cc67b19.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Seiho/Home.vue"
   },
   "resources/js/Pages/Seiho/Index.vue": {
-    "file": "assets/Index-2fdf9012.js",
+    "file": "assets/Index-d3e30a45.js",
     "imports": [
-      "_AuthenticatedLayout-28fc4460.js",
-      "_index.esm-db090cbb.js",
+      "_AuthenticatedLayout-23ba1bef.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_ApplicationLogo-a6fcd8da.js",
+      "_ApplicationLogo-53c2aa54.js",
       "__plugin-vue_export-helper-c27b6911.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Seiho/Index.vue"
   },
   "resources/js/Pages/Seiho/Mondai.vue": {
-    "file": "assets/Mondai-6861c128.js",
+    "file": "assets/Mondai-d8b9249d.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Seiho/Mondai.vue"
   },
   "resources/js/Pages/Seiho/Portfolio.vue": {
-    "file": "assets/Portfolio-ce2d0a88.js",
+    "file": "assets/Portfolio-02c416b9.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -508,7 +508,7 @@
     "css": [
       "assets/VueTest2-ad8c2925.css"
     ],
-    "file": "assets/VueTest2-eccfb468.js",
+    "file": "assets/VueTest2-f57a3954.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -516,7 +516,7 @@
     "src": "resources/js/Pages/Seiho/VueTest2.vue"
   },
   "resources/js/Pages/Seiho/VueTest4.vue": {
-    "file": "assets/VueTest4-5101b178.js",
+    "file": "assets/VueTest4-ed198134.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -524,1042 +524,1042 @@
     "src": "resources/js/Pages/Seiho/VueTest4.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2021a.vue": {
-    "file": "assets/Eigyo2021a-8c20fa61.js",
+    "file": "assets/Eigyo2021a-52b3a5b1.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2021a.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2021b.vue": {
-    "file": "assets/Eigyo2021b-a72d7a57.js",
+    "file": "assets/Eigyo2021b-1bf1121f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2021b.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2021c.vue": {
-    "file": "assets/Eigyo2021c-3188f101.js",
+    "file": "assets/Eigyo2021c-c28bf0bd.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2021c.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2022a.vue": {
-    "file": "assets/Eigyo2022a-08875176.js",
+    "file": "assets/Eigyo2022a-869f5bb7.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2022a.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2022b.vue": {
-    "file": "assets/Eigyo2022b-5ba1d319.js",
+    "file": "assets/Eigyo2022b-e92ef2b9.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2022b.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2022c.vue": {
-    "file": "assets/Eigyo2022c-bfab4fbb.js",
+    "file": "assets/Eigyo2022c-49740732.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2022c.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2023a.vue": {
-    "file": "assets/Eigyo2023a-cca7d9da.js",
+    "file": "assets/Eigyo2023a-f3578e7d.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2023a.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2023b.vue": {
-    "file": "assets/Eigyo2023b-19042c3e.js",
+    "file": "assets/Eigyo2023b-0bd9cda0.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2023b.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2023c.vue": {
-    "file": "assets/Eigyo2023c-3bdf0ea5.js",
+    "file": "assets/Eigyo2023c-4e03ee49.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2023c.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2024a.vue": {
-    "file": "assets/Eigyo2024a-e6ccefd6.js",
+    "file": "assets/Eigyo2024a-69a2f895.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2024a.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2024b.vue": {
-    "file": "assets/Eigyo2024b-c68b2ef9.js",
+    "file": "assets/Eigyo2024b-c50b9247.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2024b.vue"
   },
   "resources/js/Pages/Tests/Eigyo/Eigyo2024c.vue": {
-    "file": "assets/Eigyo2024c-d4be178d.js",
+    "file": "assets/Eigyo2024c-315da050.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Eigyo/Eigyo2024c.vue"
   },
   "resources/js/Pages/Tests/Index copy.vue": {
-    "file": "assets/Index copy-bb13b899.js",
+    "file": "assets/Index copy-4c13b3d9.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Index copy.vue"
   },
   "resources/js/Pages/Tests/Index.vue": {
-    "file": "assets/Index-e83ad944.js",
+    "file": "assets/Index-9a4a78c7.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Index.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2021a.vue": {
-    "file": "assets/Kaikei2021a-f9624386.js",
+    "file": "assets/Kaikei2021a-b29eae41.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2021a.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2021b.vue": {
-    "file": "assets/Kaikei2021b-c14fbcda.js",
+    "file": "assets/Kaikei2021b-3c576595.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2021b.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2021c.vue": {
-    "file": "assets/Kaikei2021c-847cdfbb.js",
+    "file": "assets/Kaikei2021c-49a7cef8.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2021c.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2022a.vue": {
-    "file": "assets/Kaikei2022a-ff76fb43.js",
+    "file": "assets/Kaikei2022a-c9a6f31d.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2022a.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2022b.vue": {
-    "file": "assets/Kaikei2022b-55152649.js",
+    "file": "assets/Kaikei2022b-085b680e.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2022b.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2022c.vue": {
-    "file": "assets/Kaikei2022c-477e9fe5.js",
+    "file": "assets/Kaikei2022c-6a456234.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2022c.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2023a.vue": {
-    "file": "assets/Kaikei2023a-0690999e.js",
+    "file": "assets/Kaikei2023a-dc6c384f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2023a.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2023b.vue": {
-    "file": "assets/Kaikei2023b-7a76ec32.js",
+    "file": "assets/Kaikei2023b-49dfc351.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2023b.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2023c.vue": {
-    "file": "assets/Kaikei2023c-127e4b26.js",
+    "file": "assets/Kaikei2023c-fbffd14a.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2023c.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2024a.vue": {
-    "file": "assets/Kaikei2024a-44e58ee3.js",
+    "file": "assets/Kaikei2024a-285decac.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2024a.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2024b.vue": {
-    "file": "assets/Kaikei2024b-117ca604.js",
+    "file": "assets/Kaikei2024b-982fed7d.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2024b.vue"
   },
   "resources/js/Pages/Tests/Kaikei/Kaikei2024c.vue": {
-    "file": "assets/Kaikei2024c-860e39b8.js",
+    "file": "assets/Kaikei2024c-4daa26f1.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kaikei/Kaikei2024c.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2021a.vue": {
-    "file": "assets/Keiri2021a-bbca34ee.js",
+    "file": "assets/Keiri2021a-4ccf9b89.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2021a.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2021b.vue": {
-    "file": "assets/Keiri2021b-e81c62ec.js",
+    "file": "assets/Keiri2021b-755f962e.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2021b.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2021c.vue": {
-    "file": "assets/Keiri2021c-1c4dd8ff.js",
+    "file": "assets/Keiri2021c-79f9751a.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2021c.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2022a.vue": {
-    "file": "assets/Keiri2022a-f82dc6c6.js",
+    "file": "assets/Keiri2022a-a1302641.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2022a.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2022b.vue": {
-    "file": "assets/Keiri2022b-1abfff31.js",
+    "file": "assets/Keiri2022b-34fce669.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2022b.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2022c.vue": {
-    "file": "assets/Keiri2022c-5545bc39.js",
+    "file": "assets/Keiri2022c-22d9dcd1.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2022c.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2023a.vue": {
-    "file": "assets/Keiri2023a-a124a560.js",
+    "file": "assets/Keiri2023a-cdcf7fe3.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2023a.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2023b.vue": {
-    "file": "assets/Keiri2023b-91c6268f.js",
+    "file": "assets/Keiri2023b-66e8a282.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2023b.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2023c.vue": {
-    "file": "assets/Keiri2023c-358ad912.js",
+    "file": "assets/Keiri2023c-77394a10.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2023c.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2024a.vue": {
-    "file": "assets/Keiri2024a-3e893004.js",
+    "file": "assets/Keiri2024a-624cefe5.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2024a.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2024b.vue": {
-    "file": "assets/Keiri2024b-3efdf864.js",
+    "file": "assets/Keiri2024b-31e3ee26.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2024b.vue"
   },
   "resources/js/Pages/Tests/Keiri/Keiri2024c.vue": {
-    "file": "assets/Keiri2024c-23f9ae3f.js",
+    "file": "assets/Keiri2024c-1fa7cb3e.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-562ece18.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_QuestionTemp4.vue_vue_type_script_setup_true_lang-81431790.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Keiri/Keiri2024c.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2021a.vue": {
-    "file": "assets/Kiken2021a-332a1579.js",
+    "file": "assets/Kiken2021a-2879876b.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2021a.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2021b.vue": {
-    "file": "assets/Kiken2021b-63343fca.js",
+    "file": "assets/Kiken2021b-83a83d9a.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2021b.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2021c.vue": {
-    "file": "assets/Kiken2021c-c0d5f401.js",
+    "file": "assets/Kiken2021c-7e1cfd32.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2021c.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2022a.vue": {
-    "file": "assets/Kiken2022a-60b4105f.js",
+    "file": "assets/Kiken2022a-115b3a94.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2022a.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2022b.vue": {
-    "file": "assets/Kiken2022b-d65d8582.js",
+    "file": "assets/Kiken2022b-6b1fa33e.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2022b.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2022c.vue": {
-    "file": "assets/Kiken2022c-88cd2d77.js",
+    "file": "assets/Kiken2022c-da3c781f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2022c.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2023a.vue": {
-    "file": "assets/Kiken2023a-b27ee9e8.js",
+    "file": "assets/Kiken2023a-5a30961c.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2023a.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2023b.vue": {
-    "file": "assets/Kiken2023b-a3ed095f.js",
+    "file": "assets/Kiken2023b-92399b77.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2023b.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2023c.vue": {
-    "file": "assets/Kiken2023c-e1091f79.js",
+    "file": "assets/Kiken2023c-810f69d1.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2023c.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2024a.vue": {
-    "file": "assets/Kiken2024a-40ef8fd3.js",
+    "file": "assets/Kiken2024a-e3fde039.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2024a.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2024b.vue": {
-    "file": "assets/Kiken2024b-8b9015da.js",
+    "file": "assets/Kiken2024b-7f3b6f22.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2024b.vue"
   },
   "resources/js/Pages/Tests/Kiken/Kiken2024c.vue": {
-    "file": "assets/Kiken2024c-496a687c.js",
+    "file": "assets/Kiken2024c-10c80d98.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Kiken/Kiken2024c.vue"
   },
   "resources/js/Pages/Tests/Policy.vue": {
-    "file": "assets/Policy-d9ca2bb9.js",
+    "file": "assets/Policy-2583ef2f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js",
-      "_SeihoTestLayout-aa85d0f0.js"
+      "_SeihoTestLayout-8e4d43f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Policy.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2021a.vue": {
-    "file": "assets/Sisan2021a-8d7bc061.js",
+    "file": "assets/Sisan2021a-8e09f359.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2021a.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2021b.vue": {
-    "file": "assets/Sisan2021b-71914b73.js",
+    "file": "assets/Sisan2021b-7d795e6b.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2021b.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2021c.vue": {
-    "file": "assets/Sisan2021c-c6f82071.js",
+    "file": "assets/Sisan2021c-e41ca344.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2021c.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2022a.vue": {
-    "file": "assets/Sisan2022a-b08dad30.js",
+    "file": "assets/Sisan2022a-49cd0ae6.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2022a.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2022b.vue": {
-    "file": "assets/Sisan2022b-d8101532.js",
+    "file": "assets/Sisan2022b-f635704c.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2022b.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2022c.vue": {
-    "file": "assets/Sisan2022c-7dd8f151.js",
+    "file": "assets/Sisan2022c-592226d6.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2022c.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2023a.vue": {
-    "file": "assets/Sisan2023a-7ff7c30f.js",
+    "file": "assets/Sisan2023a-d376a22e.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2023a.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2023b.vue": {
-    "file": "assets/Sisan2023b-1a833fa4.js",
+    "file": "assets/Sisan2023b-de26ed3a.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2023b.vue"
   },
   "resources/js/Pages/Tests/Sisan/Sisan2023c.vue": {
-    "file": "assets/Sisan2023c-53eaabf0.js",
+    "file": "assets/Sisan2023c-d6169b61.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Sisan/Sisan2023c.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2021a.vue": {
-    "file": "assets/Souron2021a-6ae2514d.js",
+    "file": "assets/Souron2021a-78889316.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2021a.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2021b.vue": {
-    "file": "assets/Souron2021b-fbde967f.js",
+    "file": "assets/Souron2021b-02074540.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2021b.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2021c.vue": {
-    "file": "assets/Souron2021c-007069f2.js",
+    "file": "assets/Souron2021c-ed007051.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2021c.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2022a.vue": {
-    "file": "assets/Souron2022a-c96f5308.js",
+    "file": "assets/Souron2022a-c9bffed8.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2022a.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2022b.vue": {
-    "file": "assets/Souron2022b-b35633bd.js",
+    "file": "assets/Souron2022b-a938a972.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2022b.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2022c.vue": {
-    "file": "assets/Souron2022c-5ecafa60.js",
+    "file": "assets/Souron2022c-9d8d583b.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2022c.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2023a.vue": {
-    "file": "assets/Souron2023a-2cbefba3.js",
+    "file": "assets/Souron2023a-f320eaf5.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2023a.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2023b.vue": {
-    "file": "assets/Souron2023b-ab0446e1.js",
+    "file": "assets/Souron2023b-4a216731.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2023b.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2023c.vue": {
-    "file": "assets/Souron2023c-16b7a91a.js",
+    "file": "assets/Souron2023c-363210af.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2023c.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2024a.vue": {
-    "file": "assets/Souron2024a-cf8b5fcd.js",
+    "file": "assets/Souron2024a-7937b92d.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2024a.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2024b.vue": {
-    "file": "assets/Souron2024b-b0fe8d43.js",
+    "file": "assets/Souron2024b-6189f1c4.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2024b.vue"
   },
   "resources/js/Pages/Tests/Souron/Souron2024c.vue": {
-    "file": "assets/Souron2024c-f3d54885.js",
+    "file": "assets/Souron2024c-acde26aa.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Souron/Souron2024c.vue"
   },
   "resources/js/Pages/Tests/StudyMethod.vue": {
-    "file": "assets/StudyMethod-fde8a91f.js",
+    "file": "assets/StudyMethod-77aa14db.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/StudyMethod.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2021a.vue": {
-    "file": "assets/Yakkan2021a-23c22db8.js",
+    "file": "assets/Yakkan2021a-0fcf9d07.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2021a.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2021b.vue": {
-    "file": "assets/Yakkan2021b-ff4a5c26.js",
+    "file": "assets/Yakkan2021b-2bacac09.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2021b.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2021c.vue": {
-    "file": "assets/Yakkan2021c-d77d4b71.js",
+    "file": "assets/Yakkan2021c-248a3b6f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2021c.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2022a.vue": {
-    "file": "assets/Yakkan2022a-315c6a96.js",
+    "file": "assets/Yakkan2022a-5afcf4bf.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2022a.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2022b.vue": {
-    "file": "assets/Yakkan2022b-ff24647a.js",
+    "file": "assets/Yakkan2022b-5d28a875.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2022b.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2022c.vue": {
-    "file": "assets/Yakkan2022c-4ebd59a6.js",
+    "file": "assets/Yakkan2022c-4b448c1a.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2022c.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2023a.vue": {
-    "file": "assets/Yakkan2023a-50479d9e.js",
+    "file": "assets/Yakkan2023a-3fa92698.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2023a.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2023b.vue": {
-    "file": "assets/Yakkan2023b-66a299bd.js",
+    "file": "assets/Yakkan2023b-50181235.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2023b.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2023c.vue": {
-    "file": "assets/Yakkan2023c-52b29d74.js",
+    "file": "assets/Yakkan2023c-18665601.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2023c.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2024a.vue": {
-    "file": "assets/Yakkan2024a-10bad3d6.js",
+    "file": "assets/Yakkan2024a-b1b8ff4c.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2024a.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2024b.vue": {
-    "file": "assets/Yakkan2024b-e3ca16e5.js",
+    "file": "assets/Yakkan2024b-f414fa41.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2024b.vue"
   },
   "resources/js/Pages/Tests/Yakkan/Yakkan2024c.vue": {
-    "file": "assets/Yakkan2024c-7d4cd8c7.js",
+    "file": "assets/Yakkan2024c-08e20584.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Yakkan/Yakkan2024c.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2021a.vue": {
-    "file": "assets/Zeihou2021a-2c5fbbdd.js",
+    "file": "assets/Zeihou2021a-82e023b7.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2021a.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2021b.vue": {
-    "file": "assets/Zeihou2021b-9b9ff20d.js",
+    "file": "assets/Zeihou2021b-f9033bc9.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2021b.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2021c.vue": {
-    "file": "assets/Zeihou2021c-76a03d40.js",
+    "file": "assets/Zeihou2021c-0e27ed79.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2021c.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2022a.vue": {
-    "file": "assets/Zeihou2022a-ed201141.js",
+    "file": "assets/Zeihou2022a-b7887c3b.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2022a.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2022b.vue": {
-    "file": "assets/Zeihou2022b-80ca65a6.js",
+    "file": "assets/Zeihou2022b-3143d2de.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2022b.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2022c.vue": {
-    "file": "assets/Zeihou2022c-6dd0a834.js",
+    "file": "assets/Zeihou2022c-779f3f8c.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2022c.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2023a.vue": {
-    "file": "assets/Zeihou2023a-91529d65.js",
+    "file": "assets/Zeihou2023a-b897a59f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2023a.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2023b.vue": {
-    "file": "assets/Zeihou2023b-ea472dcf.js",
+    "file": "assets/Zeihou2023b-4e441228.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tests/Zeihou/Zeihou2023b.vue"
   },
   "resources/js/Pages/Tests/Zeihou/Zeihou2023c.vue": {
-    "file": "assets/Zeihou2023c-05b68605.js",
+    "file": "assets/Zeihou2023c-e1ce5893.js",
     "imports": [
-      "_index.esm-db090cbb.js",
-      "_Pagetitle.vue_vue_type_script_setup_true_lang-b4f70f9b.js",
-      "_SeihoTestLayout-aa85d0f0.js",
+      "_index.esm-7cc67b19.js",
+      "_Pagetitle.vue_vue_type_script_setup_true_lang-18ef7e96.js",
+      "_SeihoTestLayout-8e4d43f5.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -1573,19 +1573,19 @@
     "css": [
       "assets/Welcome copy-665689a9.css"
     ],
-    "file": "assets/Welcome copy-3d3bccdc.js",
+    "file": "assets/Welcome copy-6da5173f.js",
     "imports": [
-      "_index.esm-db090cbb.js",
+      "_index.esm-7cc67b19.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Welcome copy.vue"
   },
   "resources/js/Pages/Welcome.vue": {
-    "file": "assets/Welcome-ca0d9685.js",
+    "file": "assets/Welcome-424d67bb.js",
     "imports": [
       "resources/js/app.js",
-      "_index.esm-db090cbb.js"
+      "_index.esm-7cc67b19.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Welcome.vue"
@@ -1731,7 +1731,7 @@
       "resources/js/Pages/Welcome copy.vue",
       "resources/js/Pages/Welcome.vue"
     ],
-    "file": "assets/app-1f5fee9a.js",
+    "file": "assets/app-cd51e310.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

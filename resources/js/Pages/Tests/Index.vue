@@ -57,43 +57,40 @@ const openGoogleForm = () => {
             </section>
         </div>
 
-<!-- お知らせセクション -->
-<div class="mx-auto px-4 pt-12 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5">
-  <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8 flex items-center gap-2">
-    <span class="inline-block w-2 h-6 bg-gradient-to-b from-purple-500 to-pink-500 rounded"></span>
-    お知らせ
-  </h2>
+        <!-- お知らせセクション -->
+        <div class="mx-auto px-4 pt-12 md:px-10 lg:px-20 w-4/5 md:w-1/2 lg:w-3/5">
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8 flex items-center gap-2">
+            <span class="inline-block w-2 h-6 bg-gradient-to-b from-purple-500 to-pink-500 rounded"></span>
+            お知らせ
+        </h2>
 
-  <ul class="space-y-6">
-    <li class="bg-white shadow-md rounded-xl p-4 flex items-start gap-3 hover:shadow-lg transition">
-      <div class="w-1.5 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
-      <div class="flex-1">
-        <p class="text-sm text-gray-500 font-medium">2025/10/27</p>
-        <p class="text-gray-800 text-base md:text-lg font-bold">
-          2024年度『生命保険会計』の解説を追加しました
-          <span
-            class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
-            NEW
-          </span>
-        </p>
-      </div>
-    </li>
+        <ul class="space-y-6">
+            <li class="bg-white shadow-md rounded-xl p-4 flex items-start gap-3 hover:shadow-lg transition">
+            <div class="w-1.5 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
+            <div class="flex-1">
+                <p class="text-xs text-gray-500">2025/11/30</p>
+                <p class="text-gray-800 text-base">
+                2021年度『生命保険商品と営業』フォームB・フォームCの一部の解説に不備があったため内容を修正いたしました。
+                ユーザーの皆様には、ご迷惑おかけしましたことを深くお詫び申し上げます。
+                </p>
+            </div>
+            </li>
 
-    <li class="bg-white shadow-md rounded-xl p-4 flex items-start gap-3 hover:shadow-lg transition">
-      <div class="w-1.5 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
-      <div class="flex-1">
-        <p class="text-sm text-gray-500 font-medium">2025/10/27</p>
-        <p class="text-gray-800 text-base md:text-lg font-bold">
-          2024年度『生命保険商品と営業』の解説を追加しました
-          <span
-            class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
-            NEW
-          </span>
-        </p>
-      </div>
-    </li>
-  </ul>
-</div>
+            <!-- <li class="bg-white shadow-md rounded-xl p-4 flex items-start gap-3 hover:shadow-lg transition">
+            <div class="w-1.5 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
+            <div class="flex-1">
+                <p class="text-sm text-gray-500 font-medium">2025/10/27</p>
+                <p class="text-gray-800 text-base md:text-lg font-bold">
+                2024年度『生命保険商品と営業』の解説を追加しました
+                <span
+                    class="ml-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-500 to-red-500 px-2 py-0.5 rounded-full shadow-sm animate-pulse">
+                    NEW
+                </span>
+                </p>
+            </div>
+            </li> -->
+        </ul>
+        </div>
 
         <!-- 目次 -->
         <div id="index" class="container pb-10 my-20 flex justify-between items-center mx-auto px-1 md:px-14 lg:px-24 w-4/5">

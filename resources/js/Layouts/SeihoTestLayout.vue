@@ -123,20 +123,19 @@ defineProps({
     <div class="scroll-smooth">
         <!-- ナビゲーションバー -->
         <header class="py-6">
-            <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full ">
-                <div class="text-xl font-extrabold flex justify-between items-center">
-                    <div class="px-2">
-                        <img
-                        src="/images/rencon3.png"
-                        alt="生保講座 過去問解説 ロゴ"
-                        width="40"
-                        height="40"
-                        class="w-10 h-10"
-                        />
-                    </div>
+            <div class="container mx-auto flex justify-between items-center px-6 md:px-8 lg:px-16">
+
+                <div class="text-xl font-extrabold flex items-center">
+                    <img
+                    src="/images/rencon3.png"
+                    alt="生保講座 過去問解説 ロゴ"
+                    width="40"
+                    height="40"
+                    class="w-10 h-10 mr-2"
+                    />
                     <Link :href="route('tests.index')">生保講座過去問解説</Link>
                 </div>
-                <!-- モバイル用ハンバーガー -->
+
                 <button @click="toggleMenu" class="md:hidden">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

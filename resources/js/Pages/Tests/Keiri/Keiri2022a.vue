@@ -311,8 +311,6 @@ const subject = '2022年度 フォームA'
             />
             <QuestionTemp2
                 :questionNumber="31"
-                :questionTitle="[
-                ]"
                 :title="title"
                 :subject="subject"
                 :contents="[

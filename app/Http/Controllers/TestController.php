@@ -15,6 +15,9 @@ class TestController extends Controller
     // プライバシーポリシー
     public function policy(){return Inertia::render('Tests/Policy');}
 
+    // 更新履歴
+    public function updateInfo(){return Inertia::render('Tests/UpdateInfo');}
+
     // 勉強方法
     public function studyMethod(){return Inertia::render('Tests/StudyMethod');}
 
@@ -103,6 +106,9 @@ class TestController extends Controller
     public function eigyo2021c(){return Inertia::render('Tests/Eigyo/Eigyo2021c');}
 
     // 生命保険と税法
+    // public function zeihou2024a(){return Inertia::render('Tests/Zeihou/Zeihou2024a');}
+    // public function zeihou2024b(){return Inertia::render('Tests/Zeihou/Zeihou2024b');}
+    // public function zeihou2024c(){return Inertia::render('Tests/Zeihou/Zeihou2024c');}
     public function zeihou2023a(){return Inertia::render('Tests/Zeihou/Zeihou2023a');}
     public function zeihou2023b(){return Inertia::render('Tests/Zeihou/Zeihou2023b');}
     public function zeihou2023c(){return Inertia::render('Tests/Zeihou/Zeihou2023c');}
@@ -114,6 +120,9 @@ class TestController extends Controller
     public function zeihou2021c(){return Inertia::render('Tests/Zeihou/Zeihou2021c');}
 
     // 資産の運用
+    public function sisan2024a(){return Inertia::render('Tests/Sisan/Sisan2024a');}
+    public function sisan2024b(){return Inertia::render('Tests/Sisan/Sisan2024b');}
+    public function sisan2024c(){return Inertia::render('Tests/Sisan/Sisan2024c');}
     public function sisan2023a(){return Inertia::render('Tests/Sisan/Sisan2023a');}
     public function sisan2023b(){return Inertia::render('Tests/Sisan/Sisan2023b');}
     public function sisan2023c(){return Inertia::render('Tests/Sisan/Sisan2023c');}

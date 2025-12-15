@@ -32,7 +32,7 @@ const allUpdates = [
     {
         date: '2025.11.30',
         title: '生命保険商品と営業 解説不備の訂正',
-        description: '22021年度『生命保険商品と営業』フォームB・C（問21,24,25,26,28,29,30）',
+        description: '2021年度『生命保険商品と営業』フォームB・C（問21,24,25,26,28,29,30）',
         badge: 'UPDATE',
         badgeColor: 'from-blue-500 to-indigo-500',
         category: 'コンテンツ更新'

@@ -181,7 +181,7 @@ defineProps({
                                 <span class="text-base">{{ subject.name }}</span>
                                 <div class="flex items-center gap-2">
                                     <span class="text-xs text-gray-400 bg-white/10 px-2 py-1 rounded-full">
-                                        {{ Object.keys(subject.tests).length }}年度
+                                        {{ Object.keys(subject.tests).length }}年度分
                                     </span>
                                     <svg
                                         class="w-5 h-5 text-indigo-400 transition-transform duration-300"

@@ -1,9 +1,8 @@
 <script setup>
-import { Head, Link} from '@inertiajs/vue3';
 import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
 import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
 import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
-
+import TestNavigationButtons from '@/Components/TestNavigationButtons.vue';
 import Pagetitle from '../../../Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
@@ -41,7 +40,7 @@ const subject = '2021年度 フォームC'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '不動産','非居住者','円貨建債権','スシ・ボンド','アセットミックス', //問６〜10
+                '不動産','非居住者','円貨建債券','スシ・ボンド','アセットミックス', //問６〜10
                 ]"
                 :labels="[
                 'カ','ウ','ア','コ','ク',  //問６〜10
@@ -188,7 +187,7 @@ const subject = '2021年度 フォームC'
                 '正しい',
                  //問41〜50
                 'A-独占禁止法','B-安全性','B-短期','B-当期純利益','C（A・Bともに正しい）',
-                'C（A・Bともに正しい）','A-シンジケート','A-関連会社を通じて','A-ヘッジファンド','A-キャピタル・ゲイン',
+                'C（A・Bともに正しい）','A-シンジケート','A-子会社を通じて','A-ヘッジファンド','A-キャピタル・ゲイン',
                 ]"
                 :labels="[
                 '解','解','解','解','解',  //問31〜35
@@ -200,22 +199,9 @@ const subject = '2021年度 フォームC'
         </div>
 
         <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('sisan2021b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
-            <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
-            </Link>
-        </div>
+        <TestNavigationButtons
+            previous-route="sisan2021b"
+        />
 
     </section>
 

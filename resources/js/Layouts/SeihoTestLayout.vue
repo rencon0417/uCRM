@@ -1,5 +1,5 @@
 <script setup>
-import { Link } from '@inertiajs/vue3';
+import { Link, Head } from '@inertiajs/vue3';
 import { ref } from 'vue';
 
 const openGoogleForm = () => {

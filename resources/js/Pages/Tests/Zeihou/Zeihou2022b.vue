@@ -1,10 +1,9 @@
 <script setup>
-import { Head, Link} from '@inertiajs/vue3';
-import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
-import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
-import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
-
-import Pagetitle from '../../../Components/Pagetitle.vue'
+import QuestionTemp1 from '@/Components/QuestionTemp1.vue'
+import QuestionTemp2 from '@/Components/QuestionTemp2.vue'
+import QuestionTemp3 from '@/Components/QuestionTemp3.vue'
+import TestNavigationButtons from '@/Components/TestNavigationButtons.vue';
+import Pagetitle from '@/Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "生命保険と税法"
@@ -188,7 +187,7 @@ const subject = '2022年度 フォームB'
                 '正しい',
                  //問41〜50
                 'A-10万円','C（A・Bともに正しい）','B-1億6,000万円','A-20年','B-18歳',
-                'A-2ヶ月','A-株主','C（A・Bともに正しい）','B-退職所得','B-契約者配当準備金損金算入学',
+                'A-2ヶ月','A-株主','C（A・Bともに正しい）','B-退職所得','B-契約者配当準備金損金算入額',
                 ]"
                 :labels="[
                 '解','解','解','解','解',  //問31〜35
@@ -200,27 +199,10 @@ const subject = '2022年度 フォームB'
         </div>
 
         <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('zeihou2022a')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('zeihou2022c')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
-            <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
-            </Link>
-        </div>
+        <TestNavigationButtons
+            previous-route="zeihou2022a"
+            next-route="zeihou2022c"
+        />
 
     </section>
 

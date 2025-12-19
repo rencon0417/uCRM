@@ -1,10 +1,9 @@
 <script setup>
-import { Head, Link} from '@inertiajs/vue3';
-import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
-import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
-import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
-
-import Pagetitle from '../../../Components/Pagetitle.vue'
+import QuestionTemp1 from '@/Components/QuestionTemp1.vue'
+import QuestionTemp2 from '@/Components/QuestionTemp2.vue'
+import QuestionTemp3 from '@/Components/QuestionTemp3.vue'
+import TestNavigationButtons from '@/Components/TestNavigationButtons.vue';
+import Pagetitle from '@/Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "生命保険と税法"
@@ -63,7 +62,7 @@ const subject = '2021年度 フォームA'
                 :title="title"
                 :subject="subject"
                 :contents="[
-                '内国法人','二重課税','取得原価','会社更生法','保険業法', //問16〜20
+                '2月1日','納税地','利子税','10万円','5年', //問16〜20
                 ]"
                 :labels="[
                 'ア','ケ','コ','ウ','イ',  //問16〜20
@@ -136,7 +135,7 @@ const subject = '2021年度 フォームA'
                 :contents="[
                 '正しい',
                 '正しい',
-                ''
+                '1,000万円ではなく、500万円。'
                 ]"
             />
             <QuestionTemp1
@@ -200,27 +199,10 @@ const subject = '2021年度 フォームA'
         </div>
 
         <!-- ボタングループ -->
-        <div class="flex flex-col items-center mt-4 pt-3 gap-4">
-            <!-- 上段：前へ・次へボタン -->
-            <div class="flex justify-center gap-16">
-                <Link
-                    :href="route('zeihou2022c')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    前の試験へ
-                </Link>
-                <Link
-                    :href="route('zeihou2021b')"
-                    class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                    次の試験へ
-                </Link>
-            </div>
-            <!-- 下段：戻るボタン -->
-            <Link
-                :href="route('tests.index')"
-                class="inline-flex items-center justify-center w-40 h-12 bg-purple-400 hover:bg-purple-500 text-white font-semibold rounded-lg shadow-md">
-                一覧画面に戻る
-            </Link>
-        </div>
+        <TestNavigationButtons
+            previous-route="zeihou2022c"
+            next-route="zeihou2021b"
+        />
 
     </section>
 

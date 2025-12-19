@@ -56,9 +56,9 @@ const sections = [
         id: 'zeihou',
         title: '生命保険と税法',
         period: '2月〜3月実施の試験',
-        years: [2023, 2022, 2021],
+        years: [2024, 2023, 2022, 2021],
         routePrefix: 'zeihou',
-        gridCols: 'lg:grid-cols-3 md:grid-cols-2',
+        gridCols: 'lg:grid-cols-2 md:grid-cols-2',
         showNew: true
     },
     {
@@ -75,8 +75,16 @@ const sections = [
 // 更新履歴データ
 const updates = [
     {
+        date: '2025.12.19',
+        title: '2024年度 生命保険と税法 解説追加',
+        description: '2024年度の『生命保険と税法』の解説を公開しました。フォームA・B・Cすべての解説をご用意しています。',
+        badge: 'NEW',
+        badgeColor: 'from-pink-500 to-red-500',
+        category: 'コンテンツ追加'
+    },
+    {
         date: '2025.12.16',
-        title: '資産の運用 2024年度の解説を追加',
+        title: '2024年度 資産の運用 解説追加',
         description: '2024年度の『資産の運用』の解説を公開しました。フォームA・B・Cすべての解説をご用意しています。',
         badge: 'NEW',
         badgeColor: 'from-pink-500 to-red-500',

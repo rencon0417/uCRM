@@ -1,9 +1,9 @@
 <script setup>
-import QuestionTemp1 from '../../../Components/QuestionTemp1.vue'
-import QuestionTemp2 from '../../../Components/QuestionTemp2.vue'
-import QuestionTemp3 from '../../../Components/QuestionTemp3.vue'
+import QuestionTemp1 from '@/Components/QuestionTemp1.vue'
+import QuestionTemp2 from '@/Components/QuestionTemp2.vue'
+import QuestionTemp3 from '@/Components/QuestionTemp3.vue'
 import TestNavigationButtons from '@/Components/TestNavigationButtons.vue';
-import Pagetitle from '../../../Components/Pagetitle.vue'
+import Pagetitle from '@/Components/Pagetitle.vue'
 import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 
 const title = "資産の運用"

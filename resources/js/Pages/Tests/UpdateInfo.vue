@@ -6,8 +6,16 @@ import SeihoTestLayout from '@/Layouts/SeihoTestLayout.vue';
 // 更新履歴の全データ
 const allUpdates = [
     {
+        date: '2025.12.19',
+        title: '2024年度 生命保険と税法 解説追加',
+        description: '2024年度の『生命保険と税法』の解説を公開しました。フォームA・B・Cすべての解説をご用意しています。',
+        badge: 'NEW',
+        badgeColor: 'from-pink-500 to-red-500',
+        category: 'コンテンツ追加'
+    },
+    {
         date: '2025.12.16',
-        title: '資産の運用 2024年度の解説を追加',
+        title: '2024年度 資産の運用 解説追加',
         description: '2024年度の『資産の運用』の解説を公開しました。フォームA・B・Cすべての解説をご用意しています。',
         badge: 'NEW',
         badgeColor: 'from-pink-500 to-red-500',

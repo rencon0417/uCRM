@@ -106,9 +106,9 @@ class TestController extends Controller
     public function eigyo2021c(){return Inertia::render('Tests/Eigyo/Eigyo2021c');}
 
     // 生命保険と税法
-    // public function zeihou2024a(){return Inertia::render('Tests/Zeihou/Zeihou2024a');}
-    // public function zeihou2024b(){return Inertia::render('Tests/Zeihou/Zeihou2024b');}
-    // public function zeihou2024c(){return Inertia::render('Tests/Zeihou/Zeihou2024c');}
+    public function zeihou2024a(){return Inertia::render('Tests/Zeihou/Zeihou2024a');}
+    public function zeihou2024b(){return Inertia::render('Tests/Zeihou/Zeihou2024b');}
+    public function zeihou2024c(){return Inertia::render('Tests/Zeihou/Zeihou2024c');}
     public function zeihou2023a(){return Inertia::render('Tests/Zeihou/Zeihou2023a');}
     public function zeihou2023b(){return Inertia::render('Tests/Zeihou/Zeihou2023b');}
     public function zeihou2023c(){return Inertia::render('Tests/Zeihou/Zeihou2023c');}
